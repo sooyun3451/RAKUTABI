@@ -8,12 +8,14 @@ import RoomDetail from './RoomDetail';
 import RoomList from './RoomList';
 import SignUp from './SignUp';
 import SignIn from './SignIn';
+import FindIdPw from './FindIdPw';
 
 export {
   Admin,
   Home,
   SignIn,
   SignUp,
+  FindIdPw,
   RestaurantDetail,
   RestaurantList,
   RestaurantRegion,

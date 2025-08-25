@@ -1,4 +1,4 @@
-#wrapper {
+.find-wrapper {
   margin: 300px auto;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   align-items: center;
   background-color: #fafafa;
   width: 600px;
-  height: 550px;
+  min-height: 600px;
   background: #fff;
   padding: 32px;
   border-radius: 12px;
@@ -14,14 +14,20 @@
 }
 
 .title {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.id input,
-.pw input {
+.section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section input {
   width: 350px;
   padding: 12px;
   margin-bottom: 12px;
@@ -30,7 +36,7 @@
   font-size: 14px;
 }
 
-.signin-button {
+.find-button {
   width: 380px;
   height: 40px;
   border-radius: 8px;
@@ -40,23 +46,10 @@
   cursor: pointer;
 }
 
-.error {
+.result {
   width: 380px;
   text-align: left;
   font-size: 14px;
-  color: red;
-  margin: 10px;
-}
-
-.find-signup {
-  display: flex;
-  gap: 20px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.find-signup a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 16px;
+  color: #333;
+  margin: 8px auto 0;
 }
