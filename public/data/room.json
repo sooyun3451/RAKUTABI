@@ -1,0 +1,1182 @@
+[
+    {
+        "hotelId": 2001,
+        "hotelName": "레프 오키나와 아레나 바이 베셀 호텔",
+        "address": "",
+        "hotelComment": "오키나와 아레나 인근, 편의시설 우수",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "images/img/building/a1000144_parts_5c9a07a8f346a",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "200",
+        "room1": {
+            "roomId": 20011,
+            "price": "318,805",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20012,
+            "price": "255,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20013,
+            "price": "279,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "guest1",
+            "conmment": "아레나와 쇼핑몰 접근 좋아요.",
+            "score": "5",
+            "date": "2025-07-22"
+        },
+        "review2": {
+            "user": "guest2",
+            "conmment": "조용하고 깔끔.",
+            "score": "4",
+            "date": "2025-06-18"
+        }
+    },
+    {
+        "hotelId": 2002,
+        "hotelName": "데이고 호텔",
+        "address": "",
+        "hotelComment": "합리적 가격의 비즈니스 호텔",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "120",
+        "room1": {
+            "roomId": 20021,
+            "price": "103,232",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20022,
+            "price": "87,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20023,
+            "price": "95,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "kim",
+            "conmment": "가성비 좋음.",
+            "score": "4",
+            "date": "2025-05-12"
+        },
+        "review2": {
+            "user": "lee",
+            "conmment": "역과 가까움.",
+            "score": "4",
+            "date": "2025-04-18"
+        }
+    },
+    {
+        "hotelId": 2003,
+        "hotelName": "&몬드 오키나와 아레나 콘도미니엄",
+        "address": "",
+        "hotelComment": "2023 오픈 콘도, 가족/장기체류 적합",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "40",
+        "room1": {
+            "roomId": 20031,
+            "price": "237,206",
+            "bed": "2",
+            "maxCapa": "5",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20032,
+            "price": "199,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20033,
+            "price": "215,000",
+            "bed": "3",
+            "maxCapa": "6",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "sato",
+            "conmment": "주방/세탁기 편리.",
+            "score": "5",
+            "date": "2025-08-10"
+        },
+        "review2": {
+            "user": "park",
+            "conmment": "아레나 도보권.",
+            "score": "5",
+            "date": "2025-07-29"
+        }
+    },
+    {
+        "hotelId": 2004,
+        "hotelName": "호텔 앤 콘도미니엄 빈",
+        "address": "",
+        "hotelComment": "콘도형 가성비 숙소",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "35",
+        "room1": {
+            "roomId": 20041,
+            "price": "56,929",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20042,
+            "price": "69,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20043,
+            "price": "78,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "abc",
+            "conmment": "넓고 조용.",
+            "score": "4",
+            "date": "2025-07-22"
+        },
+        "review2": {
+            "user": "안녕",
+            "conmment": "시설은 오래됐지만 깨끗.",
+            "score": "3",
+            "date": "2025-04-18"
+        }
+    },
+    {
+        "hotelId": 2005,
+        "hotelName": "크라운 호텔 오키나와",
+        "address": "",
+        "hotelComment": "무료 주차, 비즈니스에 적합",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "150",
+        "room1": {
+            "roomId": 20051,
+            "price": "84,635",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20052,
+            "price": "99,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20053,
+            "price": "112,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "guest",
+            "conmment": "직원 친절.",
+            "score": "4",
+            "date": "2025-06-03"
+        },
+        "review2": {
+            "user": "na",
+            "conmment": "주차 편리.",
+            "score": "4",
+            "date": "2025-05-20"
+        }
+    },
+    {
+        "hotelId": 2006,
+        "hotelName": "뮤직 호텔 코자 by 콜디오 프리미엄",
+        "address": "",
+        "hotelComment": "개성있는 콘셉트, 가성비",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "60",
+        "room1": {
+            "roomId": 20061,
+            "price": "63,191",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20062,
+            "price": "75,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20063,
+            "price": "89,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "mori",
+            "conmment": "디자인이 멋짐.",
+            "score": "4",
+            "date": "2025-07-05"
+        },
+        "review2": {
+            "user": "park",
+            "conmment": "가격 만족.",
+            "score": "4",
+            "date": "2025-05-11"
+        }
+    },
+    {
+        "hotelId": 2007,
+        "hotelName": "사쿠라야",
+        "address": "",
+        "hotelComment": "심플한 객실, 조용한 주변",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "20",
+        "room1": {
+            "roomId": 20071,
+            "price": "114,333",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20072,
+            "price": "129,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20073,
+            "price": "121,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": true,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "guest",
+            "conmment": "조용하고 깔끔.",
+            "score": "4",
+            "date": "2025-04-27"
+        },
+        "review2": {
+            "user": "song",
+            "conmment": "주차 편함.",
+            "score": "4",
+            "date": "2025-04-18"
+        }
+    },
+    {
+        "hotelId": 2008,
+        "hotelName": "라이콤 크리스탈 호텔",
+        "address": "",
+        "hotelComment": "라이캄 접근 편리, 레이트 체크인",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "80",
+        "room1": {
+            "roomId": 20081,
+            "price": "75,906",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20082,
+            "price": "89,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20083,
+            "price": "98,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "jiro",
+            "conmment": "쇼핑 편리.",
+            "score": "4",
+            "date": "2025-07-02"
+        },
+        "review2": {
+            "user": "yoon",
+            "conmment": "체크인 늦게 가능.",
+            "score": "4",
+            "date": "2025-06-14"
+        }
+    },
+    {
+        "hotelId": 2009,
+        "hotelName": "선라이즈 호텔 오키나와",
+        "address": "",
+        "hotelComment": "1인 여행/비즈니스에 무난",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "70",
+        "room1": {
+            "roomId": 20091,
+            "price": "46,966",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20092,
+            "price": "59,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20093,
+            "price": "66,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "tom",
+            "conmment": "저렴함.",
+            "score": "4",
+            "date": "2025-05-30"
+        },
+        "review2": {
+            "user": "han",
+            "conmment": "위치 굿.",
+            "score": "4",
+            "date": "2025-05-10"
+        }
+    },
+    {
+        "hotelId": 2010,
+        "hotelName": "안's Yado",
+        "address": "",
+        "hotelComment": "작지만 깔끔한 하우스",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "10",
+        "room1": {
+            "roomId": 20101,
+            "price": "214,434",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20102,
+            "price": "189,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20103,
+            "price": "225,000",
+            "bed": "3",
+            "maxCapa": "6",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "min",
+            "conmment": "깨끗하고 조용.",
+            "score": "5",
+            "date": "2025-07-12"
+        },
+        "review2": {
+            "user": "rin",
+            "conmment": "가족 추천.",
+            "score": "5",
+            "date": "2025-06-03"
+        }
+    },
+    {
+        "hotelId": 2011,
+        "hotelName": "호텔 샤라라",
+        "address": "",
+        "hotelComment": "심플 & 청결",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "45",
+        "room1": {
+            "roomId": 20111,
+            "price": "80,650",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20112,
+            "price": "92,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20113,
+            "price": "101,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": true,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "mi",
+            "conmment": "가성비 굿.",
+            "score": "4",
+            "date": "2025-04-02"
+        },
+        "review2": {
+            "user": "ryu",
+            "conmment": "직원 친절.",
+            "score": "4",
+            "date": "2025-03-22"
+        }
+    },
+    {
+        "hotelId": 2012,
+        "hotelName": "애비뉴 고자 호텔",
+        "address": "",
+        "hotelComment": "고자 지역 중심, 이동 편리",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "55",
+        "room1": {
+            "roomId": 20121,
+            "price": "108,166",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20122,
+            "price": "120,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20123,
+            "price": "132,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "koo",
+            "conmment": "위치 최고.",
+            "score": "5",
+            "date": "2025-05-18"
+        },
+        "review2": {
+            "user": "oh",
+            "conmment": "주차 편의.",
+            "score": "4",
+            "date": "2025-04-25"
+        }
+    },
+    {
+        "hotelId": 2013,
+        "hotelName": "호텔 뉴 센추리",
+        "address": "",
+        "hotelComment": "클래식한 감성, 합리적",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "100",
+        "room1": {
+            "roomId": 20131,
+            "price": "73,439",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20132,
+            "price": "86,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20133,
+            "price": "95,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "im",
+            "conmment": "편안.",
+            "score": "4",
+            "date": "2025-06-09"
+        },
+        "review2": {
+            "user": "ji",
+            "conmment": "직원 친절.",
+            "score": "4",
+            "date": "2025-05-01"
+        }
+    },
+    {
+        "hotelId": 2014,
+        "hotelName": "오키나와 그랜드 메르 리조트",
+        "address": "",
+        "hotelComment": "대형 리조트, 수영장/주차",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "300",
+        "room1": {
+            "roomId": 20141,
+            "price": "141,232",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20142,
+            "price": "190,000",
+            "bed": "3",
+            "maxCapa": "5",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20143,
+            "price": "217,280",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "cho",
+            "conmment": "리조트 느낌 최고.",
+            "score": "5",
+            "date": "2025-07-20"
+        },
+        "review2": {
+            "user": "lee",
+            "conmment": "가족 여행 추천.",
+            "score": "5",
+            "date": "2025-06-12"
+        }
+    },
+    {
+        "hotelId": 2015,
+        "hotelName": "호텔 코자",
+        "address": "",
+        "hotelComment": "도심 접근 편리, 합리적",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "65",
+        "room1": {
+            "roomId": 20151,
+            "price": "75,982",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20152,
+            "price": "92,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20153,
+            "price": "108,545",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": true,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "suzuki",
+            "conmment": "가격 좋음.",
+            "score": "4",
+            "date": "2025-06-25"
+        },
+        "review2": {
+            "user": "park",
+            "conmment": "위치 만족.",
+            "score": "4",
+            "date": "2025-05-30"
+        }
+    },
+    {
+        "hotelId": 2016,
+        "hotelName": "호텔 그랑 아레나(HOTEL Gran Arena)",
+        "address": "",
+        "hotelComment": "신축급 컨디션, 아레나 인근",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "50",
+        "room1": {
+            "roomId": 20161,
+            "price": "84,521",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20162,
+            "price": "96,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20163,
+            "price": "110,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "jun",
+            "conmment": "컨디션 좋음.",
+            "score": "5",
+            "date": "2025-07-01"
+        },
+        "review2": {
+            "user": "ri",
+            "conmment": "아레나 도보.",
+            "score": "4",
+            "date": "2025-06-07"
+        }
+    },
+    {
+        "hotelId": 2017,
+        "hotelName": "Condominium Bin",
+        "address": "",
+        "hotelComment": "주방/세탁 완비 콘도",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "25",
+        "room1": {
+            "roomId": 20171,
+            "price": "340,628",
+            "bed": "2",
+            "maxCapa": "5",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20172,
+            "price": "289,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20173,
+            "price": "365,000",
+            "bed": "3",
+            "maxCapa": "6",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "ok",
+            "conmment": "가족 최적.",
+            "score": "5",
+            "date": "2025-05-19"
+        },
+        "review2": {
+            "user": "ko",
+            "conmment": "청결.",
+            "score": "4",
+            "date": "2025-05-02"
+        }
+    },
+    {
+        "hotelId": 2018,
+        "hotelName": "Purari",
+        "address": "",
+        "hotelComment": "소규모, 조용한 분위기",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "12",
+        "room1": {
+            "roomId": 20181,
+            "price": "85,394",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20182,
+            "price": "97,000",
+            "bed": "1",
+            "maxCapa": "2",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20183,
+            "price": "108,000",
+            "bed": "2",
+            "maxCapa": "3",
+            "smoking": true,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "yu",
+            "conmment": "조용함.",
+            "score": "4",
+            "date": "2025-04-09"
+        },
+        "review2": {
+            "user": "ji",
+            "conmment": "깔끔.",
+            "score": "4",
+            "date": "2025-03-28"
+        }
+    },
+    {
+        "hotelId": 2019,
+        "hotelName": "올스테이 지바나",
+        "address": "",
+        "hotelComment": "패밀리 숙소, 취사 가능",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "18",
+        "room1": {
+            "roomId": 20191,
+            "price": "157,884",
+            "bed": "2",
+            "maxCapa": "5",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20192,
+            "price": "139,000",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": false,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20193,
+            "price": "175,000",
+            "bed": "3",
+            "maxCapa": "6",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "ran",
+            "conmment": "아이들과 좋아요.",
+            "score": "5",
+            "date": "2025-06-01"
+        },
+        "review2": {
+            "user": "mo",
+            "conmment": "넓음.",
+            "score": "4",
+            "date": "2025-05-14"
+        }
+    },
+    {
+        "hotelId": 2020,
+        "hotelName": "라이콤 패밀리 리조트 호텔",
+        "address": "",
+        "hotelComment": "패밀리 특화, 무료 주차",
+        "city": "오키나와시, 오키나와, 일본",
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "totalRoomNumber": "90",
+        "room1": {
+            "roomId": 20201,
+            "price": "130,463",
+            "bed": "2",
+            "maxCapa": "4",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room2": {
+            "roomId": 20202,
+            "price": "144,000",
+            "bed": "2",
+            "maxCapa": "5",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "room3": {
+            "roomId": 20203,
+            "price": "159,000",
+            "bed": "3",
+            "maxCapa": "6",
+            "smoking": false,
+            "breakfast": true,
+            "img1-1": "",
+            "img1-2": "",
+            "img1-3": "",
+            "isBook": false
+        },
+        "review1": {
+            "user": "ko",
+            "conmment": "가족에게 최적.",
+            "score": "4",
+            "date": "2025-07-08"
+        },
+        "review2": {
+            "user": "ji",
+            "conmment": "주차 편리.",
+            "score": "4",
+            "date": "2025-06-21"
+        }
+    }
+]
