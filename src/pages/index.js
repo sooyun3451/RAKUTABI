@@ -9,6 +9,8 @@ import RoomList from './RoomList';
 import SignUp from './SignUp';
 import SignIn from './SignIn';
 import FindIdPw from './FindIdPw';
+import CheckMyPage from './CheckMyPage';
+import EditMyPage from './EditMyPage';
 
 export {
   Admin,
@@ -16,6 +18,8 @@ export {
   SignIn,
   SignUp,
   FindIdPw,
+  CheckMyPage,
+  EditMyPage,
   RestaurantDetail,
   RestaurantList,
   RestaurantRegion,
