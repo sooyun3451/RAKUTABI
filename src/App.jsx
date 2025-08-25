@@ -12,7 +12,9 @@ import {
   RoomList,
   SignIn,
   SignUp,
-  FindIdPw
+  FindIdPw,
+  CheckMyPage,
+  EditMyPage
 } from './pages';
 
 const Layout = () => {
@@ -41,6 +43,8 @@ export default function App() {
             <Route path="/signIn" element={<SignIn />} />
             <Route path="/signUp" element={<SignUp />} />
             <Route path='/find' element={<FindIdPw />} />
+            <Route path='/myPage' element={<CheckMyPage />}/>
+            <Route path='/myPage/edit' element={<EditMyPage />}/>
           </Route>
         </Routes>
       </BrowserRouter>
