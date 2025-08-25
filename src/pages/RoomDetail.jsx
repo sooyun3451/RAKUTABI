@@ -23,6 +23,11 @@ export default function RoomDetail() {
                         <h3 className="over-view"> 숙소 편의시설/서비스</h3>
                         <div data-taestid></div>    
                     </div>//숙소,서비스시설
+                    <div className="roomandplanList-wrapper">
+                        <h2 className="room-title"><span>객실과숙박 상품을 확인하세요.</span></h2>
+                        <div className="room-planList-stick"></div>
+                        <div className="room-planList-content-box"></div>
+                    </div>
                 </div>
               </div>
             </div>
