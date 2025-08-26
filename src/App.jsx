@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import { Header } from './components';
+import './css/reset.css';
 import {
   Admin,
   Home,
