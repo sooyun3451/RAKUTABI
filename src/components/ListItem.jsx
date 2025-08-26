@@ -5,21 +5,32 @@ import '../css/list_item.css'
 export default function ListItem({hotel}) {
 
   const room1 = hotel.room1
-  const room2 = hotel.room1
-  const room3 = hotel.room1
-  console.log(room1.roomId)
-
-  // console.log(room1.price)
+  const room2 = hotel.room2
 
   return(
     <li className='ListItem'>
-      <div>
-        <p className='images'><img src={hotel.img1} /></p>
+      <div className='item'>
+        <div className='left'>
+          <div className='images'>
+            <img src={hotel.img1} />
+          </div>
+        </div>
+        <div className='right'>
+          <div className='info'>
+            <p>점</p>
+            <p>{hotel.hotelName}</p>
+            <p>{hotel.city}</p>
+            {hotel.totalRoomNumber < 100 &&
+              <p>잔여 객실 : {hotel.totalRoomNumber}개</p>
+            }
+          </div>
+          <div className='price'>
+            <p>{room1[0].price <= room2[0].price ? room1[0].price : room2[0].price} ~</p>
+          </div>
+        </div>
       </div>
       <div>
-        <p>{hotel.hotelName}</p>
-        <p>{hotel.city}</p>
-        <p>{room1.roomId}</p>
+        <button>자세히 보기</button>
       </div>
     </li>
   );

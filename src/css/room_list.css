@@ -69,11 +69,15 @@ button{
 
 } */
 
-#RoomList .bottom{
+#RoomList .bottom ul{
     width: 1240px;
     margin: 0 auto;
 }
 #RoomList .bottom .total{
     text-align: right;
     margin-bottom: 20px;
+}
+#RoomList .bottom ul li{
+    width: 100%;
+    margin: 0 auto;
 }
