@@ -10,7 +10,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "150",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20001,
             "price": "280,000",
             "bed": "2",
@@ -23,7 +23,7 @@
             "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20002,
             "price": "250,000",
             "bed": "1",
@@ -60,7 +60,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "200",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20011,
             "price": "318,805",
             "bed": "2",
@@ -73,7 +73,7 @@
             "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20012,
             "price": "255,000",
             "bed": "1",
@@ -89,7 +89,7 @@
         "review1": {
             "user": "guest1",
             "comment": "아레나와 쇼핑몰 접근 좋아요.",
-            "score": "5",
+            "score": "3",
             "date": "2025-07-22"
         },
         "review2": {
@@ -110,7 +110,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
         "totalRoomNumber": "120",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20021,
             "price": "103,232",
             "bed": "2",
@@ -123,7 +123,7 @@
             "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20022,
             "price": "87,000",
             "bed": "1",
@@ -160,7 +160,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "40",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20031,
             "price": "237,206",
             "bed": "2",
@@ -173,7 +173,7 @@
             "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20032,
             "price": "199,000",
             "bed": "1",
@@ -195,7 +195,7 @@
         "review2": {
             "user": "park",
             "comment": "아레나 도보권.",
-            "score": "5",
+            "score": "3",
             "date": "2025-07-29"
         }
     },
@@ -210,7 +210,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": "35",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20041,
             "price": "56,929",
             "bed": "2",
@@ -223,7 +223,7 @@
             "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20042,
             "price": "69,000",
             "bed": "1",
@@ -260,7 +260,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room11.jpg",
         "totalRoomNumber": "150",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20051,
             "price": "84,635",
             "bed": "2",
@@ -273,7 +273,7 @@
             "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20052,
             "price": "99,000",
             "bed": "1",
@@ -295,7 +295,7 @@
         "review2": {
             "user": "na",
             "comment": "주차 편리.",
-            "score": "4",
+            "score": "2",
             "date": "2025-05-20"
         }
     },
@@ -310,7 +310,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": "60",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20061,
             "price": "63,191",
             "bed": "2",
@@ -323,7 +323,7 @@
             "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20062,
             "price": "75,000",
             "bed": "1",
@@ -360,7 +360,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "20",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20071,
             "price": "114,333",
             "bed": "2",
@@ -373,7 +373,7 @@
             "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20072,
             "price": "129,000",
             "bed": "1",
@@ -395,7 +395,7 @@
         "review2": {
             "user": "song",
             "comment": "주차 편함.",
-            "score": "4",
+            "score": "3",
             "date": "2025-04-18"
         }
     },
@@ -410,7 +410,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": "80",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20081,
             "price": "75,906",
             "bed": "2",
@@ -423,7 +423,7 @@
             "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20082,
             "price": "89,000",
             "bed": "1",
@@ -445,7 +445,7 @@
         "review2": {
             "user": "yoon",
             "comment": "체크인 늦게 가능.",
-            "score": "4",
+            "score": "5",
             "date": "2025-06-14"
         }
     },
@@ -460,7 +460,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "70",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20091,
             "price": "46,966",
             "bed": "2",
@@ -473,7 +473,7 @@
             "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20092,
             "price": "59,000",
             "bed": "1",
@@ -489,7 +489,7 @@
         "review1": {
             "user": "tom",
             "comment": "저렴함.",
-            "score": "4",
+            "score": "3",
             "date": "2025-05-30"
         },
         "review2": {
@@ -510,7 +510,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": "10",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20101,
             "price": "214,434",
             "bed": "2",
@@ -523,7 +523,7 @@
             "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20102,
             "price": "189,000",
             "bed": "1",
@@ -560,7 +560,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "45",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20111,
             "price": "80,650",
             "bed": "2",
@@ -573,7 +573,7 @@
             "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20112,
             "price": "92,000",
             "bed": "1",
@@ -589,7 +589,7 @@
         "review1": {
             "user": "yumi",
             "comment": "시설이 깨끗해서 만족.",
-            "score": "4",
+            "score": "3",
             "date": "2025-08-05"
         },
         "review2": {
@@ -610,7 +610,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": "250",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20121,
             "price": "155,000",
             "bed": "2",
@@ -623,7 +623,7 @@
             "img1-3": "/images/img/room/twobed/room11.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20122,
             "price": "120,000",
             "bed": "1",
@@ -660,7 +660,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "80",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20131,
             "price": "180,000",
             "bed": "2",
@@ -673,7 +673,7 @@
             "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20132,
             "price": "165,000",
             "bed": "1",
@@ -694,8 +694,8 @@
         },
         "review2": {
             "user": "takagi",
-            "comment": "온천 시설도 만족스러웠어요.",
-            "score": "5",
+            "comment": "온천 시설이 별로...",
+            "score": "2",
             "date": "2025-07-10"
         }
     },
@@ -710,7 +710,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "110",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20141,
             "price": "199,000",
             "bed": "2",
@@ -723,7 +723,7 @@
             "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20142,
             "price": "170,000",
             "bed": "1",
@@ -760,7 +760,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": "90",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20151,
             "price": "220,000",
             "bed": "2",
@@ -773,7 +773,7 @@
             "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20152,
             "price": "190,000",
             "bed": "1",
@@ -810,7 +810,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "180",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20161,
             "price": "120,000",
             "bed": "2",
@@ -823,7 +823,7 @@
             "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20162,
             "price": "145,000",
             "bed": "1",
@@ -860,7 +860,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "70",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20171,
             "price": "130,000",
             "bed": "2",
@@ -873,7 +873,7 @@
             "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20172,
             "price": "110,000",
             "bed": "1",
@@ -910,7 +910,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "60",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20181,
             "price": "98,000",
             "bed": "2",
@@ -923,7 +923,7 @@
             "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20182,
             "price": "115,000",
             "bed": "1",
@@ -945,7 +945,7 @@
         "review2": {
             "user": "donghyun",
             "comment": "가격 대비 만족스러운 숙소입니다.",
-            "score": "4",
+            "score": "3",
             "date": "2025-07-30"
         }
     },
@@ -960,7 +960,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "140",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20191,
             "price": "105,000",
             "bed": "2",
@@ -973,7 +973,7 @@
             "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20192,
             "price": "125,000",
             "bed": "1",
@@ -1010,7 +1010,7 @@
         "img2": "/images/img/lobby/lobby7.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": "180",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20201,
             "price": "210,000",
             "bed": "2",
@@ -1023,7 +1023,7 @@
             "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20202,
             "price": "180,000",
             "bed": "1",
@@ -1060,7 +1060,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": "300",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20211,
             "price": "250,000",
             "bed": "2",
@@ -1073,7 +1073,7 @@
             "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20212,
             "price": "200,000",
             "bed": "1",
@@ -1110,7 +1110,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "80",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20221,
             "price": "185,000",
             "bed": "2",
@@ -1123,7 +1123,7 @@
             "img1-3": "/images/img/room/twobed/room11.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20222,
             "price": "160,000",
             "bed": "1",
@@ -1160,7 +1160,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": "200",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20231,
             "price": "320,000",
             "bed": "2",
@@ -1173,7 +1173,7 @@
             "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20232,
             "price": "280,000",
             "bed": "1",
@@ -1210,7 +1210,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "150",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20241,
             "price": "190,000",
             "bed": "2",
@@ -1223,7 +1223,7 @@
             "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20242,
             "price": "165,000",
             "bed": "1",
@@ -1260,7 +1260,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "30",
-        "room1.jpg": {
+        "room1": {
             "roomId": 20251,
             "price": "450,000",
             "bed": "2",
@@ -1273,7 +1273,7 @@
             "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20252,
             "price": "400,000",
             "bed": "1",
@@ -1310,7 +1310,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "40",
-        "room1.jpg": {
+        "room": {
             "roomId": 20261,
             "price": "550,000",
             "bed": "2",
@@ -1323,7 +1323,7 @@
             "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20262,
             "price": "500,000",
             "bed": "1",
@@ -1360,7 +1360,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "50",
-        "room1.jpg": {
+        "room": {
             "roomId": 20271,
             "price": "350,000",
             "bed": "2",
@@ -1373,7 +1373,7 @@
             "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20272,
             "price": "300,000",
             "bed": "1",
@@ -1410,7 +1410,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "100",
-        "room1.jpg": {
+        "room": {
             "roomId": 20281,
             "price": "145,000",
             "bed": "2",
@@ -1423,7 +1423,7 @@
             "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20282,
             "price": "120,000",
             "bed": "1",
@@ -1460,7 +1460,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "220",
-        "room1.jpg": {
+        "room": {
             "roomId": 20291,
             "price": "170,000",
             "bed": "2",
@@ -1473,7 +1473,7 @@
             "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20292,
             "price": "140,000",
             "bed": "1",
@@ -1510,7 +1510,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
         "totalRoomNumber": "250",
-        "room1.jpg": {
+        "room": {
             "roomId": 20301,
             "price": "350,000",
             "bed": "2",
@@ -1523,7 +1523,7 @@
             "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20302,
             "price": "300,000",
             "bed": "1",
@@ -1560,7 +1560,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "160",
-        "room1.jpg": {
+        "room": {
             "roomId": 20311,
             "price": "95,000",
             "bed": "2",
@@ -1573,7 +1573,7 @@
             "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20312,
             "price": "110,000",
             "bed": "1",
@@ -1610,7 +1610,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": "200",
-        "room1.jpg": {
+        "room": {
             "roomId": 20321,
             "price": "180,000",
             "bed": "2",
@@ -1623,7 +1623,7 @@
             "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20322,
             "price": "150,000",
             "bed": "1",
@@ -1660,7 +1660,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": "130",
-        "room1.jpg": {
+        "room": {
             "roomId": 20331,
             "price": "165,000",
             "bed": "2",
@@ -1673,7 +1673,7 @@
             "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20332,
             "price": "130,000",
             "bed": "1",
@@ -1710,7 +1710,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": "500",
-        "room1.jpg": {
+        "room": {
             "roomId": 20341,
             "price": "800,000",
             "bed": "2",
@@ -1723,7 +1723,7 @@
             "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20342,
             "price": "750,000",
             "bed": "1",
@@ -1760,7 +1760,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "400",
-        "room1.jpg": {
+        "room": {
             "roomId": 20351,
             "price": "280,000",
             "bed": "2",
@@ -1773,7 +1773,7 @@
             "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20352,
             "price": "250,000",
             "bed": "1",
@@ -1810,7 +1810,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": "25",
-        "room1.jpg": {
+        "room": {
             "roomId": 20361,
             "price": "380,000",
             "bed": "2",
@@ -1823,7 +1823,7 @@
             "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20362,
             "price": "320,000",
             "bed": "1",
@@ -1860,7 +1860,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "150",
-        "room1.jpg": {
+        "room": {
             "roomId": 20371,
             "price": "290,000",
             "bed": "2",
@@ -1873,7 +1873,7 @@
             "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20372,
             "price": "250,000",
             "bed": "1",
@@ -1910,7 +1910,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "90",
-        "room1.jpg": {
+        "room": {
             "roomId": 20381,
             "price": "180,000",
             "bed": "2",
@@ -1923,7 +1923,7 @@
             "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20382,
             "price": "150,000",
             "bed": "1",
@@ -1960,7 +1960,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "110",
-        "room1.jpg": {
+        "room": {
             "roomId": 20391,
             "price": "220,000",
             "bed": "2",
@@ -1973,7 +1973,7 @@
             "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20392,
             "price": "190,000",
             "bed": "1",
@@ -2010,7 +2010,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "120",
-        "room1.jpg": {
+        "room": {
             "roomId": 20401,
             "price": "250,000",
             "bed": "2",
@@ -2023,7 +2023,7 @@
             "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20402,
             "price": "220,000",
             "bed": "1",
@@ -2060,7 +2060,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "90",
-        "room1.jpg": {
+        "room": {
             "roomId": 20411,
             "price": "75,000",
             "bed": "1",
@@ -2073,7 +2073,7 @@
             "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20412,
             "price": "90,000",
             "bed": "1",
@@ -2110,7 +2110,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room10.jpg",
         "totalRoomNumber": "500",
-        "room1.jpg": {
+        "room": {
             "roomId": 20421,
             "price": "450,000",
             "bed": "2",
@@ -2123,7 +2123,7 @@
             "img1-3": "/images/img/room/twobed/room11.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20422,
             "price": "400,000",
             "bed": "1",
@@ -2160,7 +2160,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "250",
-        "room1.jpg": {
+        "room": {
             "roomId": 20431,
             "price": "160,000",
             "bed": "2",
@@ -2173,7 +2173,7 @@
             "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20432,
             "price": "130,000",
             "bed": "1",
@@ -2210,7 +2210,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "80",
-        "room1.jpg": {
+        "room": {
             "roomId": 20441,
             "price": "190,000",
             "bed": "2",
@@ -2223,7 +2223,7 @@
             "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20442,
             "price": "165,000",
             "bed": "1",
@@ -2260,7 +2260,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "150",
-        "room1.jpg": {
+        "room": {
             "roomId": 20451,
             "price": "180,000",
             "bed": "2",
@@ -2273,7 +2273,7 @@
             "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20452,
             "price": "150,000",
             "bed": "1",
@@ -2310,7 +2310,7 @@
         "img2": "/images/img/lobby/lobby7.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "70",
-        "room1.jpg": {
+        "room": {
             "roomId": 20461,
             "price": "110,000",
             "bed": "2",
@@ -2323,7 +2323,7 @@
             "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20462,
             "price": "95,000",
             "bed": "1",
@@ -2360,7 +2360,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "180",
-        "room1.jpg": {
+        "room": {
             "roomId": 20471,
             "price": "135,000",
             "bed": "2",
@@ -2373,7 +2373,7 @@
             "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20472,
             "price": "110,000",
             "bed": "1",
@@ -2410,7 +2410,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "100",
-        "room1.jpg": {
+        "room": {
             "roomId": 20481,
             "price": "280,000",
             "bed": "2",
@@ -2423,7 +2423,7 @@
             "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20482,
             "price": "250,000",
             "bed": "1",
@@ -2460,7 +2460,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "80",
-        "room1.jpg": {
+        "room": {
             "roomId": 20491,
             "price": "160,000",
             "bed": "2",
@@ -2473,7 +2473,7 @@
             "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20492,
             "price": "140,000",
             "bed": "1",
@@ -2509,7 +2509,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "60",
-        "room1.jpg": {
+        "room": {
             "roomId": 20501,
             "price": "200,000",
             "bed": "2",
@@ -2522,7 +2522,7 @@
             "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
-        "room2.jpg": {
+        "room2": {
             "roomId": 20502,
             "price": "280,000",
             "bed": "1",
