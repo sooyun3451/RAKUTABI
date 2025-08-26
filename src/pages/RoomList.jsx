@@ -1,15 +1,32 @@
-import { useState } from 'react';
-import {ListItem} from '../components'
-import '../css/room_list.css'
+import { useState, useEffect } from 'react';
+import {ListItem} from '../components';
+import '../css/room_list.css';
+import axios from 'axios';
 
 
 export default function RoomList() {
+
+  const [hotels, setHotels] = useState([]);
+
   const [price, setPrice] = useState(100000);
   const [minPrice, setMinPrice] = useState(10000); // 최저가
   const [maxPrice, setMaxPrice] = useState(1000000); // 최고가
   const handleChangePrice = e => setPrice(e.target.value);
   const handleChangeMinPrice = e => setMinPrice(e.target.value);
   const handleChangeMaxPrice = e => setMaxPrice(e.target.value);
+
+  useEffect(() => {
+    fetchData()
+  }, []);
+
+  const fetchData = async () => {
+    try{
+      const res = await axios.get('/data/room.json');
+      setHotels(res.data)
+    }catch(e){
+      console.error(e)
+    }
+  }
 
   return(    
     <div id='RoomList'>
@@ -48,7 +65,12 @@ export default function RoomList() {
           </div>
         </div>
       </div>
-      <ListItem />
+      <div className='bottom'>
+        <p className='total'>총 {hotels.length}건</p> 
+        <ul>
+          {hotels.map(hotel => <ListItem key={hotel.hotelId} hotel={hotel}/>)}
+        </ul>
+      </div>
     </div>
   );
 }
