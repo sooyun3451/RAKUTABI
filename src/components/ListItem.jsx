@@ -7,7 +7,7 @@ export default function ListItem({hotel}) {
   const room1 = hotel.room1
   const room2 = hotel.room1
   const room3 = hotel.room1
-  console.log(room1)
+  console.log(room1.roomId)
 
   // console.log(room1.price)
 
@@ -19,6 +19,7 @@ export default function ListItem({hotel}) {
       <div>
         <p>{hotel.hotelName}</p>
         <p>{hotel.city}</p>
+        <p>{room1.roomId}</p>
       </div>
     </li>
   );
