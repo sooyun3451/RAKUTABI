@@ -1,4 +1,5 @@
 import React from "react";
+import "./RoomDetail.css"
 
 export default function roomDetail() {
     return (
@@ -107,18 +108,31 @@ export default function roomDetail() {
                                                                 <div className="room-paln-item-wapper-price">
                                                                     <div className="room-preice-info-pper">
                                                                         <div>
-                                                                            <div className="card-label">요금기준: 1빅</div>
+                                                                            <div className="card-label">
+                                                                                요금기준:
+                                                                                1빅
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                     <div className="room-price-info-reserve">
                                                                         <div className="room-price-info-tax">
                                                                             <div>
-                                                                                <div className="room-price-unitprice">80000원</div>
-                                                                                <span>세금및 봉사료 포함</span>
+                                                                                <div className="room-price-unitprice">
+                                                                                    80000원
+                                                                                </div>
+                                                                                <span>
+                                                                                    세금및
+                                                                                    봉사료
+                                                                                    포함
+                                                                                </span>
                                                                             </div>
                                                                         </div>
                                                                         <div className="room-price-info-reserve-button">
-                                                                            <button><span>예약</span></button>
+                                                                            <button>
+                                                                                <span>
+                                                                                    예약
+                                                                                </span>
+                                                                            </button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -142,16 +156,21 @@ export default function roomDetail() {
                     <div className="proeve-review-wrapper">
                         <div className="review-circle-scorel">
                             <div className="review-circle"></div>
-                              </div>
+                        </div>
                         <div className="review-list-wrapper">
                             <div className="filter-lsit-wrapper">
                                 <div className="review-filter">
                                     <div className="review-filter-wrapper">
                                         <div className="filter-container-9k">
                                             <div className="select-box-sort-time">
-                                                <input type="hidden" name="sortby"/>
+                                                <input
+                                                    type="hidden"
+                                                    name="sortby"
+                                                />
                                                 <div className="style-select-box-display">
-                                                    <span className="style-selectox">최신순</span>
+                                                    <span className="style-selectox">
+                                                        최신순
+                                                    </span>
                                                     <svg></svg>
                                                 </div>
                                             </div>
@@ -168,29 +187,164 @@ export default function roomDetail() {
                                     </div>
                                     <div className="filter-and-sory">
                                         <div className="filter-popup-content">
-                                            <label className="check-box-inner"><input type="checkbox"data-testid ="평점5점"/>
-                                            <div className="check-box-lcon"><svg></svg></div>
-                                            <span id="filter-option-5">평점5점</span> </label>
-                                            <label className="check-box-inner"><input type="checkbox"data-testid ="평점4점"/>
-                                            <div className="check-box-lcon"><svg></svg></div>
-                                            <span id="filter-option-4">평점4점</span> </label>
-                                            <label className="check-box-inner"><input type="checkbox"data-testid ="평점3점"/>
-                                            <div className="check-box-lcon"><svg></svg></div>
-                                            <span id="filter-option-3">평점3점</span> </label>
-                                            <label className="check-box-inner"><input type="checkbox"data-testid ="평점2점"/>
-                                            <div className="check-box-lcon"><svg></svg></div>
-                                            <span id="filter-option-2">평점2점</span> </label>
-                                            <label className="check-box-inner"><input type="checkbox"data-testid ="평점1점"/>
-                                            <div className="check-box-lcon"><svg></svg></div>
-                                            <span id="filter-option-1">평점1점</span> </label>
+                                            <label className="check-box-inner">
+                                                <input
+                                                    type="checkbox"
+                                                    data-testid="평점5점"
+                                                />
+                                                <div className="check-box-lcon">
+                                                    <svg></svg>
+                                                </div>
+                                                <span id="filter-option-5">
+                                                    평점5점
+                                                </span>{" "}
+                                            </label>
+                                            <label className="check-box-inner">
+                                                <input
+                                                    type="checkbox"
+                                                    data-testid="평점4점"
+                                                />
+                                                <div className="check-box-lcon">
+                                                    <svg></svg>
+                                                </div>
+                                                <span id="filter-option-4">
+                                                    평점4점
+                                                </span>{" "}
+                                            </label>
+                                            <label className="check-box-inner">
+                                                <input
+                                                    type="checkbox"
+                                                    data-testid="평점3점"
+                                                />
+                                                <div className="check-box-lcon">
+                                                    <svg></svg>
+                                                </div>
+                                                <span id="filter-option-3">
+                                                    평점3점
+                                                </span>{" "}
+                                            </label>
+                                            <label className="check-box-inner">
+                                                <input
+                                                    type="checkbox"
+                                                    data-testid="평점2점"
+                                                />
+                                                <div className="check-box-lcon">
+                                                    <svg></svg>
+                                                </div>
+                                                <span id="filter-option-2">
+                                                    평점2점
+                                                </span>{" "}
+                                            </label>
+                                            <label className="check-box-inner">
+                                                <input
+                                                    type="checkbox"
+                                                    data-testid="평점1점"
+                                                />
+                                                <div className="check-box-lcon">
+                                                    <svg></svg>
+                                                </div>
+                                                <span id="filter-option-1">
+                                                    평점1점
+                                                </span>{" "}
+                                            </label>
                                         </div>
-                                        </div> //뛰우는 친구
+                                    </div>{" "}
+                                    //뛰우는 친구
                                 </div>
-                                <ol></ol>
+                                <ol>
+                                    <li>
+                                        <div className="review-card-wrapper-review">
+                                            <div className="review-card-user-info">
+                                                <div className="review-card-reviewer">
+                                                    <div className="review-use-data-item">
+                                                        <span>name</span>
+                                                    </div>
+                                                </div>
+                                                <div className="cicle-score-wrapper">
+                                                    <div className="review-card-score-text">
+                                                        5
+                                                    </div>
+                                                    <div className="circle-score-svgbox">
+                                                        <svg>
+                                                            <circle></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="review-card-detail-wrapper"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="review-card-wrapper-review">
+                                            <div className="review-card-user-info">
+                                                <div className="review-card-reviewer">
+                                                    <div className="review-use-data-item">
+                                                        <span>name</span>
+                                                    </div>
+                                                </div>
+                                                <div className="cicle-score-wrapper">
+                                                    <div className="review-card-score-text">
+                                                        5
+                                                    </div>
+                                                    <div className="circle-score-svgbox">
+                                                        <svg>
+                                                            <circle></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="review-card-detail-wrapper"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="review-card-wrapper-review">
+                                            <div className="review-card-user-info">
+                                                <div className="review-card-reviewer">
+                                                    <div className="review-use-data-item">
+                                                        <span>name</span>
+                                                    </div>
+                                                </div>
+                                                <div className="cicle-score-wrapper">
+                                                    <div className="review-card-score-text">
+                                                        5
+                                                    </div>
+                                                    <div className="circle-score-svgbox">
+                                                        <svg>
+                                                            <circle></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="review-card-detail-wrapper"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="review-card-wrapper-review">
+                                            <div className="review-card-user-info">
+                                                <div className="review-card-reviewer">
+                                                    <div className="review-use-data-item">
+                                                        <span>name</span>
+                                                    </div>
+                                                </div>
+                                                <div className="cicle-score-wrapper">
+                                                    <div className="review-card-score-text">
+                                                        5
+                                                    </div>
+                                                    <div className="circle-score-svgbox">
+                                                        <svg>
+                                                            <circle></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="review-card-detail-wrapper"></div>
+                                        </div>
+                                    </li>
+                                </ol>
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     );

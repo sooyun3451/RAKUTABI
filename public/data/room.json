@@ -6,21 +6,21 @@
         "hotelComment": "해변 인근, 가족 여행에 최적",
         "content": "아름다운 해변과 가까워 가족 단위 여행객에게 추천하는 호텔입니다. 🏖️ 넓은 객실과 다양한 편의시설을 갖추고 있어요.",
         "city": "나하시, 오키나와, 일본",
-        "img1": "images/img/building/hotel1",
-        "img2": "images/img/lobby/lobi1",
-        "img3": "images/img/lobby/room/onebed/room1",
+        "img1": "/images/img/building/hotel1.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "150",
         "room1": {
             "roomId": 20001,
             "price": "280,000",
             "bed": "2",
             "maxCapa": "4",
-            "ocean view":true,
+            "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room1",
-            "img1-2": "images/img/lobby/room/twobed/room2",
-            "img1-3": "images/img/lobby/room/twobed/room3",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room2.jpg",
+            "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
         "room2": {
@@ -31,9 +31,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room1",
-            "img1-2": "images/img/lobby/room/onebed/room2",
-            "img1-3": "images/img/lobby/room/onebed/room3",
+            "img1-1": "/images/img/room/onebed/room1.jpg",
+            "img1-2": "/images/img/room/onebed/room2.jpg",
+            "img1-3": "/images/img/room/onebed/room3.jpg",
             "isBook": false
         },
         "review1": {
@@ -56,9 +56,9 @@
         "hotelComment": "오키나와 아레나 인근, 편의시설 우수",
         "content": "오키나와 아레나와 쇼핑몰에 가까워요. 🏀 주변 편의시설이 잘 갖춰져 있어 편리합니다.",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel2",
-        "img2": "images/img/lobby/lobi2",
-        "img3": "images/img/lobby/room/onebed/room2",
+        "img1": "/images/img/building/hotel2.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "200",
         "room1": {
             "roomId": 20011,
@@ -68,9 +68,9 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room4",
-            "img1-2": "images/img/lobby/room/twobed/room5",
-            "img1-3": "images/img/lobby/room/twobed/room6",
+            "img1-1": "/images/img/room/twobed/room4.jpg",
+            "img1-2": "/images/img/room/twobed/room5.jpg",
+            "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
         "room2": {
@@ -81,15 +81,15 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room4",
-            "img1-2": "images/img/lobby/room/onebed/room5",
-            "img1-3": "images/img/lobby/room/onebed/room6",
+            "img1-1": "/images/img/room/onebed/room4.jpg",
+            "img1-2": "/images/img/room/onebed/room5.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
             "user": "guest1",
             "comment": "아레나와 쇼핑몰 접근 좋아요.",
-            "score": "5",
+            "score": "3",
             "date": "2025-07-22"
         },
         "review2": {
@@ -106,9 +106,9 @@
         "hotelComment": "합리적 가격의 비즈니스 호텔",
         "content": "합리적인 가격의 비즈니스 호텔. 💼 역과 가까워 이동이 편리합니다.",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel3",
-        "img2": "images/img/lobby/lobi3",
-        "img3": "images/img/lobby/room/onebed/room3",
+        "img1": "/images/img/building/hotel3.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room3.jpg",
         "totalRoomNumber": "120",
         "room1": {
             "roomId": 20021,
@@ -118,9 +118,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room7",
-            "img1-2": "images/img/lobby/room/twobed/room8",
-            "img1-3": "images/img/lobby/room/twobed/room9",
+            "img1-1": "/images/img/room/twobed/room7.jpg",
+            "img1-2": "/images/img/room/twobed/room8.jpg",
+            "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
         "room2": {
@@ -131,9 +131,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room7",
-            "img1-2": "images/img/lobby/room/onebed/room8",
-            "img1-3": "images/img/lobby/room/onebed/room9",
+            "img1-1": "/images/img/room/onebed/room7.jpg",
+            "img1-2": "/images/img/room/onebed/room8.jpg",
+            "img1-3": "/images/img/room/onebed/room9.jpg",
             "isBook": false
         },
         "review1": {
@@ -156,9 +156,9 @@
         "hotelComment": "2023 오픈 콘도, 가족/장기체류 적합",
         "content": "2023년 오픈한 신축 콘도로, 넓은 공간과 주방/세탁 시설을 갖추어 가족 및 장기 투숙에 적합해요. 👨‍👩‍👧‍👦",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel4",
-        "img2": "images/img/lobby/lobi4",
-        "img3": "images/img/lobby/room/onebed/room4",
+        "img1": "/images/img/building/hotel4.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "40",
         "room1": {
             "roomId": 20031,
@@ -168,9 +168,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room10",
-            "img1-2": "images/img/lobby/room/twobed/room1",
-            "img1-3": "images/img/lobby/room/twobed/room2",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room1.jpg",
+            "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
         "room2": {
@@ -181,9 +181,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room10",
-            "img1-2": "images/img/lobby/room/onebed/room11",
-            "img1-3": "images/img/lobby/room/onebed/room12",
+            "img1-1": "/images/img/room/onebed/room1.jpg",
+            "img1-2": "/images/img/room/onebed/room1.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -195,7 +195,7 @@
         "review2": {
             "user": "park",
             "comment": "아레나 도보권.",
-            "score": "5",
+            "score": "3",
             "date": "2025-07-29"
         }
     },
@@ -206,9 +206,9 @@
         "hotelComment": "콘도형 가성비 숙소",
         "content": "가성비 좋은 콘도형 숙소. 넓고 조용한 분위기에서 휴식할 수 있습니다. 🤫",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel5",
-        "img2": "images/img/lobby/lobi5",
-        "img3": "images/img/lobby/room/onebed/room5",
+        "img1": "/images/img/building/hotel5.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": "35",
         "room1": {
             "roomId": 20041,
@@ -218,9 +218,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room3",
-            "img1-2": "images/img/lobby/room/twobed/room4",
-            "img1-3": "images/img/lobby/room/twobed/room5",
+            "img1-1": "/images/img/room/twobed/room13.jpg",
+            "img1-2": "/images/img/room/twobed/room4.jpg",
+            "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
         "room2": {
@@ -231,9 +231,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room13",
-            "img1-2": "images/img/lobby/room/onebed/room14",
-            "img1-3": "images/img/lobby/room/onebed/room15",
+            "img1-1": "/images/img/room/onebed/room12.jpg",
+            "img1-2": "/images/img/room/onebed/room8.jpg",
+            "img1-3": "/images/img/room/onebed/room7.jpg",
             "isBook": false
         },
         "review1": {
@@ -256,9 +256,9 @@
         "hotelComment": "무료 주차, 비즈니스에 적합",
         "content": "무료 주차가 가능하며 비즈니스 출장에 적합한 깔끔한 호텔입니다. 🚗",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel6",
-        "img2": "images/img/lobby/lobi6",
-        "img3": "images/img/lobby/room/onebed/room6",
+        "img1": "/images/img/building/hotel2.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room11.jpg",
         "totalRoomNumber": "150",
         "room1": {
             "roomId": 20051,
@@ -268,9 +268,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room6",
-            "img1-2": "images/img/lobby/room/twobed/room7",
-            "img1-3": "images/img/lobby/room/twobed/room8",
+            "img1-1": "/images/img/room/twobed/room6.jpg",
+            "img1-2": "/images/img/room/twobed/room7.jpg",
+            "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
         "room2": {
@@ -281,9 +281,9 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room16",
-            "img1-2": "images/img/lobby/room/onebed/room17",
-            "img1-3": "images/img/lobby/room/onebed/room18",
+            "img1-1": "/images/img/room/onebed/room9.jpg",
+            "img1-2": "/images/img/room/onebed/room11.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
@@ -295,7 +295,7 @@
         "review2": {
             "user": "na",
             "comment": "주차 편리.",
-            "score": "4",
+            "score": "2",
             "date": "2025-05-20"
         }
     },
@@ -306,9 +306,9 @@
         "hotelComment": "개성있는 콘셉트, 가성비",
         "content": "독특한 음악 콘셉트의 호텔. 가성비 좋은 가격으로 개성있는 숙박을 경험해 보세요. 🎶",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel7",
-        "img2": "images/img/lobby/lobi7",
-        "img3": "images/img/lobby/room/onebed/room7",
+        "img1": "/images/img/building/hotel9.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": "60",
         "room1": {
             "roomId": 20061,
@@ -318,9 +318,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room9",
-            "img1-2": "images/img/lobby/room/twobed/room10",
-            "img1-3": "images/img/lobby/room/twobed/room1",
+            "img1-1": "/images/img/room/twobed/room9.jpg",
+            "img1-2": "/images/img/room/twobed/room11.jpg",
+            "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
         "room2": {
@@ -331,9 +331,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room19",
-            "img1-2": "images/img/lobby/room/onebed/room20",
-            "img1-3": "images/img/lobby/room/onebed/room21",
+            "img1-1": "/images/img/room/onebed/room12.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room4.jpg",
             "isBook": false
         },
         "review1": {
@@ -356,9 +356,9 @@
         "hotelComment": "심플한 객실, 조용한 주변",
         "content": "심플하고 청결한 객실을 제공하는 조용한 분위기의 숙소. 🌸",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel8",
-        "img2": "images/img/lobby/lobi8",
-        "img3": "images/img/lobby/room/onebed/room8",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "20",
         "room1": {
             "roomId": 20071,
@@ -368,9 +368,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room2",
-            "img1-2": "images/img/lobby/room/twobed/room3",
-            "img1-3": "images/img/lobby/room/twobed/room4",
+            "img1-1": "/images/img/room/twobed/room2.jpg",
+            "img1-2": "/images/img/room/twobed/room3.jpg",
+            "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
         "room2": {
@@ -381,9 +381,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room22",
-            "img1-2": "images/img/lobby/room/onebed/room23",
-            "img1-3": "images/img/lobby/room/onebed/room24",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room8.jpg",
+            "img1-3": "/images/img/room/onebed/room10.jpg",
             "isBook": false
         },
         "review1": {
@@ -395,7 +395,7 @@
         "review2": {
             "user": "song",
             "comment": "주차 편함.",
-            "score": "4",
+            "score": "3",
             "date": "2025-04-18"
         }
     },
@@ -406,9 +406,9 @@
         "hotelComment": "라이캄 접근 편리, 레이트 체크인",
         "content": "이온 몰 라이컴과 가까워 쇼핑하기 편리해요. 🛍️ 늦은 체크인이 가능해 여행 일정에 여유를 줍니다.",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel9",
-        "img2": "images/img/lobby/lobi9",
-        "img3": "images/img/lobby/room/onebed/room9",
+        "img1": "/images/img/building/hotel4.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": "80",
         "room1": {
             "roomId": 20081,
@@ -418,9 +418,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room5",
-            "img1-2": "images/img/lobby/room/twobed/room6",
-            "img1-3": "images/img/lobby/room/twobed/room7",
+            "img1-1": "/images/img/room/twobed/room5.jpg",
+            "img1-2": "/images/img/room/twobed/room6.jpg",
+            "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
         "room2": {
@@ -431,9 +431,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room25",
-            "img1-2": "images/img/lobby/room/onebed/room26",
-            "img1-3": "images/img/lobby/room/onebed/room27",
+            "img1-1": "/images/img/room/onebed/room6.jpg",
+            "img1-2": "/images/img/room/onebed/room12.jpg",
+            "img1-3": "/images/img/room/onebed/room5.jpg",
             "isBook": false
         },
         "review1": {
@@ -445,7 +445,7 @@
         "review2": {
             "user": "yoon",
             "comment": "체크인 늦게 가능.",
-            "score": "4",
+            "score": "5",
             "date": "2025-06-14"
         }
     },
@@ -456,9 +456,9 @@
         "hotelComment": "1인 여행/비즈니스에 무난",
         "content": "1인 여행객이나 출장객에게 무난한 숙소. 저렴한 가격이 장점입니다. 🌅",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel10",
-        "img2": "images/img/lobby/lobi10",
-        "img3": "images/img/lobby/room/onebed/room10",
+        "img1": "/images/img/building/hotel1.jpg",
+        "img2": "/images/img/lobby/lobby6.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "70",
         "room1": {
             "roomId": 20091,
@@ -468,9 +468,9 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room8",
-            "img1-2": "images/img/lobby/room/twobed/room9",
-            "img1-3": "images/img/lobby/room/twobed/room10",
+            "img1-1": "/images/img/room/twobed/room4.jpg",
+            "img1-2": "/images/img/room/twobed/room9.jpg",
+            "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
         "room2": {
@@ -481,15 +481,15 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room28",
-            "img1-2": "images/img/lobby/room/onebed/room1",
-            "img1-3": "images/img/lobby/room/onebed/room2",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room4.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
             "user": "tom",
             "comment": "저렴함.",
-            "score": "4",
+            "score": "3",
             "date": "2025-05-30"
         },
         "review2": {
@@ -506,9 +506,9 @@
         "hotelComment": "작지만 깔끔한 하우스",
         "content": "아기자기하고 깔끔한 분위기의 하우스. 가족 단위 여행객에게 추천해요. 🏡",
         "city": "오키나와시, 오키나와, 일본",
-        "img1": "images/img/building/hotel11",
-        "img2": "images/img/lobby/lobi1",
-        "img3": "images/img/lobby/room/onebed/room11",
+        "img1": "/images/img/building/hotel11.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": "10",
         "room1": {
             "roomId": 20101,
@@ -518,9 +518,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room3",
-            "img1-2": "images/img/lobby/room/twobed/room4",
-            "img1-3": "images/img/lobby/room/twobed/room5",
+            "img1-1": "/images/img/room/twobed/room3.jpg",
+            "img1-2": "/images/img/room/twobed/room4.jpg",
+            "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
         "room2": {
@@ -531,9 +531,9 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room3",
-            "img1-2": "images/img/lobby/room/onebed/room4",
-            "img1-3": "images/img/lobby/room/onebed/room5",
+            "img1-1": "/images/img/room/onebed/room3.jpg",
+            "img1-2": "/images/img/room/onebed/room4.jpg",
+            "img1-3": "/images/img/room/onebed/room5.jpg",
             "isBook": false
         },
         "review1": {
@@ -556,9 +556,9 @@
         "hotelComment": "심플 & 청결",
         "content": "구루메시에 위치한 심플하고 깨끗한 호텔. 가성비가 훌륭합니다. ✨",
         "city": "구루메시, 후쿠오카, 일본",
-        "img1": "images/img/building/hotel12",
-        "img2": "images/img/lobby/lobi2",
-        "img3": "images/img/lobby/room/onebed/room12",
+        "img1": "/images/img/building/hotel4.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "45",
         "room1": {
             "roomId": 20111,
@@ -568,9 +568,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room6",
-            "img1-2": "images/img/lobby/room/twobed/room7",
-            "img1-3": "images/img/lobby/room/twobed/room8",
+            "img1-1": "/images/img/room/twobed/room6.jpg",
+            "img1-2": "/images/img/room/twobed/room7.jpg",
+            "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
         "room2": {
@@ -581,15 +581,15 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room6",
-            "img1-2": "images/img/lobby/room/onebed/room7",
-            "img1-3": "images/img/lobby/room/onebed/room8",
+            "img1-1": "/images/img/room/onebed/room6.jpg",
+            "img1-2": "/images/img/room/onebed/room7.jpg",
+            "img1-3": "/images/img/room/onebed/room8.jpg",
             "isBook": false
         },
         "review1": {
             "user": "yumi",
             "comment": "시설이 깨끗해서 만족.",
-            "score": "4",
+            "score": "3",
             "date": "2025-08-05"
         },
         "review2": {
@@ -606,9 +606,9 @@
         "hotelComment": "하카타역 근처, 접근성 우수",
         "content": "후쿠오카의 중심지인 하카타역에서 가까워요. 🚉 비즈니스나 관광 모두 편리합니다.",
         "city": "후쿠오카시, 후쿠오카, 일본",
-        "img1": "images/img/building/hotel13",
-        "img2": "images/img/lobby/lobi3",
-        "img3": "images/img/lobby/room/onebed/room13",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": "250",
         "room1": {
             "roomId": 20121,
@@ -618,9 +618,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room9",
-            "img1-2": "images/img/lobby/room/twobed/room10",
-            "img1-3": "images/img/lobby/room/twobed/room1",
+            "img1-1": "/images/img/room/twobed/room9.jpg",
+            "img1-2": "/images/img/room/twobed/room10.jpg",
+            "img1-3": "/images/img/room/twobed/room11.jpg",
             "isBook": false
         },
         "room2": {
@@ -631,9 +631,9 @@
             "maxCapa": "2",
             "smoking": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room9",
-            "img1-2": "images/img/lobby/room/onebed/room10",
-            "img1-3": "images/img/lobby/room/onebed/room11",
+            "img1-1": "/images/img/room/onebed/room9.jpg",
+            "img1-2": "/images/img/room/onebed/room10.jpg",
+            "img1-3": "/images/img/room/onebed/room11.jpg",
             "isBook": false
         },
         "review1": {
@@ -656,9 +656,9 @@
         "hotelComment": "아소산 인근, 자연경관",
         "content": "아소산의 아름다운 자연을 만끽할 수 있는 호텔입니다. ⛰️ 조용하고 평화로운 휴식을 원하시는 분께 추천해요.",
         "city": "아소시, 구마모토, 일본",
-        "img1": "images/img/building/hotel14",
-        "img2": "images/img/lobby/lobi4",
-        "img3": "images/img/lobby/room/onebed/room14",
+        "img1": "/images/img/building/hotel1.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "80",
         "room1": {
             "roomId": 20131,
@@ -668,9 +668,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room2",
-            "img1-2": "images/img/lobby/room/twobed/room3",
-            "img1-3": "images/img/lobby/room/twobed/room4",
+            "img1-1": "/images/img/room/twobed/room2.jpg",
+            "img1-2": "/images/img/room/twobed/room3.jpg",
+            "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
         "room2": {
@@ -681,9 +681,9 @@
             "smoking": false,
             "breakfast": false,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/onebed/room12",
-            "img1-2": "images/img/lobby/room/onebed/room13",
-            "img1-3": "images/img/lobby/room/onebed/room14",
+            "img1-1": "/images/img/room/onebed/room7.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -694,8 +694,8 @@
         },
         "review2": {
             "user": "takagi",
-            "comment": "온천 시설도 만족스러웠어요.",
-            "score": "5",
+            "comment": "온천 시설이 별로...",
+            "score": "2",
             "date": "2025-07-10"
         }
     },
@@ -706,9 +706,9 @@
         "hotelComment": "항구 전망, 야경 명소",
         "content": "나가사키 항구가 한눈에 내려다보이는 호텔. 🌃 멋진 야경을 감상하며 낭만적인 밤을 보낼 수 있습니다.",
         "city": "나가사키시, 나가사키, 일본",
-        "img1": "images/img/building/hotel15",
-        "img2": "images/img/lobby/lobi5",
-        "img3": "images/img/lobby/room/onebed/room15",
+        "img1": "/images/img/building/hotel11.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "110",
         "room1": {
             "roomId": 20141,
@@ -718,9 +718,9 @@
             "maxCapa": "3",
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room5",
-            "img1-2": "images/img/lobby/room/twobed/room6",
-            "img1-3": "images/img/lobby/room/twobed/room7",
+            "img1-1": "/images/img/room/twobed/room5.jpg",
+            "img1-2": "/images/img/room/twobed/room6.jpg",
+            "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
         "room2": {
@@ -731,9 +731,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room15",
-            "img1-2": "images/img/lobby/room/onebed/room16",
-            "img1-3": "images/img/lobby/room/onebed/room17",
+            "img1-1": "/images/img/room/onebed/room4.jpg",
+            "img1-2": "/images/img/room/onebed/room1.jpg",
+            "img1-3": "/images/img/room/onebed/room13.jpg",
             "isBook": false
         },
         "review1": {
@@ -756,9 +756,9 @@
         "hotelComment": "오션뷰, 해변 산책",
         "content": "아름다운 바다가 보이는 객실에서 휴식을 취하세요. 🌊 해변 산책로와 연결되어 있어 아침 운동하기 좋습니다.",
         "city": "미야자키시, 미야자키, 일본",
-        "img1": "images/img/building/hotel16",
-        "img2": "images/img/lobby/lobi6",
-        "img3": "images/img/lobby/room/onebed/room16",
+        "img1": "/images/img/building/hotel6.jpg",
+        "img2": "/images/img/lobby/lobby6.jpg",
+        "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": "90",
         "room1": {
             "roomId": 20151,
@@ -768,9 +768,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room8",
-            "img1-2": "images/img/lobby/room/twobed/room9",
-            "img1-3": "images/img/lobby/room/twobed/room10",
+            "img1-1": "/images/img/room/twobed/room8.jpg",
+            "img1-2": "/images/img/room/twobed/room9.jpg",
+            "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
         "room2": {
@@ -781,9 +781,9 @@
             "ocean view": true,
             "smoking": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room18",
-            "img1-2": "images/img/lobby/room/onebed/room19",
-            "img1-3": "images/img/lobby/room/onebed/room20",
+            "img1-1": "/images/img/room/onebed/room9.jpg",
+            "img1-2": "/images/img/room/onebed/room1.jpg",
+            "img1-3": "/images/img/room/onebed/room2.jpg",
             "isBook": false
         },
         "review1": {
@@ -806,9 +806,9 @@
         "hotelComment": "중앙역 근처, 편리한 교통",
         "content": "가고시마 중앙역과 가까워 교통이 매우 편리합니다. 🚅 비즈니스나 렌터카 없이 여행하시는 분들에게 좋아요.",
         "city": "가고시마시, 가고시마, 일본",
-        "img1": "images/img/building/hotel17",
-        "img2": "images/img/lobby/lobi7",
-        "img3": "images/img/lobby/room/onebed/room17",
+        "img1": "/images/img/building/hotel7.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "180",
         "room1": {
             "roomId": 20161,
@@ -818,9 +818,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room1",
-            "img1-2": "images/img/lobby/room/twobed/room2",
-            "img1-3": "images/img/lobby/room/twobed/room3",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room2.jpg",
+            "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
         "room2": {
@@ -831,9 +831,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room21",
-            "img1-2": "images/img/lobby/room/onebed/room22",
-            "img1-3": "images/img/lobby/room/onebed/room23",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room12.jpg",
+            "img1-3": "/images/img/room/onebed/room7.jpg",
             "isBook": false
         },
         "review1": {
@@ -856,9 +856,9 @@
         "hotelComment": "마츠야마성 전망, 중심가 위치",
         "content": "마츠야마성이 보이는 객실을 갖춘 호텔. 🏰 중심가에 위치하여 관광하기에 편리합니다.",
         "city": "마츠야마시, 에히메, 일본",
-        "img1": "images/img/building/hotel18",
-        "img2": "images/img/lobby/lobi8",
-        "img3": "images/img/lobby/room/onebed/room18",
+        "img1": "/images/img/building/hotel8.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "70",
         "room1": {
             "roomId": 20171,
@@ -868,9 +868,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room4",
-            "img1-2": "images/img/lobby/room/twobed/room5",
-            "img1-3": "images/img/lobby/room/twobed/room6",
+            "img1-1": "/images/img/room/twobed/room4.jpg",
+            "img1-2": "/images/img/room/twobed/room5.jpg",
+            "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
         "room2": {
@@ -881,9 +881,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room24",
-            "img1-2": "images/img/lobby/room/onebed/room25",
-            "img1-3": "images/img/lobby/room/onebed/room26",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room8.jpg",
+            "img1-3": "/images/img/room/onebed/room4.jpg",
             "isBook": false
         },
         "review1": {
@@ -906,9 +906,9 @@
         "hotelComment": "강변 전망, 조용하고 편안함",
         "content": "아름다운 강변을 따라 위치한 조용한 호텔. 🏞️ 도시의 번잡함에서 벗어나 휴식하기 좋습니다.",
         "city": "고치시, 고치, 일본",
-        "img1": "images/img/building/hotel19",
-        "img2": "images/img/lobby/lobi9",
-        "img3": "images/img/lobby/room/onebed/room19",
+        "img1": "/images/img/building/hotel9.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "60",
         "room1": {
             "roomId": 20181,
@@ -918,9 +918,9 @@
             "maxCapa": "3",
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room7",
-            "img1-2": "images/img/lobby/room/twobed/room8",
-            "img1-3": "images/img/lobby/room/twobed/room9",
+            "img1-1": "/images/img/room/twobed/room7.jpg",
+            "img1-2": "/images/img/room/twobed/room8.jpg",
+            "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
         "room2": {
@@ -931,9 +931,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room27",
-            "img1-2": "images/img/lobby/room/onebed/room28",
-            "img1-3": "images/img/lobby/room/onebed/room1",
+            "img1-1": "/images/img/room/onebed/room3.jpg",
+            "img1-2": "/images/img/room/onebed/room8.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -945,7 +945,7 @@
         "review2": {
             "user": "donghyun",
             "comment": "가격 대비 만족스러운 숙소입니다.",
-            "score": "4",
+            "score": "3",
             "date": "2025-07-30"
         }
     },
@@ -956,9 +956,9 @@
         "hotelComment": "도심 전망, 비즈니스 출장",
         "content": "다카마츠의 도심이 내려다보이는 호텔. 🏙️ 비즈니스 시설이 잘 갖춰져 있어 출장객에게 좋아요.",
         "city": "다카마쓰시, 가가와, 일본",
-        "img1": "images/img/building/hotel20",
-        "img2": "images/img/lobby/lobi10",
-        "img3": "images/img/lobby/room/onebed/room20",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "140",
         "room1": {
             "roomId": 20191,
@@ -968,9 +968,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room10",
-            "img1-2": "images/img/lobby/room/twobed/room1",
-            "img1-3": "images/img/lobby/room/twobed/room2",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room13.jpg",
+            "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
         "room2": {
@@ -981,9 +981,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room2",
-            "img1-2": "images/img/lobby/room/onebed/room3",
-            "img1-3": "images/img/lobby/room/onebed/room4",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room3.jpg",
+            "img1-3": "/images/img/room/onebed/room4.jpg",
             "isBook": false
         },
         "review1": {
@@ -1006,9 +1006,9 @@
         "hotelComment": "하버랜드 인근, 야경 명소",
         "content": "고베의 랜드마크인 하버랜드와 가까운 호텔입니다. 🎡 아름다운 야경과 함께 로맨틱한 분위기를 즐길 수 있어요.",
         "city": "고베시, 효고, 일본",
-        "img1": "images/img/building/hotel1",
-        "img2": "images/img/lobby/lobi1",
-        "img3": "images/img/lobby/room/onebed/room21",
+        "img1": "/images/img/building/hotel1.jpg",
+        "img2": "/images/img/lobby/lobby7.jpg",
+        "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": "180",
         "room1": {
             "roomId": 20201,
@@ -1018,9 +1018,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room3",
-            "img1-2": "images/img/lobby/room/twobed/room4",
-            "img1-3": "images/img/lobby/room/twobed/room5",
+            "img1-1": "/images/img/room/twobed/room3.jpg",
+            "img1-2": "/images/img/room/twobed/room9.jpg",
+            "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
         "room2": {
@@ -1031,9 +1031,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room5",
-            "img1-2": "images/img/lobby/room/onebed/room6",
-            "img1-3": "images/img/lobby/room/onebed/room7",
+            "img1-1": "/images/img/room/onebed/room5.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room7.jpg",
             "isBook": false
         },
         "review1": {
@@ -1056,9 +1056,9 @@
         "hotelComment": "교토역과 바로 연결, 편리한 이동",
         "content": "교토역과 바로 연결되어 있어 교토와 오사카, 나라 등 간사이 지역을 여행하기에 최적의 호텔입니다. 🚅",
         "city": "교토시, 교토, 일본",
-        "img1": "images/img/building/hotel2",
-        "img2": "images/img/lobby/lobi2",
-        "img3": "images/img/lobby/room/onebed/room22",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": "300",
         "room1": {
             "roomId": 20211,
@@ -1068,9 +1068,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room6",
-            "img1-2": "images/img/lobby/room/twobed/room7",
-            "img1-3": "images/img/lobby/room/twobed/room8",
+            "img1-1": "/images/img/room/twobed/room6.jpg",
+            "img1-2": "/images/img/room/twobed/room7.jpg",
+            "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
         "room2": {
@@ -1081,9 +1081,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room8",
-            "img1-2": "images/img/lobby/room/onebed/room9",
-            "img1-3": "images/img/lobby/room/onebed/room10",
+            "img1-1": "/images/img/room/onebed/room8.jpg",
+            "img1-2": "/images/img/room/onebed/room9.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -1106,9 +1106,9 @@
         "hotelComment": "나라 공원 인근, 사슴 구경",
         "content": "유명한 나라 공원과 가까워 귀여운 사슴들을 쉽게 만날 수 있습니다. 🦌 조용하고 여유로운 여행을 즐길 수 있어요.",
         "city": "나라시, 나라, 일본",
-        "img1": "images/img/building/hotel3",
-        "img2": "images/img/lobby/lobi3",
-        "img3": "images/img/lobby/room/onebed/room23",
+        "img1": "/images/img/building/hotel3.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "80",
         "room1": {
             "roomId": 20221,
@@ -1118,9 +1118,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room9",
-            "img1-2": "images/img/lobby/room/twobed/room10",
-            "img1-3": "images/img/lobby/room/twobed/room1",
+            "img1-1": "/images/img/room/twobed/room9.jpg",
+            "img1-2": "/images/img/room/twobed/room10.jpg",
+            "img1-3": "/images/img/room/twobed/room11.jpg",
             "isBook": false
         },
         "room2": {
@@ -1131,9 +1131,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room11",
-            "img1-2": "images/img/lobby/room/onebed/room12",
-            "img1-3": "images/img/lobby/room/onebed/room13",
+            "img1-1": "/images/img/room/onebed/room4.jpg",
+            "img1-2": "/images/img/room/onebed/room11.jpg",
+            "img1-3": "/images/img/room/onebed/room12.jpg",
             "isBook": false
         },
         "review1": {
@@ -1156,9 +1156,9 @@
         "hotelComment": "겨울 여행, 스키장 인근",
         "content": "겨울 스포츠를 즐기기에 좋은 삿포로의 호텔입니다. ⛷️ 스키장과 가까워 편리하게 이용할 수 있어요.",
         "city": "삿포로시, 홋카이도, 일본",
-        "img1": "images/img/building/hotel4",
-        "img2": "images/img/lobby/lobi4",
-        "img3": "images/img/lobby/room/onebed/room24",
+        "img1": "/images/img/building/hotel4.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": "200",
         "room1": {
             "roomId": 20231,
@@ -1168,9 +1168,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room2",
-            "img1-2": "images/img/lobby/room/twobed/room3",
-            "img1-3": "images/img/lobby/room/twobed/room4",
+            "img1-1": "/images/img/room/twobed/room2.jpg",
+            "img1-2": "/images/img/room/twobed/room3.jpg",
+            "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
         "room2": {
@@ -1181,9 +1181,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room14",
-            "img1-2": "images/img/lobby/room/onebed/room15",
-            "img1-3": "images/img/lobby/room/onebed/room16",
+            "img1-1": "/images/img/room/onebed/room6.jpg",
+            "img1-2": "/images/img/room/onebed/room1.jpg",
+            "img1-3": "/images/img/room/onebed/room7.jpg",
             "isBook": false
         },
         "review1": {
@@ -1206,9 +1206,9 @@
         "hotelComment": "오사카성 인근, 역사 탐방",
         "content": "오사카성과 가까워 역사 탐방을 즐기기에 좋습니다. 🏯 도심 속에서 고즈넉한 분위기를 느낄 수 있어요.",
         "city": "오사카시, 오사카, 일본",
-        "img1": "images/img/building/hotel5",
-        "img2": "images/img/lobby/lobi5",
-        "img3": "images/img/lobby/room/onebed/room25",
+        "img1": "/images/img/building/hotel5.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "150",
         "room1": {
             "roomId": 20241,
@@ -1218,9 +1218,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room5",
-            "img1-2": "images/img/lobby/room/twobed/room6",
-            "img1-3": "images/img/lobby/room/twobed/room7",
+            "img1-1": "/images/img/room/twobed/room5.jpg",
+            "img1-2": "/images/img/room/twobed/room6.jpg",
+            "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
         "room2": {
@@ -1231,9 +1231,9 @@
             "smoking": false,
             "breakfast": false,
             "ocean view": true,
-            "img1-1": "images/img/lobby/room/onebed/room17",
-            "img1-2": "images/img/lobby/room/onebed/room18",
-            "img1-3": "images/img/lobby/room/onebed/room19",
+            "img1-1": "/images/img/room/onebed/room11.jpg",
+            "img1-2": "/images/img/room/onebed/room3.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -1256,9 +1256,9 @@
         "hotelComment": "아라시야마 인근, 전통 숙소",
         "content": "아라시야마의 아름다운 풍경 속에 위치한 전통 료칸입니다. 🎋 일본 전통 숙소를 경험하고 싶다면 추천해요.",
         "city": "교토시, 교토, 일본",
-        "img1": "images/img/building/hotel6",
-        "img2": "images/img/lobby/lobi6",
-        "img3": "images/img/lobby/room/onebed/room26",
+        "img1": "/images/img/building/hotel6.jpg",
+        "img2": "/images/img/lobby/lobby6.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "30",
         "room1": {
             "roomId": 20251,
@@ -1268,9 +1268,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room8",
-            "img1-2": "images/img/lobby/room/twobed/room9",
-            "img1-3": "images/img/lobby/room/twobed/room10",
+            "img1-1": "/images/img/room/twobed/room8.jpg",
+            "img1-2": "/images/img/room/twobed/room9.jpg",
+            "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
         "room2": {
@@ -1281,9 +1281,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room20",
-            "img1-2": "images/img/lobby/room/onebed/room21",
-            "img1-3": "images/img/lobby/room/onebed/room22",
+            "img1-1": "/images/img/room/onebed/room7.jpg",
+            "img1-2": "/images/img/room/onebed/room2.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
@@ -1306,9 +1306,9 @@
         "hotelComment": "온천 여행, 후지산 전망",
         "content": "일본의 대표적인 온천 지역인 하코네에 위치한 료칸입니다. ♨️ 후지산 전망의 노천탕을 즐길 수 있어요.",
         "city": "하코네마치, 가나가와, 일본",
-        "img1": "images/img/building/hotel7",
-        "img2": "images/img/lobby/lobi7",
-        "img3": "images/img/lobby/room/onebed/room27",
+        "img1": "/images/img/building/hotel7.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "40",
         "room1": {
             "roomId": 20261,
@@ -1318,9 +1318,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room1",
-            "img1-2": "images/img/lobby/room/twobed/room2",
-            "img1-3": "images/img/lobby/room/twobed/room3",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room2.jpg",
+            "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
         "room2": {
@@ -1331,9 +1331,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room23",
-            "img1-2": "images/img/lobby/room/onebed/room24",
-            "img1-3": "images/img/lobby/room/onebed/room25",
+            "img1-1": "/images/img/room/onebed/room12.jpg",
+            "img1-2": "/images/img/room/onebed/room9.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
@@ -1356,9 +1356,9 @@
         "hotelComment": "후지산 & 호수 전망",
         "content": "아름다운 가와구치호와 후지산의 절경을 동시에 감상할 수 있는 호텔입니다. 🗻 포토 스팟으로도 유명해요.",
         "city": "후지카와구치코마치, 야마나시, 일본",
-        "img1": "images/img/building/hotel8",
-        "img2": "images/img/lobby/lobi8",
-        "img3": "images/img/lobby/room/onebed/room28",
+        "img1": "/images/img/building/hotel8.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "50",
         "room1": {
             "roomId": 20271,
@@ -1368,9 +1368,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room4",
-            "img1-2": "images/img/lobby/room/twobed/room5",
-            "img1-3": "images/img/lobby/room/twobed/room6",
+            "img1-1": "/images/img/room/twobed/room4.jpg",
+            "img1-2": "/images/img/room/twobed/room5.jpg",
+            "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
         "room2": {
@@ -1381,9 +1381,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room26",
-            "img1-2": "images/img/lobby/room/onebed/room27",
-            "img1-3": "images/img/lobby/room/onebed/room28",
+            "img1-1": "/images/img/room/onebed/room7.jpg",
+            "img1-2": "/images/img/room/onebed/room2.jpg",
+            "img1-3": "/images/img/room/onebed/room8.jpg",
             "isBook": false
         },
         "review1": {
@@ -1406,9 +1406,9 @@
         "hotelComment": "평화공원 인근, 역사적인 장소",
         "content": "히로시마 평화기념공원과 가까워 역사적인 의미를 되새기며 여행하기 좋은 호텔입니다. 🕊️",
         "city": "히로시마시, 히로시마, 일본",
-        "img1": "images/img/building/hotel9",
-        "img2": "images/img/lobby/lobi9",
-        "img3": "images/img/lobby/room/onebed/room1",
+        "img1": "/images/img/building/hotel9.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "100",
         "room1": {
             "roomId": 20281,
@@ -1418,9 +1418,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room7",
-            "img1-2": "images/img/lobby/room/twobed/room8",
-            "img1-3": "images/img/lobby/room/twobed/room9",
+            "img1-1": "/images/img/room/twobed/room7.jpg",
+            "img1-2": "/images/img/room/twobed/room8.jpg",
+            "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
         "room2": {
@@ -1431,9 +1431,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room1",
-            "img1-2": "images/img/lobby/room/onebed/room2",
-            "img1-3": "images/img/lobby/room/onebed/room3",
+            "img1-1": "/images/img/room/onebed/room1.jpg",
+            "img1-2": "/images/img/room/onebed/room2.jpg",
+            "img1-3": "/images/img/room/onebed/room3.jpg",
             "isBook": false
         },
         "review1": {
@@ -1456,9 +1456,9 @@
         "hotelComment": "시내 중심, 쇼핑/맛집",
         "content": "센다이 시내 중심가에 위치하여 쇼핑과 맛집 탐방에 최적화된 호텔입니다. 🛍️",
         "city": "센다이시, 미야기, 일본",
-        "img1": "images/img/building/hotel10",
-        "img2": "images/img/lobby/lobi10",
-        "img3": "images/img/lobby/room/onebed/room2",
+        "img1": "/images/img/building/hotel1.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "220",
         "room1": {
             "roomId": 20291,
@@ -1468,9 +1468,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room10",
-            "img1-2": "images/img/lobby/room/twobed/room1",
-            "img1-3": "images/img/lobby/room/twobed/room2",
+            "img1-1": "/images/img/room/twobed/room9.jpg",
+            "img1-2": "/images/img/room/twobed/room1.jpg",
+            "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
         "room2": {
@@ -1481,9 +1481,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room4",
-            "img1-2": "images/img/lobby/room/onebed/room5",
-            "img1-3": "images/img/lobby/room/onebed/room6",
+            "img1-1": "/images/img/room/onebed/room4.jpg",
+            "img1-2": "/images/img/room/onebed/room5.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
@@ -1506,9 +1506,9 @@
         "hotelComment": "도쿄타워 전망, 낭만적인 분위기",
         "content": "도쿄타워가 보이는 객실에서 낭만적인 밤을 보내세요. ✨ 데이트나 특별한 기념일에 추천합니다.",
         "city": "도쿄시, 도쿄, 일본",
-        "img1": "images/img/building/hotel11",
-        "img2": "images/img/lobby/lobi1",
-        "img3": "images/img/lobby/room/onebed/room3",
+        "img1": "/images/img/building/hotel11.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room3.jpg",
         "totalRoomNumber": "250",
         "room1": {
             "roomId": 20301,
@@ -1518,9 +1518,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room3",
-            "img1-2": "images/img/lobby/room/twobed/room4",
-            "img1-3": "images/img/lobby/room/twobed/room5",
+            "img1-1": "/images/img/room/twobed/room3.jpg",
+            "img1-2": "/images/img/room/twobed/room4.jpg",
+            "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
         "room2": {
@@ -1531,9 +1531,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room7",
-            "img1-2": "images/img/lobby/room/onebed/room8",
-            "img1-3": "images/img/lobby/room/onebed/room9",
+            "img1-1": "/images/img/room/onebed/room7.jpg",
+            "img1-2": "/images/img/room/onebed/room8.jpg",
+            "img1-3": "/images/img/room/onebed/room9.jpg",
             "isBook": false
         },
         "review1": {
@@ -1556,9 +1556,9 @@
         "hotelComment": "시내 중심, 출장객 적합",
         "content": "나고야 시내 중심에 위치한 비즈니스 호텔. 💼 출장객들에게 최적의 조건을 제공합니다.",
         "city": "나고야시, 아이치, 일본",
-        "img1": "images/img/building/hotel12",
-        "img2": "images/img/lobby/lobi2",
-        "img3": "images/img/lobby/room/onebed/room4",
+        "img1": "/images/img/building/hotel4.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": "160",
         "room1": {
             "roomId": 20311,
@@ -1568,9 +1568,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room6",
-            "img1-2": "images/img/lobby/room/twobed/room7",
-            "img1-3": "images/img/lobby/room/twobed/room8",
+            "img1-1": "/images/img/room/twobed/room6.jpg",
+            "img1-2": "/images/img/room/twobed/room7.jpg",
+            "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
         "room2": {
@@ -1581,9 +1581,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room10",
-            "img1-2": "images/img/lobby/room/onebed/room11",
-            "img1-3": "images/img/lobby/room/onebed/room12",
+            "img1-1": "/images/img/room/onebed/room5.jpg",
+            "img1-2": "/images/img/room/onebed/room3.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -1606,9 +1606,9 @@
         "hotelComment": "캐널시티와 연결, 쇼핑 편리",
         "content": "대형 쇼핑몰인 캐널시티 하카타와 연결되어 있어 쇼핑을 즐기기에 아주 좋아요. 🛍️",
         "city": "후쿠오카시, 후쿠오카, 일본",
-        "img1": "images/img/building/hotel13",
-        "img2": "images/img/lobby/lobi3",
-        "img3": "images/img/lobby/room/onebed/room5",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": "200",
         "room1": {
             "roomId": 20321,
@@ -1618,9 +1618,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room9",
-            "img1-2": "images/img/lobby/room/twobed/room10",
-            "img1-3": "images/img/lobby/room/twobed/room1",
+            "img1-1": "/images/img/room/twobed/room9.jpg",
+            "img1-2": "/images/img/room/twobed/room4.jpg",
+            "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
         "room2": {
@@ -1631,9 +1631,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room13",
-            "img1-2": "images/img/lobby/room/onebed/room14",
-            "img1-3": "images/img/lobby/room/onebed/room15",
+            "img1-1": "/images/img/room/onebed/room11.jpg",
+            "img1-2": "/images/img/room/onebed/room12.jpg",
+            "img1-3": "/images/img/room/onebed/room13.jpg",
             "isBook": false
         },
         "review1": {
@@ -1656,9 +1656,9 @@
         "hotelComment": "후쿠오카 타워 전망, 야경",
         "content": "후쿠오카 타워가 내려다보이는 객실에서 아름다운 야경을 즐기세요. ✨",
         "city": "후쿠오카시, 후쿠오카, 일본",
-        "img1": "images/img/building/hotel14",
-        "img2": "images/img/lobby/lobi4",
-        "img3": "images/img/lobby/room/onebed/room6",
+        "img1": "/images/img/building/hotel11.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": "130",
         "room1": {
             "roomId": 20331,
@@ -1668,9 +1668,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room2",
-            "img1-2": "images/img/lobby/room/twobed/room3",
-            "img1-3": "images/img/lobby/room/twobed/room4",
+            "img1-1": "/images/img/room/twobed/room2.jpg",
+            "img1-2": "/images/img/room/twobed/room3.jpg",
+            "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
         "room2": {
@@ -1681,9 +1681,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room16",
-            "img1-2": "images/img/lobby/room/onebed/room17",
-            "img1-3": "images/img/lobby/room/onebed/room18",
+            "img1-1": "/images/img/room/onebed/room1.jpg",
+            "img1-2": "/images/img/room/onebed/room10.jpg",
+            "img1-3": "/images/img/room/onebed/room13.jpg",
             "isBook": false
         },
         "review1": {
@@ -1706,9 +1706,9 @@
         "hotelComment": "디즈니랜드 인근, 테마 숙소",
         "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
         "city": "우라야스시, 치바, 일본",
-        "img1": "images/img/building/hotel15",
-        "img2": "images/img/lobby/lobi5",
-        "img3": "images/img/lobby/room/onebed/room7",
+        "img1": "/images/img/building/hotel5.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": "500",
         "room1": {
             "roomId": 20341,
@@ -1718,9 +1718,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room5",
-            "img1-2": "images/img/lobby/room/twobed/room6",
-            "img1-3": "images/img/lobby/room/twobed/room7",
+            "img1-1": "/images/img/room/twobed/room5.jpg",
+            "img1-2": "/images/img/room/twobed/room6.jpg",
+            "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
         "room2": {
@@ -1731,9 +1731,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room19",
-            "img1-2": "images/img/lobby/room/onebed/room20",
-            "img1-3": "images/img/lobby/room/onebed/room21",
+            "img1-1": "/images/img/room/onebed/room1.jpg",
+            "img1-2": "/images/img/room/onebed/room12.jpg",
+            "img1-3": "/images/img/room/onebed/room2.jpg",
             "isBook": false
         },
         "review1": {
@@ -1756,9 +1756,9 @@
         "hotelComment": "유니버설 스튜디오 인근",
         "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
         "city": "오사카시, 오사카, 일본",
-        "img1": "images/img/building/hotel16",
-        "img2": "images/img/lobby/lobi6",
-        "img3": "images/img/lobby/room/onebed/room8",
+        "img1": "/images/img/building/hotel6.jpg",
+        "img2": "/images/img/lobby/lobby6.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": "400",
         "room1": {
             "roomId": 20351,
@@ -1768,9 +1768,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room8",
-            "img1-2": "images/img/lobby/room/twobed/room9",
-            "img1-3": "images/img/lobby/room/twobed/room10",
+            "img1-1": "/images/img/room/twobed/room8.jpg",
+            "img1-2": "/images/img/room/twobed/room9.jpg",
+            "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
         "room2": {
@@ -1781,9 +1781,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room22",
-            "img1-2": "images/img/lobby/room/onebed/room23",
-            "img1-3": "images/img/lobby/room/onebed/room24",
+            "img1-1": "/images/img/room/onebed/room12.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room2.jpg",
             "isBook": false
         },
         "review1": {
@@ -1806,9 +1806,9 @@
         "hotelComment": "청수사 인근, 전통 분위기",
         "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
         "city": "교토시, 교토, 일본",
-        "img1": "images/img/building/hotel17",
-        "img2": "images/img/lobby/lobi7",
-        "img3": "images/img/lobby/room/onebed/room9",
+        "img1": "/images/img/building/hotel7.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": "25",
         "room1": {
             "roomId": 20361,
@@ -1818,9 +1818,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room1",
-            "img1-2": "images/img/lobby/room/twobed/room2",
-            "img1-3": "images/img/lobby/room/twobed/room3",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room2.jpg",
+            "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
         "room2": {
@@ -1831,9 +1831,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room25",
-            "img1-2": "images/img/lobby/room/onebed/room26",
-            "img1-3": "images/img/lobby/room/onebed/room27",
+            "img1-1": "/images/img/room/onebed/room4.jpg",
+            "img1-2": "/images/img/room/onebed/room2.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -1856,9 +1856,9 @@
         "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
         "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
         "city": "차탄초, 오키나와, 일본",
-        "img1": "images/img/building/hotel18",
-        "img2": "images/img/lobby/lobi8",
-        "img3": "images/img/lobby/room/onebed/room10",
+        "img1": "/images/img/building/hotel8.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "150",
         "room1": {
             "roomId": 20371,
@@ -1868,9 +1868,9 @@
             "maxCapa": "4",
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room4",
-            "img1-2": "images/img/lobby/room/twobed/room5",
-            "img1-3": "images/img/lobby/room/twobed/room6",
+            "img1-1": "/images/img/room/twobed/room4.jpg",
+            "img1-2": "/images/img/room/twobed/room5.jpg",
+            "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
         "room2": {
@@ -1881,9 +1881,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room28",
-            "img1-2": "images/img/lobby/room/onebed/room1",
-            "img1-3": "images/img/lobby/room/onebed/room2",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room1.jpg",
+            "img1-3": "/images/img/room/onebed/room8.jpg",
             "isBook": false
         },
         "review1": {
@@ -1906,9 +1906,9 @@
         "hotelComment": "오타루 운하 전망, 야경",
         "content": "오타루 운하가 보이는 객실에서 아름다운 야경을 즐길 수 있어요. 🌉 낭만적인 분위기를 선사합니다.",
         "city": "오타루시, 홋카이도, 일본",
-        "img1": "images/img/building/hotel19",
-        "img2": "images/img/lobby/lobi9",
-        "img3": "images/img/lobby/room/onebed/room11",
+        "img1": "/images/img/building/hotel9.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "90",
         "room1": {
             "roomId": 20381,
@@ -1918,9 +1918,9 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room7",
-            "img1-2": "images/img/lobby/room/twobed/room8",
-            "img1-3": "images/img/lobby/room/twobed/room9",
+            "img1-1": "/images/img/room/twobed/room7.jpg",
+            "img1-2": "/images/img/room/twobed/room8.jpg",
+            "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
         "room2": {
@@ -1931,9 +1931,9 @@
             "smoking": false,
             "breakfast": false,
             "ocean view": true,
-            "img1-1": "images/img/lobby/room/onebed/room3",
-            "img1-2": "images/img/lobby/room/onebed/room4",
-            "img1-3": "images/img/lobby/room/onebed/room5",
+            "img1-1": "/images/img/room/onebed/room3.jpg",
+            "img1-2": "/images/img/room/onebed/room4.jpg",
+            "img1-3": "/images/img/room/onebed/room5.jpg",
             "isBook": false
         },
         "review1": {
@@ -1956,9 +1956,9 @@
         "hotelComment": "하코다테산 전망, 야경",
         "content": "세계 3대 야경 중 하나인 하코다테산 야경을 감상할 수 있는 호텔. 🌃",
         "city": "하코다테시, 홋카이도, 일본",
-        "img1": "images/img/building/hotel20",
-        "img2": "images/img/lobby/lobi10",
-        "img3": "images/img/lobby/room/onebed/room12",
+        "img1": "/images/img/building/hotel2.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "110",
         "room1": {
             "roomId": 20391,
@@ -1968,9 +1968,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room10",
-            "img1-2": "images/img/lobby/room/twobed/room1",
-            "img1-3": "images/img/lobby/room/twobed/room2",
+            "img1-1": "/images/img/room/twobed/room10.jpg",
+            "img1-2": "/images/img/room/twobed/room1.jpg",
+            "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
         "room2": {
@@ -1981,9 +1981,9 @@
             "smoking": false,
             "breakfast": false,
             "ocean view": true,
-            "img1-1": "images/img/lobby/room/onebed/room6",
-            "img1-2": "images/img/lobby/room/onebed/room7",
-            "img1-3": "images/img/lobby/room/onebed/room8",
+            "img1-1": "/images/img/room/onebed/room6.jpg",
+            "img1-2": "/images/img/room/onebed/room7.jpg",
+            "img1-3": "/images/img/room/onebed/room8.jpg",
             "isBook": false
         },
         "review1": {
@@ -2006,9 +2006,9 @@
         "hotelComment": "츄라우미 수족관 인근, 해양 테마",
         "content": "유명한 츄라우미 수족관과 가까워요. 🐠 아이들과 함께하는 가족 여행에 좋습니다.",
         "city": "모토부초, 오키나와, 일본",
-        "img1": "images/img/building/hotel21",
-        "img2": "images/img/lobby/lobi1",
-        "img3": "images/img/lobby/room/onebed/room13",
+        "img1": "/images/img/building/hotel10.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "120",
         "room1": {
             "roomId": 20401,
@@ -2018,9 +2018,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room3",
-            "img1-2": "images/img/lobby/room/twobed/room4",
-            "img1-3": "images/img/lobby/room/twobed/room5",
+            "img1-1": "/images/img/room/twobed/room3.jpg",
+            "img1-2": "/images/img/room/twobed/room4.jpg",
+            "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
         "room2": {
@@ -2031,9 +2031,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room9",
-            "img1-2": "images/img/lobby/room/onebed/room10",
-            "img1-3": "images/img/lobby/room/onebed/room11",
+            "img1-1": "/images/img/room/onebed/room9.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room5.jpg",
             "isBook": false
         },
         "review1": {
@@ -2056,9 +2056,9 @@
         "hotelComment": "나고야역 인근, 합리적 가격",
         "content": "나고야역에서 도보 거리에 있는 합리적인 가격의 비즈니스 인. 💼 교통이 편리하고 가성비가 좋아요.",
         "city": "나고야시, 아이치, 일본",
-        "img1": "images/img/building/hotel1",
-        "img2": "images/img/lobby/lobi2",
-        "img3": "images/img/lobby/room/onebed/room14",
+        "img1": "/images/img/building/hotel1.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "90",
         "room1": {
             "roomId": 20411,
@@ -2068,9 +2068,9 @@
             "maxCapa": "2",
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/twobed/room6",
-            "img1-2": "images/img/lobby/room/twobed/room7",
-            "img1-3": "images/img/lobby/room/twobed/room8",
+            "img1-1": "/images/img/room/twobed/room6.jpg",
+            "img1-2": "/images/img/room/twobed/room7.jpg",
+            "img1-3": "/images/img/room/twobed/room8.jpg",
             "isBook": false
         },
         "room2": {
@@ -2081,9 +2081,9 @@
             "maxCapa": "3",
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room12",
-            "img1-2": "images/img/lobby/room/onebed/room13",
-            "img1-3": "images/img/lobby/room/onebed/room14",
+            "img1-1": "/images/img/room/onebed/room6.jpg",
+            "img1-2": "/images/img/room/onebed/room9.jpg",
+            "img1-3": "/images/img/room/onebed/room13.jpg",
             "isBook": false
         },
         "review1": {
@@ -2106,9 +2106,9 @@
         "hotelComment": "해변 인근, 5성급 호텔",
         "content": "후쿠오카 해변에 위치한 럭셔리 5성급 호텔입니다. 🏨 멋진 바다 전망과 최고급 서비스를 경험하세요.",
         "city": "후쿠오카시, 후쿠오카, 일본",
-        "img1": "images/img/building/hotel2",
-        "img2": "images/img/lobby/lobi3",
-        "img3": "images/img/lobby/room/onebed/room15",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room10.jpg",
         "totalRoomNumber": "500",
         "room1": {
             "roomId": 20421,
@@ -2118,9 +2118,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room9",
-            "img1-2": "images/img/lobby/room/twobed/room10",
-            "img1-3": "images/img/lobby/room/twobed/room1",
+            "img1-1": "/images/img/room/twobed/room9.jpg",
+            "img1-2": "/images/img/room/twobed/room10.jpg",
+            "img1-3": "/images/img/room/twobed/room11.jpg",
             "isBook": false
         },
         "room2": {
@@ -2131,9 +2131,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room15",
-            "img1-2": "images/img/lobby/room/onebed/room16",
-            "img1-3": "images/img/lobby/room/onebed/room17",
+            "img1-1": "/images/img/room/onebed/room8.jpg",
+            "img1-2": "/images/img/room/onebed/room4.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -2156,9 +2156,9 @@
         "hotelComment": "도톤보리 인근, 맛집/쇼핑",
         "content": "오사카의 명동이라 불리는 도톤보리와 가까워요. 🍜 다양한 맛집과 쇼핑을 즐기기에 완벽합니다.",
         "city": "오사카시, 오사카, 일본",
-        "img1": "images/img/building/hotel3",
-        "img2": "images/img/lobby/lobi4",
-        "img3": "images/img/lobby/room/onebed/room16",
+        "img1": "/images/img/building/hotel3.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "250",
         "room1": {
             "roomId": 20431,
@@ -2168,9 +2168,9 @@
             "smoking": false,
             "breakfast": true,
             "ocean view": false,
-            "img1-1": "images/img/lobby/room/twobed/room2",
-            "img1-2": "images/img/lobby/room/twobed/room3",
-            "img1-3": "images/img/lobby/room/twobed/room4",
+            "img1-1": "/images/img/room/twobed/room2.jpg",
+            "img1-2": "/images/img/room/twobed/room3.jpg",
+            "img1-3": "/images/img/room/twobed/room4.jpg",
             "isBook": false
         },
         "room2": {
@@ -2181,9 +2181,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room18",
-            "img1-2": "images/img/lobby/room/onebed/room19",
-            "img1-3": "images/img/lobby/room/onebed/room20",
+            "img1-1": "/images/img/room/onebed/room11.jpg",
+            "img1-2": "/images/img/room/onebed/room4.jpg",
+            "img1-3": "/images/img/room/onebed/room2.jpg",
             "isBook": false
         },
         "review1": {
@@ -2206,9 +2206,9 @@
         "hotelComment": "키타노 이진칸 인근, 유럽 분위기",
         "content": "이국적인 건물들이 많은 키타노 이진칸 거리에 위치. 🏛️ 마치 유럽에 온 듯한 기분을 느낄 수 있어요.",
         "city": "고베시, 효고, 일본",
-        "img1": "images/img/building/hotel4",
-        "img2": "images/img/lobby/lobi5",
-        "img3": "images/img/lobby/room/onebed/room17",
+        "img1": "/images/img/building/hotel4.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "80",
         "room1": {
             "roomId": 20441,
@@ -2218,9 +2218,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room5",
-            "img1-2": "images/img/lobby/room/twobed/room6",
-            "img1-3": "images/img/lobby/room/twobed/room7",
+            "img1-1": "/images/img/room/twobed/room5.jpg",
+            "img1-2": "/images/img/room/twobed/room6.jpg",
+            "img1-3": "/images/img/room/twobed/room7.jpg",
             "isBook": false
         },
         "room2": {
@@ -2231,9 +2231,9 @@
             "smoking": false,
             "breakfast": false,
             "ocean view": true,
-            "img1-1": "images/img/lobby/room/onebed/room21",
-            "img1-2": "images/img/lobby/room/onebed/room22",
-            "img1-3": "images/img/lobby/room/onebed/room23",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room12.jpg",
+            "img1-3": "/images/img/room/onebed/room4.jpg",
             "isBook": false
         },
         "review1": {
@@ -2256,9 +2256,9 @@
         "hotelComment": "오도리 공원 인근, 축제 명소",
         "content": "삿포로의 상징인 오도리 공원과 가까운 호텔. ⛲️ 다양한 축제를 즐기기에 최적의 위치입니다.",
         "city": "삿포로시, 홋카이도, 일본",
-        "img1": "images/img/building/hotel5",
-        "img2": "images/img/lobby/lobi6",
-        "img3": "images/img/lobby/room/onebed/room18",
+        "img1": "/images/img/building/hotel9.jpg",
+        "img2": "/images/img/lobby/lobby6.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "150",
         "room1": {
             "roomId": 20451,
@@ -2268,9 +2268,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room8",
-            "img1-2": "images/img/lobby/room/twobed/room9",
-            "img1-3": "images/img/lobby/room/twobed/room10",
+            "img1-1": "/images/img/room/twobed/room8.jpg",
+            "img1-2": "/images/img/room/twobed/room9.jpg",
+            "img1-3": "/images/img/room/twobed/room1.jpg",
             "isBook": false
         },
         "room2": {
@@ -2281,9 +2281,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room24",
-            "img1-2": "images/img/lobby/room/onebed/room25",
-            "img1-3": "images/img/lobby/room/onebed/room26",
+            "img1-1": "/images/img/room/onebed/room12.jpg",
+            "img1-2": "/images/img/room/onebed/room2.jpg",
+            "img1-3": "/images/img/room/onebed/room6.jpg",
             "isBook": false
         },
         "review1": {
@@ -2306,9 +2306,9 @@
         "hotelComment": "사과 테마, 조용한 분위기",
         "content": "사과로 유명한 아오모리에 있는 독특한 테마 호텔. 🍎 조용하고 깨끗해서 편안하게 쉴 수 있습니다.",
         "city": "아오모리시, 아오모리, 일본",
-        "img1": "images/img/building/hotel6",
-        "img2": "images/img/lobby/lobi7",
-        "img3": "images/img/lobby/room/onebed/room19",
+        "img1": "/images/img/building/hotel12.jpg",
+        "img2": "/images/img/lobby/lobby7.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": "70",
         "room1": {
             "roomId": 20461,
@@ -2318,9 +2318,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room1",
-            "img1-2": "images/img/lobby/room/twobed/room2",
-            "img1-3": "images/img/lobby/room/twobed/room3",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room2.jpg",
+            "img1-3": "/images/img/room/twobed/room3.jpg",
             "isBook": false
         },
         "room2": {
@@ -2331,9 +2331,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room27",
-            "img1-2": "images/img/lobby/room/onebed/room28",
-            "img1-3": "images/img/lobby/room/onebed/room1",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -2356,9 +2356,9 @@
         "hotelComment": "시내 중심, 편리한 위치",
         "content": "센다이 시내 중심가에 위치한 편리한 호텔. 🚶‍♂️ 주변에 백화점과 맛집이 많아 이동이 편리해요.",
         "city": "센다이시, 미야기, 일본",
-        "img1": "images/img/building/hotel7",
-        "img2": "images/img/lobby/lobi8",
-        "img3": "images/img/lobby/room/onebed/room20",
+        "img1": "/images/img/building/hotel7.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "180",
         "room1": {
             "roomId": 20471,
@@ -2368,9 +2368,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room4",
-            "img1-2": "images/img/lobby/room/twobed/room5",
-            "img1-3": "images/img/lobby/room/twobed/room6",
+            "img1-1": "/images/img/room/twobed/room4.jpg",
+            "img1-2": "/images/img/room/twobed/room5.jpg",
+            "img1-3": "/images/img/room/twobed/room6.jpg",
             "isBook": false
         },
         "room2": {
@@ -2381,9 +2381,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room2",
-            "img1-2": "images/img/lobby/room/onebed/room3",
-            "img1-3": "images/img/lobby/room/onebed/room4",
+            "img1-1": "/images/img/room/onebed/room2.jpg",
+            "img1-2": "/images/img/room/onebed/room3.jpg",
+            "img1-3": "/images/img/room/onebed/room4.jpg",
             "isBook": false
         },
         "review1": {
@@ -2406,9 +2406,9 @@
         "hotelComment": "해변 인근, 가족 여행",
         "content": "해변과 가까운 나고야의 리조트. 🏖️ 넓은 객실과 다양한 레저 시설을 갖추어 가족 여행에 안성맞춤입니다.",
         "city": "나고야시, 아이치, 일본",
-        "img1": "images/img/building/hotel8",
-        "img2": "images/img/lobby/lobi9",
-        "img3": "images/img/lobby/room/onebed/room21",
+        "img1": "/images/img/building/hotel8.jpg",
+        "img2": "/images/img/lobby/lobby3.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "100",
         "room1": {
             "roomId": 20481,
@@ -2418,9 +2418,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room7",
-            "img1-2": "images/img/lobby/room/twobed/room8",
-            "img1-3": "images/img/lobby/room/twobed/room9",
+            "img1-1": "/images/img/room/twobed/room7.jpg",
+            "img1-2": "/images/img/room/twobed/room8.jpg",
+            "img1-3": "/images/img/room/twobed/room9.jpg",
             "isBook": false
         },
         "room2": {
@@ -2431,9 +2431,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room5",
-            "img1-2": "images/img/lobby/room/onebed/room6",
-            "img1-3": "images/img/lobby/room/onebed/room7",
+            "img1-1": "/images/img/room/onebed/room5.jpg",
+            "img1-2": "/images/img/room/onebed/room6.jpg",
+            "img1-3": "/images/img/room/onebed/room7.jpg",
             "isBook": false
         },
         "review1": {
@@ -2456,9 +2456,9 @@
         "hotelComment": "오션뷰, 평화로운 분위기",
         "content": "바다가 보이는 조용하고 평화로운 분위기의 호텔. 🌊",
         "city": "히로시마시, 히로시마, 일본",
-        "img1": "images/img/building/hotel9",
-        "img2": "images/img/lobby/lobi10",
-        "img3": "images/img/lobby/room/onebed/room22",
+        "img1": "/images/img/building/hotel9.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "80",
         "room1": {
             "roomId": 20491,
@@ -2468,9 +2468,9 @@
             "smoking": false,
             "ocean view": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room10",
-            "img1-2": "images/img/lobby/room/twobed/room1",
-            "img1-3": "images/img/lobby/room/twobed/room2",
+            "img1-1": "/images/img/room/twobed/room1.jpg",
+            "img1-2": "/images/img/room/twobed/room10.jpg",
+            "img1-3": "/images/img/room/twobed/room2.jpg",
             "isBook": false
         },
         "room2": {
@@ -2481,9 +2481,9 @@
             "smoking": false,
             "ocean view": true,
             "breakfast": false,
-            "img1-1": "images/img/lobby/room/onebed/room8",
-            "img1-2": "images/img/lobby/room/onebed/room9",
-            "img1-3": "images/img/lobby/room/onebed/room10",
+            "img1-1": "/images/img/room/onebed/room8.jpg",
+            "img1-2": "/images/img/room/onebed/room9.jpg",
+            "img1-3": "/images/img/room/onebed/room1.jpg",
             "isBook": false
         },
         "review1": {
@@ -2498,16 +2498,17 @@
             "score": "4",
             "date": "2025-08-18"
         }
-    }, {
+    },
+    {
         "hotelId": 2050,
         "hotelName": "후라노 라벤더 리조트",
         "address": "홋카이도 후라노시 나카고 1523",
         "hotelComment": "여름 휴가, 라벤더 밭",
         "content": "라벤더 밭으로 유명한 후라노에 위치한 리조트입니다. 🌸 여름에 방문하면 아름다운 풍경을 만끽할 수 있습니다.",
         "city": "후라노시, 홋카이도, 일본",
-        "img1": "images/img/building/hotel10",
-        "img2": "images/img/lobby/lobi1",
-        "img3": "images/img/lobby/room/onebed/room23",
+        "img1": "/images/img/building/hotel11.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": "60",
         "room1": {
             "roomId": 20501,
@@ -2517,9 +2518,9 @@
             "ocean view": false,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/twobed/room3",
-            "img1-2": "images/img/lobby/room/twobed/room4",
-            "img1-3": "images/img/lobby/room/twobed/room5",
+            "img1-1": "/images/img/room/twobed/room3.jpg",
+            "img1-2": "/images/img/room/twobed/room4.jpg",
+            "img1-3": "/images/img/room/twobed/room5.jpg",
             "isBook": false
         },
         "room2": {
@@ -2530,9 +2531,9 @@
             "ocean view": true,
             "smoking": false,
             "breakfast": true,
-            "img1-1": "images/img/lobby/room/onebed/room11",
-            "img1-2": "images/img/lobby/room/onebed/room12",
-            "img1-3": "images/img/lobby/room/onebed/room13",
+            "img1-1": "/images/img/room/onebed/room1.jpg",
+            "img1-2": "/images/img/room/onebed/room10.jpg",
+            "img1-3": "/images/img/room/onebed/room12.jpg",
             "isBook": false
         },
         "review1": {
