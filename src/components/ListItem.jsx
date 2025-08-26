@@ -4,6 +4,13 @@ import '../css/list_item.css'
 
 export default function ListItem({hotel}) {
 
+  const room1 = hotel.room1
+  const room2 = hotel.room1
+  const room3 = hotel.room1
+  console.log(room1)
+
+  // console.log(room1.price)
+
   return(
     <li className='ListItem'>
       <div>

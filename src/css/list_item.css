@@ -1,5 +1,6 @@
 .ListItem{
     display: flex;
+    margin-bottom: 80px;
 }
 
 .images{
@@ -8,6 +9,6 @@
 }
 
 .images img{
-    width: 100px;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
