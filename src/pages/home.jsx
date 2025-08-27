@@ -158,9 +158,9 @@ export default function Home() {
             </input>
           </div>
           <div className='check-in-out' onClick={() => setShowCalendar(!showCalendar)} ref={checkInOutRef}>
-            <img src="/images/check-in.png" alt="체크인 아이콘" width="19px" height="19px"/>
+            <img src="/images/check_in.png" alt="체크인 아이콘" width="19px" height="19px"/>
             <span>{formatCheckInDate}</span>
-            <img src="/images/check-out.png" alt="체크아웃 아이콘" width="18px" height="18px" />
+            <img src="/images/check_out.png" alt="체크아웃 아이콘" width="18px" height="18px" />
             <span>{formatCheckOutDate}</span>
           </div>
           <div className='people'>
@@ -245,6 +245,40 @@ export default function Home() {
           )}
         </div>
       )}
+
+      <div className='ad-title'>여행은 역시 라쿠타비!</div>
+      <div>
+        <ul>
+          <li>
+            <img src="" alt="" />
+            <p>신뢰할 수 있는 플랫폼</p>
+            <p>전 세계 16억 회원을 보유한 라쿠타비 온라인 여행 플랫폼</p>
+          </li>
+            <li>
+            <img src="" alt="" />
+            <p>다양한 숙소</p>
+            <p>일본의 수많은 호텔,료칸 등 다양한 숙소 비교·검색기능</p>
+          </li>
+            <li>
+            <img src="" alt="" />
+            <p>특가 상품</p>
+            <p>라쿠텐 트래블에서만 예약 가능한 독점 특가 및 숙박 상품</p>
+          </li>
+            <li>
+            <img src="" alt="" />
+            <p>회원 혜택</p>
+            <p>무료 회원 가입하고 누리는 할인 쿠폰 등의 회원 전용 혜택</p>
+          </li>
+            <li>
+            <img src="" alt="" />
+            <p>우수한 서비스를 제공하는 숙소에 수여하는 '라쿠타비 트래블 어워드(Rakutabi Travel Award)</p>
+          </li>
+            <li>
+            <img src="" alt="" />
+            <p>일본만의 고품격 서비스(오모테나시)를 제공하는 숙소에 부여하는 '재팬 퀄리티'(japan Quality)마크</p>
+          </li>
+        </ul>
+      </div>
       <div className='restaurant'>
         <div className='res-text'>식당 추천</div>
         <div className='res-img'>

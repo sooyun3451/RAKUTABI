@@ -1,6 +1,6 @@
 .big {
   width: auto;
-  height: 300px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +21,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 90%;
   max-width: 1200px;
-  margin: 220px auto;
+  margin-top: 270px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -142,7 +144,7 @@
 
 .calendar-wrapper {
   position: absolute;
-  top: 470px; 
+  top: 520px; 
   left: 53%;
   transform: translateX(-50%);
   z-index: 100;
@@ -296,6 +298,7 @@
   background-color: #007bff;
   color: #fff;
 }
+
 
 .res-text{
   font-size: 30px;

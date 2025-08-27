@@ -23,7 +23,7 @@ export default function Header() {
       <div id="Header" className="header-fixed-top">
         <div className="left-side">
           <a href="/" className="rakutabi-logo">
-            <img src="public/images/RAKUTABI.logo.PNG" alt="logo" />
+            <img src="public/images/RAKUTABI_logo.png" alt="logo" />
           </a>
           <div className='go-list'>
             <Link to="/room/detail/:id">숙소</Link>
@@ -33,7 +33,7 @@ export default function Header() {
 
         <div className='right-side'>
           <p className='like-icon'>
-            <img src="public\images\shop.icon.png" alt="like-icon" />
+            <img src="public\images\shop_icon.png" alt="like-icon" />
           </p>
           <div className='go-sign-up'>
             <Link to="/SignIn">로그인</Link>
