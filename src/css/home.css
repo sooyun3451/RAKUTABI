@@ -88,7 +88,6 @@
   width: 23px;
   height: 23px;
   margin-right: 10px;
-  
 }
 
 .check-in-out span{
@@ -144,14 +143,14 @@
 
 .calendar-wrapper {
   position: absolute;
-  top: 520px; 
+  top: 520px;
   left: 53%;
   transform: translateX(-50%);
   z-index: 100;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; 
-  gap: 10px; 
+  align-items: flex-end;
+  gap: 10px;
 }
 
 .calendar-main-container {
@@ -299,6 +298,107 @@
   color: #fff;
 }
 
+.ad-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.ad-title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 슬라이더 영역을 감싸는 컨테이너의 너비 조정 */
+.slider-wrapper {
+  width: 100%;
+  max-width: 1400px; /* 기존 1200px에서 1400px로 증가 */
+  overflow: hidden;
+}
+
+.ad-list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.ad-list li {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex-shrink: 0;
+  width: calc(25% - 75px); /* 4개 항목이 한 줄에 보이도록 너비 유지 */
+  margin-right: 100px; /* 항목 간 간격 */
+}
+
+.ad-item-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.ad-text-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ad-item-content img {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+.icon-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ad-text-content p {
+  margin: 0;
+  text-align: left;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+/* 슬라이더 버튼 스타일 */
+.slider-nav {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.slider-nav button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slider-nav button:hover {
+  background-color: #0056b3;
+}
+
+.restaurant{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
 
 .res-text{
   font-size: 30px;
@@ -317,16 +417,13 @@
   list-style-type: none;
 }
 
-
+.res-img li {
+  list-style-type: none;
+}
 
 .res-img img{
   width: 270px;
   height: 270px;
   object-fit: cover;
   border-radius: 20px;
-}
-
-.city-text{
-  display: flex;
-  font-size: 20px;
 }
