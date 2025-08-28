@@ -1,349 +1,198 @@
-import React from "react";
-import "./RoomDetail.css"
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom"; // 추가
+import "./RoomDetail.css";
 
-export default function roomDetail() {
+export default function RoomDetail() {
+    const [hotels, setHotels] = useState([]);
+    const [selectedHotel, setSelectedHotel] = useState(null);
+    const [reviewFilter, setReviewFilter] = useState([]);
+    const [sortOrder, setSortOrder] = useState("latest");
+    const { id } = useParams(); // hotel id 파라미터 읽기
+
+    useEffect(() => {
+        fetch("/data/room.json")
+            .then((res) => res.json())
+            .then((data) => {
+                setHotels(data);
+                // hotelId는 숫자일 수도, 문자열일 수도 있으니 타입 맞춰 비교
+                const found = data.find((h) => String(h.hotelId) === String(id));
+                setSelectedHotel(found || data[0]);
+            });
+    }, [id]);
+
+    if (!selectedHotel) return <div>Loading...</div>;
+
+    const hotel = selectedHotel;
+
+    // 모든 리뷰 모으기
+    const allReviews = [...hotel.review1, ...hotel.review2];
+
+    // 평점 필터 적용
+    const filteredReviews =
+        reviewFilter.length > 0
+            ? allReviews.filter((r) => reviewFilter.includes(r.score))
+            : allReviews;
+
+    // 평균 평점
+    const avgScore =
+        allReviews.length > 0
+            ? allReviews.reduce((sum, r) => sum + r.score, 0) /
+              allReviews.length
+            : 0;
+    const toggleFilter = (score) => {
+        setReviewFilter((prev) =>
+            prev.includes(score)
+                ? prev.filter((s) => s !== score)
+                : [...prev, score]
+        );
+    };
+    // 정렬된 리뷰 만들기
+    const sortedReviews = [...filteredReviews].sort((a, b) => {
+        if (sortOrder === "latest") {
+            return new Date(b.date) - new Date(a.date); // 최신순
+        } else {
+            return new Date(a.date) - new Date(b.date); // 과거순
+        }
+    });
+
     return (
         <div className="room-detail">
-            <div className="data-component"></div>//사진
-            <div className="provider-information-contentbox">
-                <div className="navi"></div> //개요 객실 이용후기
-                <div className="data-tast-id">
-                    <div className="summary-wapper">
-                        <div className="star"></div>
-                        <div className="hotel-title">호텔 리조피아 아타미</div>
-                        <div className="addres-map"></div>
-                        <div className="content"></div>
+          
+            {/* 호텔 개요 */}
+            <div className="hotel-summary">
+                <div className="hotel-images">
+                    <div>
+                        <img src={hotel.img1} alt="hotel" />
                     </div>
-                    <div className="over-view-wapper">
-                        <div className="over-verview">
-                            //동그라미
-                            <div className="ReView-content"></div>
-                            <div className="circle"></div>
-                        </div>
-                        <div className="ontainer"></div> //접근성
-                        <div className="servic-conven">
-                            <h3 className="over-view"> 숙소 편의시설/서비스</h3>
-                            <div data-taestid></div>
-                        </div>
-                        //숙소,서비스시설
-                        <div className="roomandplanList-wrapper">
-                            <h2 className="room-title">
-                                <span>객실과숙박 상품을 확인하세요.</span>
-                            </h2>
-                            <div className="room-planList-stick">
-                                <div className="horizontal-nav">
-                                    <div className="select-box">
-                                        <input
-                                            type="hidden"
-                                            name="sortselectbox"
-                                        />
-                                        <span>가격 낮은순</span>
-                                    </div>
-                                    <div className="breakfast">
-                                        <button>조식</button>
-                                    </div>
-                                    <div className="ocean-view">
-                                        <button>오션뷰</button>
-                                    </div>
-                                    <div className="somking-">
-                                        <button>금연</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="room-and-planList-contentbox">
-                                <div className="room-list-wrapper">
-                                    <span>객실정보 :개</span>
-                                    <div>
-                                        <div className="room-list">
-                                            <div className="room-left">
-                                                <div className="roomPlanlt-header"></div>
-                                                <div className="roomPlant-photo-detail">
-                                                    <div className="room-plant-photo">
-                                                        <div id=""></div>
-                                                    </div>
-                                                    <div className="room-photo-foot">
-                                                        <div className="room-List-roombasic">
-                                                            <div className="somkint-room">
-                                                                <div className="icon-text">
-                                                                    <span
-                                                                        false></span>
-                                                                    <span>
-                                                                        금연
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                            <div className="oceanview-room">
-                                                                <div className="icon-text">
-                                                                    <span
-                                                                        false></span>
-                                                                    <span>
-                                                                        오션뷰
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="with-out-tage">
-                                                            <div className="room-basic-icinfosummary">
-                                                                <span
-                                                                    true></span>
-                                                                <span>
-                                                                    쵀대2명
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="room-right">
-                                                <ul plan-item-room-list>
-                                                    <li className="room-list-plan-item-H45">
-                                                        <div className="planitem-card">
-                                                            <div className="card-wapper-oi">
-                                                                <div className="room-plan-item-wrapper-bwa">
-                                                                    <div className="room-plan-item-wrapper-bwa-u0">
-                                                                        <div className="room-plan-item-wrapper-bwa-u0-img"></div>
-                                                                        <div className="room-plan-item-wrapper-bwa-u0-write"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="room-paln-item-wapper-price">
-                                                                    <div className="room-preice-info-pper">
-                                                                        <div>
-                                                                            <div className="card-label">
-                                                                                요금기준:
-                                                                                1빅
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="room-price-info-reserve">
-                                                                        <div className="room-price-info-tax">
-                                                                            <div>
-                                                                                <div className="room-price-unitprice">
-                                                                                    80000원
-                                                                                </div>
-                                                                                <span>
-                                                                                    세금및
-                                                                                    봉사료
-                                                                                    포함
-                                                                                </span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="room-price-info-reserve-button">
-                                                                            <button>
-                                                                                <span>
-                                                                                    예약
-                                                                                </span>
-                                                                            </button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                        <img src={hotel.img2} alt="lobby" />
+                    </div>
+                    <div>
+                        <img src={hotel.img3} alt="room" />
                     </div>
                 </div>
+                <div className="navi sticky-navi">
+                    <div className="outline">
+                        <button onClick={() => document.getElementById('section-overview').scrollIntoView({behavior: 'smooth'})}>개요</button>
+                    </div>
+                    <div className="rooms-accommodation-products">
+                        <button onClick={() => document.getElementById('section-rooms').scrollIntoView({behavior: 'smooth'})}>객실&숙박상품</button>
+                    </div>
+                    <div className="navi-Reviews">
+                        <button onClick={() => document.getElementById('section-reviews').scrollIntoView({behavior: 'smooth'})}>이용후기</button>
+                    </div>
+                    <div className="room-look">
+                        <button>
+                            <span>객실보기</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="section-overview" className="hotel-info">
+                    <h2>{hotel.hotelName}</h2>
+                    <p className="address">{hotel.address}</p>
+                    <p>{hotel.content}</p>
+                </div>
             </div>
-            <div className="provider-information-review">
-                <div className="provider-information-review-content-box">
-                    <h2>투수객 평점및 이용후기.</h2>
-                    <div className="proeve-review-wrapper">
-                        <div className="review-circle-scorel">
-                            <div className="review-circle"></div>
+
+            {/* 객실 */}
+            <h3 className="section-title" id="section-rooms">객실과 숙박 상품</h3>
+            <div className="room-section">
+                {[...hotel.room1, ...hotel.room2].map((room) => (
+                    <div key={room.roomId} className="room-card">
+                        {/* 좌측: 객실 이미지 */}
+                        <div className="room-photo">
+                            <img src={room["img1-1"]} alt="room" />
                         </div>
-                        <div className="review-list-wrapper">
-                            <div className="filter-lsit-wrapper">
-                                <div className="review-filter">
-                                    <div className="review-filter-wrapper">
-                                        <div className="filter-container-9k">
-                                            <div className="select-box-sort-time">
-                                                <input
-                                                    type="hidden"
-                                                    name="sortby"
-                                                />
-                                                <div className="style-select-box-display">
-                                                    <span className="style-selectox">
-                                                        최신순
-                                                    </span>
-                                                    <svg></svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="filter-container-9k">
-                                            <button className="filter-sort-review">
-                                                <button className="filter-display-box">
-                                                    <span>투수객 평점</span>
-                                                    <svg></svg>
-                                                </button>
-                                                <div className="poppu-poppu"></div>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div className="filter-and-sory">
-                                        <div className="filter-popup-content">
-                                            <label className="check-box-inner">
-                                                <input
-                                                    type="checkbox"
-                                                    data-testid="평점5점"
-                                                />
-                                                <div className="check-box-lcon">
-                                                    <svg></svg>
-                                                </div>
-                                                <span id="filter-option-5">
-                                                    평점5점
-                                                </span>{" "}
-                                            </label>
-                                            <label className="check-box-inner">
-                                                <input
-                                                    type="checkbox"
-                                                    data-testid="평점4점"
-                                                />
-                                                <div className="check-box-lcon">
-                                                    <svg></svg>
-                                                </div>
-                                                <span id="filter-option-4">
-                                                    평점4점
-                                                </span>{" "}
-                                            </label>
-                                            <label className="check-box-inner">
-                                                <input
-                                                    type="checkbox"
-                                                    data-testid="평점3점"
-                                                />
-                                                <div className="check-box-lcon">
-                                                    <svg></svg>
-                                                </div>
-                                                <span id="filter-option-3">
-                                                    평점3점
-                                                </span>{" "}
-                                            </label>
-                                            <label className="check-box-inner">
-                                                <input
-                                                    type="checkbox"
-                                                    data-testid="평점2점"
-                                                />
-                                                <div className="check-box-lcon">
-                                                    <svg></svg>
-                                                </div>
-                                                <span id="filter-option-2">
-                                                    평점2점
-                                                </span>{" "}
-                                            </label>
-                                            <label className="check-box-inner">
-                                                <input
-                                                    type="checkbox"
-                                                    data-testid="평점1점"
-                                                />
-                                                <div className="check-box-lcon">
-                                                    <svg></svg>
-                                                </div>
-                                                <span id="filter-option-1">
-                                                    평점1점
-                                                </span>{" "}
-                                            </label>
-                                        </div>
-                                    </div>{" "}
-                                    //뛰우는 친구
-                                </div>
-                                <ol>
-                                    <li>
-                                        <div className="review-card-wrapper-review">
-                                            <div className="review-card-user-info">
-                                                <div className="review-card-reviewer">
-                                                    <div className="review-use-data-item">
-                                                        <span>name</span>
-                                                    </div>
-                                                </div>
-                                                <div className="cicle-score-wrapper">
-                                                    <div className="review-card-score-text">
-                                                        5
-                                                    </div>
-                                                    <div className="circle-score-svgbox">
-                                                        <svg>
-                                                            <circle></circle>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="review-card-detail-wrapper"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="review-card-wrapper-review">
-                                            <div className="review-card-user-info">
-                                                <div className="review-card-reviewer">
-                                                    <div className="review-use-data-item">
-                                                        <span>name</span>
-                                                    </div>
-                                                </div>
-                                                <div className="cicle-score-wrapper">
-                                                    <div className="review-card-score-text">
-                                                        5
-                                                    </div>
-                                                    <div className="circle-score-svgbox">
-                                                        <svg>
-                                                            <circle></circle>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="review-card-detail-wrapper"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="review-card-wrapper-review">
-                                            <div className="review-card-user-info">
-                                                <div className="review-card-reviewer">
-                                                    <div className="review-use-data-item">
-                                                        <span>name</span>
-                                                    </div>
-                                                </div>
-                                                <div className="cicle-score-wrapper">
-                                                    <div className="review-card-score-text">
-                                                        5
-                                                    </div>
-                                                    <div className="circle-score-svgbox">
-                                                        <svg>
-                                                            <circle></circle>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="review-card-detail-wrapper"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="review-card-wrapper-review">
-                                            <div className="review-card-user-info">
-                                                <div className="review-card-reviewer">
-                                                    <div className="review-use-data-item">
-                                                        <span>name</span>
-                                                    </div>
-                                                </div>
-                                                <div className="cicle-score-wrapper">
-                                                    <div className="review-card-score-text">
-                                                        5
-                                                    </div>
-                                                    <div className="circle-score-svgbox">
-                                                        <svg>
-                                                            <circle></circle>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="review-card-detail-wrapper"></div>
-                                        </div>
-                                    </li>
-                                </ol>
+                        {/* 중앙: 객실 정보 */}
+                        <div className="room-main-info">
+                            <div className="room-title">
+                                <strong>{room.name}</strong>
+                                {room.smoking ? (
+                                    <span className="room-badge">흡연</span>
+                                ) : (
+                                    <span className="room-badge non-smoking">금연</span>
+                                )}
+                            </div>
+                            <div className="room-summary">
+                                <span>면적: {room.size}㎡</span>
+                                <span>최대 성인 {room.maxCapa}명</span>
+                                {/* 필요시 아동 정보 등 추가 */}
+                            </div>
+                            <div className="room-facilities">
+                                <span>🛁 욕실 및 화장실 있음</span>
+                                <span>🌐 객실 내 인터넷 이용 가능</span>
+                                {room["ocean view"] && <span>🌊 오션뷰</span>}
+                                {room["노천탕"] && <span>♨ 노천탕이 있는 객실</span>}
                             </div>
                         </div>
+                        {/* 우측: 가격 및 예약 */}
+                        <div className="room-price">
+                            <p>
+                                <span className="room-origin-price">
+                                    {room.originPrice && (
+                                        <s>{room.originPrice.toLocaleString()}원</s>
+                                    )}
+                                </span>
+                                <span className="room-sale-price">
+                                    {room.price.toLocaleString()}원
+                                </span>
+                                <span className="room-per-night">/ 1박</span>
+                            </p>
+                            <button>예약</button>
+                        </div>
                     </div>
+                ))}
+            </div>
+
+            {/* 리뷰 */}
+            <div className="review-section" id="section-reviews">
+                <h3>투숙객 평점 및 이용후기</h3>
+                <div className="review-header">
+                    <div className="circle-score">
+                        <div
+                            className="circle-progress"
+                            style={{
+                                background: `conic-gradient(#4caf50 ${
+                                    (avgScore / 5) * 360
+                                }deg, #eee 0deg)`,
+                            }}>
+                            <span>{avgScore.toFixed(1)}</span>
+                        </div>
+                    </div>
+                    <div className="review-filters">
+                        <select
+                            value={reviewFilter[0] || ""}
+                            onChange={(e) => {
+                                const val = Number(e.target.value);
+                                setReviewFilter(val ? [val] : []);
+                            }}>
+                            <option value="">전체 평점</option>
+                            {[5, 4, 3, 2, 1].map((s) => (
+                                <option key={s} value={s}>
+                                    평점 {s}점
+                                </option>
+                            ))}
+                        </select>
+                        <select
+                            value={sortOrder}
+                            onChange={(e) => setSortOrder(e.target.value)}
+                            style={{ marginLeft: 10 }}>
+                            <option value="latest">최신순</option>
+                            <option value="oldest">과거순</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="review-list">
+                    {sortedReviews.map((r, idx) => (
+                        <div key={idx} className="review-card">
+                            <div className="review-top">
+                                <span className="review-user">{r.user}</span>
+                                <span className="review-score">{r.score}</span>
+                            </div>
+                            <p>{r.comment}</p>
+                            <small>{r.date}</small>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
