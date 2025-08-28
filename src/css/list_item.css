@@ -29,6 +29,7 @@
 }
 
 .ListItem .item .right{
+    position: relative;
     width: 533px;
     display: flex;
 }
@@ -37,6 +38,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 0;
+    position: ab;
 }
 .ListItem .item .right .info .stars{
     color: #ffba00;
@@ -47,7 +50,9 @@
     font-size: 16px;
     line-height: 1.25;
 }
-.ListItem .item .right .info .hotelCity{
+.ListItem .item .right .info .hotelCity,
+.ListItem .item .right .info .nonSmoking,
+.ListItem .item .right .info .breakfast{
     display: flex;
     align-items: center;
     gap: 2px;
@@ -108,4 +113,11 @@
 }
 .ListItem .more button:hover{
     background-color: #3b5c1f;
+}
+.ListItem .more .noRoom{
+    background-color: #ec0f0f;
+    pointer-events: none;
+}
+.ListItem .more .noRoom:hover{
+    background-color: #ec0f0f;
 }

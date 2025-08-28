@@ -48,6 +48,8 @@ button{
 #RoomList .top .priceRange .priceRangeFilter{
     width: 100%;
     height: auto;
+    accent-color: #4caf50;
+    color-scheme: light
 }
 #RoomList .top .priceRange .rangeResult{
     width: 100%;
