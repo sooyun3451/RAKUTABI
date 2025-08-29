@@ -1,0 +1,123 @@
+.ListItem{
+    width: 804px;
+    padding: 24px;
+    margin: 0 auto;
+}
+.ListItem:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.ListItem .item{
+    display: flex;
+    gap: 20px;
+}
+.ListItem .item .left{
+    width: 256px;
+}
+
+.ListItem .item .left .images{
+    width: 246px;
+    height: 200px;
+}
+
+.ListItem .item .left .images img{
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+}
+
+.ListItem .item .right{
+    position: relative;
+    width: 533px;
+    display: flex;
+}
+.ListItem .item .right .info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+    position: ab;
+}
+.ListItem .item .right .info .stars{
+    color: #ffba00;
+}
+.ListItem .item .right .info .hotelName{
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.ListItem .item .right .info .hotelCity,
+.ListItem .item .right .info .nonSmoking,
+.ListItem .item .right .info .breakfast{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #333;
+    font-size: 12px;
+    line-height: 1.25;
+}
+.ListItem .item .right .info .hotelCity span{
+    margin-left: -3px;
+    width: 18px;
+    height: 18px;
+}
+.ListItem .item .right .info .hotelCity span img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+.ListItem .item .right .info .leftRoom{
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0;
+    padding: 2px 8px;
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #007cb5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+.ListItem .item .right .price{
+    width: 50%;
+    text-align: right;
+}
+.ListItem .item .right .price .roomPrice{
+    padding-top: 20px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ListItem .more{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.ListItem .more button{
+    border: none;
+    align-items: right;
+    padding: 4px 24px;
+    border-radius: 4px;
+    background-color: #54822b;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 700;
+}
+.ListItem .more button:hover{
+    background-color: #3b5c1f;
+}
+.ListItem .more .noRoom{
+    background-color: #ec0f0f;
+    pointer-events: none;
+}
+.ListItem .more .noRoom:hover{
+    background-color: #ec0f0f;
+}
