@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"; // 추가
+import { useParams } from "react-router-dom";
 import "./RoomDetail.css";
 
 export default function RoomDetail() {
@@ -7,15 +7,17 @@ export default function RoomDetail() {
     const [selectedHotel, setSelectedHotel] = useState(null);
     const [reviewFilter, setReviewFilter] = useState([]);
     const [sortOrder, setSortOrder] = useState("latest");
-    const { id } = useParams(); // hotel id 파라미터 읽기
+    const [bookedRooms, setBookedRooms] = useState(0); // 예약된 객실 수 상태 추가
+    const { id } = useParams();
 
     useEffect(() => {
         fetch("/data/room.json")
             .then((res) => res.json())
             .then((data) => {
                 setHotels(data);
-                // hotelId는 숫자일 수도, 문자열일 수도 있으니 타입 맞춰 비교
-                const found = data.find((h) => String(h.hotelId) === String(id));
+                const found = data.find(
+                    (h) => String(h.hotelId) === String(id)
+                );
                 setSelectedHotel(found || data[0]);
             });
     }, [id]);
@@ -49,15 +51,22 @@ export default function RoomDetail() {
     // 정렬된 리뷰 만들기
     const sortedReviews = [...filteredReviews].sort((a, b) => {
         if (sortOrder === "latest") {
-            return new Date(b.date) - new Date(a.date); // 최신순
+            return new Date(b.date) - new Date(a.date);
         } else {
-            return new Date(a.date) - new Date(b.date); // 과거순
+            return new Date(a.date) - new Date(b.date);
         }
     });
 
+    // 예약 버튼 클릭 핸들러
+    const handleBookRoom = () => {
+        if (bookedRooms < hotel.totalRoomNumber) {
+            setBookedRooms(bookedRooms + 1);
+            alert("객실이 예약되었습니다!");
+        }
+    };
+
     return (
         <div className="room-detail">
-          
             {/* 호텔 개요 */}
             <div className="hotel-summary">
                 <div className="hotel-images">
@@ -73,13 +82,34 @@ export default function RoomDetail() {
                 </div>
                 <div className="navi sticky-navi">
                     <div className="outline">
-                        <button onClick={() => document.getElementById('section-overview').scrollIntoView({behavior: 'smooth'})}>개요</button>
+                        <button
+                            onClick={() =>
+                                document
+                                    .getElementById("section-overview")
+                                    .scrollIntoView({ behavior: "smooth" })
+                            }>
+                            개요
+                        </button>
                     </div>
                     <div className="rooms-accommodation-products">
-                        <button onClick={() => document.getElementById('section-rooms').scrollIntoView({behavior: 'smooth'})}>객실&숙박상품</button>
+                        <button
+                            onClick={() =>
+                                document
+                                    .getElementById("section-rooms")
+                                    .scrollIntoView({ behavior: "smooth" })
+                            }>
+                            객실&숙박상품
+                        </button>
                     </div>
                     <div className="navi-Reviews">
-                        <button onClick={() => document.getElementById('section-reviews').scrollIntoView({behavior: 'smooth'})}>이용후기</button>
+                        <button
+                            onClick={() =>
+                                document
+                                    .getElementById("section-reviews")
+                                    .scrollIntoView({ behavior: "smooth" })
+                            }>
+                            이용후기
+                        </button>
                     </div>
                     <div className="room-look">
                         <button>
@@ -95,7 +125,9 @@ export default function RoomDetail() {
             </div>
 
             {/* 객실 */}
-            <h3 className="section-title" id="section-rooms">객실과 숙박 상품</h3>
+            <h3 className="section-title" id="section-rooms">
+                객실과 숙박 상품
+            </h3>
             <div className="room-section">
                 {[...hotel.room1, ...hotel.room2].map((room) => (
                     <div key={room.roomId} className="room-card">
@@ -110,7 +142,9 @@ export default function RoomDetail() {
                                 {room.smoking ? (
                                     <span className="room-badge">흡연</span>
                                 ) : (
-                                    <span className="room-badge non-smoking">금연</span>
+                                    <span className="room-badge non-smoking">
+                                        금연
+                                    </span>
                                 )}
                             </div>
                             <div className="room-summary">
@@ -122,7 +156,9 @@ export default function RoomDetail() {
                                 <span>🛁 욕실 및 화장실 있음</span>
                                 <span>🌐 객실 내 인터넷 이용 가능</span>
                                 {room["ocean view"] && <span>🌊 오션뷰</span>}
-                                {room["노천탕"] && <span>♨ 노천탕이 있는 객실</span>}
+                                {room["노천탕"] && (
+                                    <span>♨ 노천탕이 있는 객실</span>
+                                )}
                             </div>
                         </div>
                         {/* 우측: 가격 및 예약 */}
@@ -130,7 +166,10 @@ export default function RoomDetail() {
                             <p>
                                 <span className="room-origin-price">
                                     {room.originPrice && (
-                                        <s>{room.originPrice.toLocaleString()}원</s>
+                                        <s>
+                                            {room.originPrice.toLocaleString()}
+                                            원
+                                        </s>
                                     )}
                                 </span>
                                 <span className="room-sale-price">
@@ -138,7 +177,11 @@ export default function RoomDetail() {
                                 </span>
                                 <span className="room-per-night">/ 1박</span>
                             </p>
-                            <button>예약</button>
+                            <button
+                                onClick={handleBookRoom}
+                                disabled={bookedRooms >= hotel.totalRoomNumber}>
+                                예약
+                            </button>
                         </div>
                     </div>
                 ))}
