@@ -1,11 +1,17 @@
 #Header {
-  width: 1920;
+  width: 1920px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: relative;
+}
+
+.top-header{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-side {
