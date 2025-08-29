@@ -11,7 +11,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const [currentSlide, setCurrentSlide] = useState(0); 
-  const totalSlides = 2; // 슬라이드 페이지가 2개이므로 2로 설정
+  const totalSlides = 2; 
 
   const handlePrevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
@@ -285,7 +285,7 @@ export default function Home() {
                 <img src="public/images/present_icon.png" alt="" />
                 <div className='ad-text-content'>
                   <p className='icon-title'>특가 상품</p>
-                  <p>라쿠텐 트래블에서만 예약 가능한<br /> 독점 특가 및 숙박 상품</p>
+                  <p>라쿠타비 트래블에서만 예약 가능한<br /> 독점 특가 및 숙박 상품</p>
                 </div>
               </div>
             </li>
@@ -327,23 +327,23 @@ export default function Home() {
         <div className='res-text'>식당 추천</div>
         <div className='res-img'>
           <li>
-          <img src="public/images/tokyo.jpg" alt="tokyo" />
-          <p>도교</p>
+        <Link to="/restaurant/list/:id"><img src="public/images/tokyo.jpg" alt="tokyo" /></Link>
+          <p>도쿄</p>
           </li>
           <li>
-          <img src="public/images/osaka.jpg" alt="osaka" />
+        <Link to="/restaurant/list/:id"><img src="public/images/osaka.jpg" alt="osaka" /></Link>
           <p>오사카</p>
           </li>
           <li>
-          <img src="public/images/sapporo.jpg" alt="sappro" />
+        <Link to="/restaurant/list/:id"><img src="public/images/sapporo.jpg" alt="sappro" /></Link>
           <p>삿포로</p>
           </li>
           <li>
-          <img src="public/images/fukuoka.jpg" alt="fukuoka" />
+        <Link to="/restaurant/list/:id"><img src="public/images/fukuoka.jpg" alt="fukuoka" /></Link> 
           <p>후쿠오카</p>
           </li>
           <li>
-          <img src="public/images/okinawa.jpg" alt="okinawa" />
+        <Link to="/restaurant/list/:id"><img src="public/images/okinawa.jpg" alt="okinawa" /></Link>
           <p>오키나와</p>
           </li>
         </div>

@@ -46,7 +46,7 @@ export default function Header() {
             </button>
             {isMenuOpen && (
               <div className="toggle-box">
-                <p>내 예약</p>
+                <Link to="/myPage" onClick={() => setIsMenuOpen(false)}>마이페이지</Link>
                 <Link to="/SignIn" onClick={() => setIsMenuOpen(false)}>로그인</Link>
                 <Link to="/SignUp" onClick={() => setIsMenuOpen(false)}>회원가입</Link>
               </div>
