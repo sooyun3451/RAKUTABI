@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-export default function admin() {
-  return (
-    <div>admin</div>
-  )
+export default function Admin() {
+  return <div>Admin</div>;
 }
