@@ -1,72 +1,225 @@
-#restaurantDetail{
-    width: 1240px;
+#restaurantDetail {
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
-#restaurantDetail .restaurantName{
-    font-size: 40px;
-}
-#restaurantDetail .title{
+
+/* title---------------------------- */
+#restaurantDetail .title {
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
 }
-#restaurantDetail .title .left div{
+#restaurantDetail .title .left div {
     display: flex;
     gap: 20px;
 }
-#restaurantDetail .title .left .star{
+#restaurantDetail .restaurantArea {
+    font-size: 24px;
+    color: #a2a2a2;
+}
+#restaurantDetail .restaurantName {
+    font-size: 40px;
+    line-height: 100%;
+}
+#restaurantDetail .title .left .star {
     color: #ffd900;
 }
-#restaurantDetail .title .right{
+#restaurantDetail .title .right {
     display: flex;
+    gap: 20px;
     align-items: center;
 }
-#restaurantDetail .title .right .location{
+#restaurantDetail .title .right .location {
     display: flex;
 }
-#restaurantDetail .title .right .location img{
+#restaurantDetail .title .right .location img {
     width: 40px;
     height: 40px;
 }
-#restaurantDetail .title .right .favorite{
+#restaurantDetail .title .right .favorite {
     border: none;
     background-color: #fff;
 }
-#restaurantDetail .title .right .favorite img{
+#restaurantDetail .title .right .favorite img {
     width: 38px;
     height: 38px;
 }
 
-#restaurantDetail .photo ul{
+/* photo---------------------------- */
+#restaurantDetail .photo ul {
+    position: relative;
     display: flex;
-    list-style: none;
+    gap: 10px;
 }
-#restaurantDetail .photo .mainPhoto img{
-    width: 700px;
-    height: 600px;
+#restaurantDetail .photo .mainPhoto img {
+    width: 595px;
+    height: 510px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#restaurantDetail .photo .subPhoto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#restaurantDetail .photo .subPhoto .subPhoto1 img {
+    border-top-right-radius: 25px;
+}
+#restaurantDetail .photo .subPhoto .subPhoto2 img {
+    border-bottom-right-radius: 25px;
+}
+#restaurantDetail .photo .subPhoto img {
+    width: 495px;
+    height: 250px;
     object-fit: cover;
 }
-#restaurantDetail .photo .subPhoto{
-    margin: 0;
+#restaurantDetail .photo .openPhoto {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
-#restaurantDetail .photo .subPhoto img{
-    width: 600px;
-    height: 300px;
+#restaurantDetail .photo .openPhoto button {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    opacity: 85%;
+    background-image: url(../../public/images/icon_openPhoto.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+
+/* modal---------------------------- */
+.ReactModal__Overlay {
+    background-color: #000000bf !important;
+    z-index: 1000;
+}
+.ReactModal__Content {
+    width: 100%;
+    max-width: 1060px;
+    height: 85%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px #0000004d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sliderWrap {
+    position: relative;
+    width: 100%;
+    height: 89%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderPhoto {
+    width: 100%;
+    height: 100%;
+}
+.sliderInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider img {
+    max-width: 100%;
+    max-height: 700px;
+    width: 900px;
     object-fit: cover;
 }
 
-#restaurantDetail .review .profile img{
+.sliderBtn {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(
+        -50%
+    );
+}
+.sliderBtn .prev{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    background-image: url(../../public/images/icon_prev.png);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+.sliderBtn .next{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    background-image: url(../../public/images/icon_next.png);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+.sliderBtn .prev:hover{
+    border: none;
+    border-radius: 50%;
+    background-image: url(../../public/images/icon_prev_hover.png);
+}
+.sliderBtn .next:hover {
+    border: none;
+    border-radius: 50%;
+    background-image: url(../../public/images/icon_next_hover.png);
+}
+.ReactModal__Content > button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ReactModal__Content > button:hover {
+    background-color: #555;
+}
+
+/* review---------------------------- */
+#restaurantDetail .review {
+    padding: 30px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #dcf4ff;
+}
+#restaurantDetail .review .profile img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
-#restaurantDetail .review .writer{
+#restaurantDetail .review .writer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
-#restaurantDetail .review .user{
+#restaurantDetail .review .user {
     display: flex;
     gap: 20px;
     align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+#restaurantDetail .review .content {
+    font-size: 18px;
 }
