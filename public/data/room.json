@@ -1,22 +1,23 @@
 [
-    {
+        {
         "hotelId": 2000,
         "hotelName": "오키나와 비치 호텔",
         "address": "오키나와현 나하시 히가시마치 12-3",
         "hotelComment": "해변 인근, 가족 여행에 최적",
         "content": "아름다운 해변과 가까워 가족 단위 여행객에게 추천하는 호텔입니다. 🏖️ 넓은 객실과 다양한 편의시설을 갖추고 있어요.",
         "city": "나하시, 오키나와, 일본",
-        "img1": "/images/img/building/hotel1.jpg",
+        "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "150",
+        
+        "totalRoomNumber": 5,
         "room1": [
             {
                 "roomId": 20001,
-                "price": "280,000",
-                "bed": "2",
-                "maxCapa": "4",
-                "ocean view":true,
+                "price": 280000,
+                "bed": 2,
+                "maxCapa": 4,
+                "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
                 "img1-1": "/images/img/room/twobed/room1.jpg",
@@ -28,9 +29,9 @@
         "room2": [
             {
                 "roomId": 20002,
-                "price": "250,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 250000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -44,7 +45,7 @@
             {
                 "user": "김민지",
                 "comment": "해변이 정말 가까워서 좋았어요. 아이들이 특히 좋아했습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-01"
             }
         ],
@@ -52,7 +53,7 @@
             {
                 "user": "박서준",
                 "comment": "객실이 넓고 깨끗해서 편하게 쉬었어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-28"
             }
         ]
@@ -67,13 +68,13 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "200",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20011,
-                "price": "318,805",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 318805,
+                "bed": 2,
+                "maxCapa": 4,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": false,
@@ -86,9 +87,9 @@
         "room2": [
             {
                 "roomId": 20012,
-                "price": "255,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 255000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -102,7 +103,7 @@
             {
                 "user": "guest1",
                 "comment": "아레나와 쇼핑몰 접근 좋아요.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-07-22"
             }
         ],
@@ -110,7 +111,7 @@
             {
                 "user": "guest2",
                 "comment": "조용하고 깔끔.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-06-18"
             }
         ]
@@ -125,13 +126,13 @@
         "img1": "/images/img/building/hotel3.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
-        "totalRoomNumber": "120",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20021,
-                "price": "103,232",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 103232,
+                "bed": 2,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -144,9 +145,9 @@
         "room2": [
             {
                 "roomId": 20022,
-                "price": "87,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 87000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -160,7 +161,7 @@
             {
                 "user": "kim",
                 "comment": "가성비 좋음.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-05-12"
             }
         ],
@@ -168,7 +169,7 @@
             {
                 "user": "lee",
                 "comment": "역과 가까움.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-04-18"
             }
         ]
@@ -183,13 +184,13 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
-        "totalRoomNumber": "40",
+        "totalRoomNumber": 4,
         "room1": [
             {
                 "roomId": 20031,
-                "price": "237,206",
-                "bed": "2",
-                "maxCapa": "5",
+                "price": 237206,
+                "bed": 2,
+                "maxCapa": 5,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -202,9 +203,9 @@
         "room2": [
             {
                 "roomId": 20032,
-                "price": "199,000",
-                "bed": "1",
-                "maxCapa": "4",
+                "price": 199000,
+                "bed": 1,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -218,7 +219,7 @@
             {
                 "user": "sato",
                 "comment": "주방/세탁기 편리.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-10"
             }
         ],
@@ -226,7 +227,7 @@
             {
                 "user": "park",
                 "comment": "아레나 도보권.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-07-29"
             }
         ]
@@ -241,13 +242,13 @@
         "img1": "/images/img/building/hotel5.jpg",
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
-        "totalRoomNumber": "35",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20041,
-                "price": "56,929",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 56929,
+                "bed": 2,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -260,9 +261,9 @@
         "room2": [
             {
                 "roomId": 20042,
-                "price": "69,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 69000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -276,7 +277,7 @@
             {
                 "user": "abc",
                 "comment": "넓고 조용.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-22"
             }
         ],
@@ -284,7 +285,7 @@
             {
                 "user": "안녕",
                 "comment": "시설은 오래됐지만 깨끗.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-04-18"
             }
         ]
@@ -299,13 +300,13 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room11.jpg",
-        "totalRoomNumber": "150",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20051,
-                "price": "84,635",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 84635,
+                "bed": 2,
+                "maxCapa": 3,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -318,9 +319,9 @@
         "room2": [
             {
                 "roomId": 20052,
-                "price": "99,000",
-                "bed": "1",
-                "maxCapa": "4",
+                "price": 99000,
+                "bed": 1,
+                "maxCapa": 4,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -334,7 +335,7 @@
             {
                 "user": "guest",
                 "comment": "직원 친절.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-06-03"
             }
         ],
@@ -342,7 +343,7 @@
             {
                 "user": "na",
                 "comment": "주차 편리.",
-                "score": "2",
+                "score": 2,
                 "date": "2025-05-20"
             }
         ]
@@ -357,13 +358,13 @@
         "img1": "/images/img/building/hotel9.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
-        "totalRoomNumber": "60",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20061,
-                "price": "63,191",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 63191,
+                "bed": 2,
+                "maxCapa": 2,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -376,9 +377,9 @@
         "room2": [
             {
                 "roomId": 20062,
-                "price": "75,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 75000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -392,7 +393,7 @@
             {
                 "user": "mori",
                 "comment": "디자인이 멋짐.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-05"
             }
         ],
@@ -400,7 +401,7 @@
             {
                 "user": "park",
                 "comment": "가격 만족.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-05-11"
             }
         ]
@@ -415,13 +416,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
-        "totalRoomNumber": "20",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20071,
-                "price": "114,333",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 114333,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -434,11 +435,11 @@
         "room2": [
             {
                 "roomId": 20072,
-                "price": "129,000",
-                "bed": "1",
-                "maxCapa": "4",
-                "ocean view": true,
+                "price": 129000,
+                "bed": 1,
+                "maxCapa": 4,
                 "smoking": false,
+                "ocean view": true,
                 "breakfast": true,
                 "img1-1": "/images/img/room/onebed/room2.jpg",
                 "img1-2": "/images/img/room/onebed/room8.jpg",
@@ -450,7 +451,7 @@
             {
                 "user": "guest",
                 "comment": "조용하고 깔끔.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-04-27"
             }
         ],
@@ -458,7 +459,7 @@
             {
                 "user": "song",
                 "comment": "주차 편함.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-04-18"
             }
         ]
@@ -473,13 +474,13 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
-        "totalRoomNumber": "80",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20081,
-                "price": "75,906",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 75906,
+                "bed": 2,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -492,9 +493,9 @@
         "room2": [
             {
                 "roomId": 20082,
-                "price": "89,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 89000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -508,7 +509,7 @@
             {
                 "user": "jiro",
                 "comment": "쇼핑 편리.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-02"
             }
         ],
@@ -516,7 +517,7 @@
             {
                 "user": "yoon",
                 "comment": "체크인 늦게 가능.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-06-14"
             }
         ]
@@ -531,13 +532,13 @@
         "img1": "/images/img/building/hotel1.jpg",
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
-        "totalRoomNumber": "70",
+        "totalRoomNumber": 5,
         "room1": [
             {
                 "roomId": 20091,
-                "price": "46,966",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 46966,
+                "bed": 2,
+                "maxCapa": 2,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": false,
@@ -550,9 +551,9 @@
         "room2": [
             {
                 "roomId": 20092,
-                "price": "59,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 59000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -566,7 +567,7 @@
             {
                 "user": "tom",
                 "comment": "저렴함.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-05-30"
             }
         ],
@@ -574,7 +575,7 @@
             {
                 "user": "han",
                 "comment": "위치 굿.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-05-10"
             }
         ]
@@ -589,13 +590,13 @@
         "img1": "/images/img/building/hotel11.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
-        "totalRoomNumber": "10",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20101,
-                "price": "214,434",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 214434,
+                "bed": 2,
+                "maxCapa": 4,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -608,9 +609,9 @@
         "room2": [
             {
                 "roomId": 20102,
-                "price": "189,000",
-                "bed": "1",
-                "maxCapa": "4",
+                "price": 189000,
+                "bed": 1,
+                "maxCapa": 4,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -624,7 +625,7 @@
             {
                 "user": "min",
                 "comment": "깨끗하고 조용.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-07-12"
             }
         ],
@@ -632,7 +633,7 @@
             {
                 "user": "rin",
                 "comment": "가족 추천.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-06-03"
             }
         ]
@@ -647,13 +648,13 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "45",
+        "totalRoomNumber": 4,
         "room1": [
             {
                 "roomId": 20111,
-                "price": "80,650",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 80650,
+                "bed": 2,
+                "maxCapa": 2,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -666,9 +667,9 @@
         "room2": [
             {
                 "roomId": 20112,
-                "price": "92,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 92000,
+                "bed": 1,
+                "maxCapa": 2,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -682,7 +683,7 @@
             {
                 "user": "yumi",
                 "comment": "시설이 깨끗해서 만족.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-08-05"
             }
         ],
@@ -690,7 +691,7 @@
             {
                 "user": "choi",
                 "comment": "가성비가 아주 좋아요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-07-19"
             }
         ]
@@ -705,13 +706,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
-        "totalRoomNumber": "250",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20121,
-                "price": "155,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 155000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -724,10 +725,10 @@
         "room2": [
             {
                 "roomId": 20122,
-                "price": "120,000",
-                "bed": "1",
+                "price": 120000,
+                "bed": 1,
                 "ocean view": true,
-                "maxCapa": "2",
+                "maxCapa": 2,
                 "smoking": true,
                 "breakfast": false,
                 "img1-1": "/images/img/room/onebed/room9.jpg",
@@ -740,7 +741,7 @@
             {
                 "user": "minho",
                 "comment": "역이랑 가까워서 편했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-20"
             }
         ],
@@ -748,7 +749,7 @@
             {
                 "user": "kato",
                 "comment": "방은 작지만 깔끔합니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-15"
             }
         ]
@@ -763,13 +764,13 @@
         "img1": "/images/img/building/hotel1.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
-        "totalRoomNumber": "80",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20131,
-                "price": "180,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 180000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -782,9 +783,9 @@
         "room2": [
             {
                 "roomId": 20132,
-                "price": "165,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 165000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": false,
@@ -798,7 +799,7 @@
             {
                 "user": "유진",
                 "comment": "자연 경관이 정말 아름다웠습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-07-25"
             }
         ],
@@ -806,7 +807,7 @@
             {
                 "user": "takagi",
                 "comment": "온천 시설이 별로...",
-                "score": "2",
+                "score": 2,
                 "date": "2025-07-10"
             }
         ]
@@ -821,14 +822,14 @@
         "img1": "/images/img/building/hotel11.jpg",
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
-        "totalRoomNumber": "110",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20141,
-                "price": "199,000",
-                "bed": "2",
+                "price": 199000,
+                "bed": 2,
                 "ocean view": false,
-                "maxCapa": "3",
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
                 "img1-1": "/images/img/room/twobed/room5.jpg",
@@ -840,9 +841,9 @@
         "room2": [
             {
                 "roomId": 20142,
-                "price": "170,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 170000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -856,7 +857,7 @@
             {
                 "user": "junko",
                 "comment": "야경이 환상적이었어요. 다시 방문하고 싶습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-11"
             }
         ],
@@ -864,7 +865,7 @@
             {
                 "user": "minseo",
                 "comment": "직원들이 친절하고 방이 깔끔합니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-29"
             }
         ]
@@ -879,13 +880,13 @@
         "img1": "/images/img/building/hotel6.jpg",
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
-        "totalRoomNumber": "90",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20151,
-                "price": "220,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 220000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -898,9 +899,9 @@
         "room2": [
             {
                 "roomId": 20152,
-                "price": "190,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 190000,
+                "bed": 1,
+                "maxCapa": 3,
                 "ocean view": true,
                 "smoking": true,
                 "breakfast": false,
@@ -914,7 +915,7 @@
             {
                 "user": "yuko",
                 "comment": "오션뷰가 최고였습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-03"
             }
         ],
@@ -922,7 +923,7 @@
             {
                 "user": "taehyun",
                 "comment": "조용하고 쾌적해서 좋았어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-20"
             }
         ]
@@ -937,13 +938,13 @@
         "img1": "/images/img/building/hotel7.jpg",
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
-        "totalRoomNumber": "180",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20161,
-                "price": "120,000",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 120000,
+                "bed": 2,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -956,9 +957,9 @@
         "room2": [
             {
                 "roomId": 20162,
-                "price": "145,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 145000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -972,7 +973,7 @@
             {
                 "user": "hiroshi",
                 "comment": "역과 가까워서 너무 편리했습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-19"
             }
         ],
@@ -980,12 +981,13 @@
             {
                 "user": "sungho",
                 "comment": "깔끔하고 직원도 친절해요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-10"
             }
         ]
-    },
-    {
+    }
+,
+     {
         "hotelId": 2017,
         "hotelName": "마츠야마 캐슬 뷰 호텔",
         "address": "에히메현 마츠야마시 17-17",
@@ -995,13 +997,13 @@
         "img1": "/images/img/building/hotel8.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
-        "totalRoomNumber": "70",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20171,
-                "price": "130,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 130000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -1014,9 +1016,9 @@
         "room2": [
             {
                 "roomId": 20172,
-                "price": "110,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 110000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1030,7 +1032,7 @@
             {
                 "user": "ayaka",
                 "comment": "성 뷰가 정말 멋있어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-01"
             }
         ],
@@ -1038,7 +1040,7 @@
             {
                 "user": "hyunwoo",
                 "comment": "위치가 좋아서 이동하기 편했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-22"
             }
         ]
@@ -1053,14 +1055,14 @@
         "img1": "/images/img/building/hotel9.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "60",
+        "totalRoomNumber": 0,
         "room1": [
             {
                 "roomId": 20181,
-                "price": "98,000",
-                "bed": "2",
+                "price": 98000,
+                "bed": 2,
                 "ocean view": false,
-                "maxCapa": "3",
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": false,
                 "img1-1": "/images/img/room/twobed/room7.jpg",
@@ -1072,9 +1074,9 @@
         "room2": [
             {
                 "roomId": 20182,
-                "price": "115,000",
-                "bed": "1",
-                "maxCapa": "4",
+                "price": 115000,
+                "bed": 1,
+                "maxCapa": 4,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -1086,17 +1088,17 @@
         ],
         "review1": [
             {
-            "user": "yusuke",
-            "comment": "강변 산책이 좋았어요. 조용하고 깨끗합니다.",
-            "score": "4",
-            "date": "2025-08-15"
+                "user": "yusuke",
+                "comment": "강변 산책이 좋았어요. 조용하고 깨끗합니다.",
+                "score": 4,
+                "date": "2025-08-15"
             }
         ],
         "review2": [
             {
                 "user": "donghyun",
                 "comment": "가격 대비 만족스러운 숙소입니다.",
-                "score": "3",
+                "score": 3,
                 "date": "2025-07-30"
             }
         ]
@@ -1111,13 +1113,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "140",
+        "totalRoomNumber": 0,
         "room1": [
             {
                 "roomId": 20191,
-                "price": "105,000",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 105000,
+                "bed": 2,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -1130,9 +1132,9 @@
         "room2": [
             {
                 "roomId": 20192,
-                "price": "125,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 125000,
+                "bed": 1,
+                "maxCapa": 3,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -1146,7 +1148,7 @@
             {
                 "user": "sugimoto",
                 "comment": "출장으로 묵기 좋아요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-22"
             }
         ],
@@ -1154,7 +1156,7 @@
             {
                 "user": "minji",
                 "comment": "객실에서 보이는 야경이 멋있어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-18"
             }
         ]
@@ -1169,13 +1171,13 @@
         "img1": "/images/img/building/hotel1.jpg",
         "img2": "/images/img/lobby/lobby7.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
-        "totalRoomNumber": "180",
+        "totalRoomNumber": 5,
         "room1": [
             {
                 "roomId": 20201,
-                "price": "210,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 210000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1188,9 +1190,9 @@
         "room2": [
             {
                 "roomId": 20202,
-                "price": "180,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 180000,
+                "bed": 1,
+                "maxCapa": 2,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -1204,7 +1206,7 @@
             {
                 "user": "yuri",
                 "comment": "고베의 야경을 객실에서 볼 수 있어서 좋았어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-23"
             }
         ],
@@ -1212,7 +1214,7 @@
             {
                 "user": "kenji",
                 "comment": "주변에 먹을 곳이 많아서 편리했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-19"
             }
         ]
@@ -1227,13 +1229,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
-        "totalRoomNumber": "300",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20211,
-                "price": "250,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 250000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1246,9 +1248,9 @@
         "room2": [
             {
                 "roomId": 20212,
-                "price": "200,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 200000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1262,7 +1264,7 @@
             {
                 "user": "jimin",
                 "comment": "교통이 너무 편리해서 좋았어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-20"
             }
         ],
@@ -1270,7 +1272,7 @@
             {
                 "user": "tanaka",
                 "comment": "시설도 깔끔하고 서비스도 좋습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-15"
             }
         ]
@@ -1285,13 +1287,13 @@
         "img1": "/images/img/building/hotel3.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "80",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20221,
-                "price": "185,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 185000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1304,9 +1306,9 @@
         "room2": [
             {
                 "roomId": 20222,
-                "price": "160,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 160000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1320,7 +1322,7 @@
             {
                 "user": "yuki",
                 "comment": "사슴들이 바로 근처에 있어서 신기했어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-10"
             }
         ],
@@ -1328,7 +1330,7 @@
             {
                 "user": "jiwoo",
                 "comment": "조용하고 한적한 분위기가 좋았습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-07-28"
             }
         ]
@@ -1343,13 +1345,13 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
-        "totalRoomNumber": "200",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20231,
-                "price": "320,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 320000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -1362,9 +1364,9 @@
         "room2": [
             {
                 "roomId": 20232,
-                "price": "280,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 280000,
+                "bed": 1,
+                "maxCapa": 3,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -1378,7 +1380,7 @@
             {
                 "user": "haruto",
                 "comment": "스키 타러 가기 너무 좋았어요. 시설도 깔끔합니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-01-15"
             }
         ],
@@ -1386,7 +1388,7 @@
             {
                 "user": "minwoo",
                 "comment": "겨울 풍경이 정말 아름다웠습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-01-10"
             }
         ]
@@ -1401,13 +1403,13 @@
         "img1": "/images/img/building/hotel5.jpg",
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "150",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20241,
-                "price": "190,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 190000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -1420,9 +1422,9 @@
         "room2": [
             {
                 "roomId": 20242,
-                "price": "165,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 165000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -1436,7 +1438,7 @@
             {
                 "user": "akira",
                 "comment": "오사카성까지 걸어서 갈 수 있어 좋았어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-24"
             }
         ],
@@ -1444,7 +1446,7 @@
             {
                 "user": "soyeon",
                 "comment": "방이 깔끔하고 편안합니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-19"
             }
         ]
@@ -1459,13 +1461,13 @@
         "img1": "/images/img/building/hotel6.jpg",
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "30",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20251,
-                "price": "450,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 450000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1478,9 +1480,9 @@
         "room2": [
             {
                 "roomId": 20252,
-                "price": "400,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 400000,
+                "bed": 1,
+                "maxCapa": 3,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -1494,7 +1496,7 @@
             {
                 "user": "hana",
                 "comment": "일본 전통 분위기를 제대로 느낄 수 있었어요. 온천도 최고!",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-21"
             }
         ],
@@ -1502,7 +1504,7 @@
             {
                 "user": "seongmin",
                 "comment": "가격은 좀 있지만 그만한 가치가 있습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-15"
             }
         ]
@@ -1517,13 +1519,13 @@
         "img1": "/images/img/building/hotel7.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "40",
+        "totalRoomNumber": 4,
         "room1": [
             {
                 "roomId": 20261,
-                "price": "550,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 550000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -1536,9 +1538,9 @@
         "room2": [
             {
                 "roomId": 20262,
-                "price": "500,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 500000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -1552,7 +1554,7 @@
             {
                 "user": "misaki",
                 "comment": "온천이 정말 좋았어요. 피로가 싹 풀립니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-24"
             }
         ],
@@ -1560,7 +1562,7 @@
             {
                 "user": "yoonseo",
                 "comment": "후지산을 보며 온천하는 경험은 잊지 못할 거예요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-18"
             }
         ]
@@ -1575,13 +1577,13 @@
         "img1": "/images/img/building/hotel8.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "50",
+        "totalRoomNumber": 5,
         "room1": [
             {
                 "roomId": 20271,
-                "price": "350,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 350000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1594,9 +1596,9 @@
         "room2": [
             {
                 "roomId": 20272,
-                "price": "300,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 300000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -1610,7 +1612,7 @@
             {
                 "user": "shota",
                 "comment": "후지산 뷰가 정말 멋있어서 감탄했습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-25"
             }
         ],
@@ -1618,7 +1620,7 @@
             {
                 "user": "eunji",
                 "comment": "호텔 위치가 좋고 객실도 깨끗했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-20"
             }
         ]
@@ -1633,13 +1635,13 @@
         "img1": "/images/img/building/hotel9.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "100",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20281,
-                "price": "145,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 145000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1652,9 +1654,9 @@
         "room2": [
             {
                 "roomId": 20282,
-                "price": "120,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 120000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1668,7 +1670,7 @@
             {
                 "user": "satoshi",
                 "comment": "역사적인 장소와 가까워 편리했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-15"
             }
         ],
@@ -1676,7 +1678,7 @@
             {
                 "user": "jiyoung",
                 "comment": "깔끔하고 조용해서 좋았습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-10"
             }
         ]
@@ -1691,13 +1693,13 @@
         "img1": "/images/img/building/hotel1.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "220",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20291,
-                "price": "170,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 170000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1710,9 +1712,9 @@
         "room2": [
             {
                 "roomId": 20292,
-                "price": "140,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 140000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1726,7 +1728,7 @@
             {
                 "user": "takuya",
                 "comment": "위치가 정말 좋아서 편했어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-20"
             }
         ],
@@ -1734,7 +1736,7 @@
             {
                 "user": "seulgi",
                 "comment": "방이 넓고 쾌적해서 만족합니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-17"
             }
         ]
@@ -1749,13 +1751,13 @@
         "img1": "/images/img/building/hotel11.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
-        "totalRoomNumber": "250",
+        "totalRoomNumber": 0,
         "room1": [
             {
                 "roomId": 20301,
-                "price": "350,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 350000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1768,9 +1770,9 @@
         "room2": [
             {
                 "roomId": 20302,
-                "price": "300,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 300000,
+                "bed": 1,
+                "maxCapa": 2,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -1784,7 +1786,7 @@
             {
                 "user": "erika",
                 "comment": "도쿄타워 뷰가 정말 멋있었어요. 다시 오고 싶네요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-25"
             }
         ],
@@ -1792,7 +1794,7 @@
             {
                 "user": "minho",
                 "comment": "기념일에 딱 맞는 숙소입니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-20"
             }
         ]
@@ -1807,13 +1809,13 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
-        "totalRoomNumber": "160",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20311,
-                "price": "95,000",
-                "bed": "2",
-                "maxCapa": "2",
+                "price": 95000,
+                "bed": 2,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1826,9 +1828,9 @@
         "room2": [
             {
                 "roomId": 20312,
-                "price": "110,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 110000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1842,7 +1844,7 @@
             {
                 "user": "kenjiro",
                 "comment": "역과 가까워서 출장 다니기 편했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-21"
             }
         ],
@@ -1850,7 +1852,7 @@
             {
                 "user": "eunseo",
                 "comment": "합리적인 가격에 깔끔한 숙소입니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-18"
             }
         ]
@@ -1865,13 +1867,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
-        "totalRoomNumber": "200",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20321,
-                "price": "180,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 180000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1884,9 +1886,9 @@
         "room2": [
             {
                 "roomId": 20322,
-                "price": "150,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 150000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1900,7 +1902,7 @@
             {
                 "user": "nao",
                 "comment": "캐널시티랑 연결되어 있어서 동선이 정말 편했어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-25"
             }
         ],
@@ -1908,7 +1910,7 @@
             {
                 "user": "soojin",
                 "comment": "아이와 함께 묵기 좋은 곳입니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-20"
             }
         ]
@@ -1923,13 +1925,13 @@
         "img1": "/images/img/building/hotel11.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
-        "totalRoomNumber": "130",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20331,
-                "price": "165,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 165000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1942,9 +1944,9 @@
         "room2": [
             {
                 "roomId": 20332,
-                "price": "130,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 130000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1958,7 +1960,7 @@
             {
                 "user": "yuma",
                 "comment": "방에서 보는 야경이 정말 좋았습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-10"
             }
         ],
@@ -1966,243 +1968,247 @@
             {
                 "user": "minho",
                 "comment": "가족들과 함께 편안하게 보냈어요.",
-                "score": "4",
+                "score":4,
                 "date": "2025-08-05"
             }
         ]
     },
-    {
-        "hotelId": 2034,
-        "hotelName": "도쿄 디즈니랜드 호텔",
-        "address": "치바현 우라야스시 34-34",
-        "hotelComment": "디즈니랜드 인근, 테마 숙소",
-        "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
-        "city": "우라야스시, 치바, 일본",
-        "img1": "/images/img/building/hotel5.jpg",
-        "img2": "/images/img/lobby/lobby5.jpg",
-        "img3": "/images/img/room/onebed/room7.jpg",
-        "totalRoomNumber": "500",
-        "room1": [
-            {
-                "roomId": 20341,
-                "price": "800,000",
-                "bed": "2",
-                "maxCapa": "4",
-                "smoking": false,
-                "ocean view": false,
-                "breakfast": true,
-                "img1-1": "/images/img/room/twobed/room5.jpg",
-                "img1-2": "/images/img/room/twobed/room6.jpg",
-                "img1-3": "/images/img/room/twobed/room7.jpg",
-                "isBook": false
-            }
-        ],
-        "room2": [
-            {
-                "roomId": 20342,
-                "price": "750,000",
-                "bed": "1",
-                "maxCapa": "5",
-                "ocean view": true,
-                "smoking": false,
-                "breakfast": true,
-                "img1-1": "/images/img/room/onebed/room1.jpg",
-                "img1-2": "/images/img/room/onebed/room12.jpg",
-                "img1-3": "/images/img/room/onebed/room2.jpg",
-                "isBook": false
-            }
-        ],
-        "review1": [
-            {
-                "user": "sakura",
-                "comment": "디즈니랜드 가기 너무 편하고, 호텔도 꿈같았어요.",
-                "score": "5",
-                "date": "2025-08-20"
-            }
-        ],
-        "review2": [
-            {
-                "user": "jungsun",
-                "comment": "아이들이 정말 좋아해서 행복했어요.",
-                "score": "5",
-                "date": "2025-08-15"
-            }
-        ]
-    },
-    {
-        "hotelId": 2035,
-        "hotelName": "오사카 유니버설 스튜디오 호텔",
-        "address": "오사카부 오사카시 코노하나구 35-35",
-        "hotelComment": "유니버설 스튜디오 인근",
-        "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
-        "city": "오사카시, 오사카, 일본",
-        "img1": "/images/img/building/hotel6.jpg",
-        "img2": "/images/img/lobby/lobby6.jpg",
-        "img3": "/images/img/room/onebed/room8.jpg",
-        "totalRoomNumber": "400",
-        "room1": [
-            {
-                "roomId": 20351,
-                "price": "280,000",
-                "bed": "2",
-                "maxCapa": "4",
-                "smoking": false,
-                "breakfast": true,
-                "ocean view": false,
-                "img1-1": "/images/img/room/twobed/room8.jpg",
-                "img1-2": "/images/img/room/twobed/room9.jpg",
-                "img1-3": "/images/img/room/twobed/room1.jpg",
-                "isBook": false
-            }
-        ],
-        "room2": [
-            {
-                "roomId": 20352,
-                "price": "250,000",
-                "bed": "1",
-                "maxCapa": "3",
-                "ocean view": true,
-                "smoking": false,
-                "breakfast": false,
-                "img1-1": "/images/img/room/onebed/room12.jpg",
-                "img1-2": "/images/img/room/onebed/room6.jpg",
-                "img1-3": "/images/img/room/onebed/room2.jpg",
-                "isBook": false
-            }
-        ],
-        "review1": [
-            {
-                "user": "ryota",
-                "comment": "USJ와 가까워서 편리하게 이용했어요.",
-                "score": "5",
-                "date": "2025-08-25"
-            }
-        ],
-        "review2": [
-            {
-                "user": "minah",
-                "comment": "테마가 재미있고 아이들이 좋아합니다.",
-                "score": "4",
-                "date": "2025-08-20"
-            }
-        ]
-    },
-    {
-        "hotelId": 2036,
-        "hotelName": "교토 청수사 료칸",
-        "address": "교토부 교토시 히가시야마구 36-36",
-        "hotelComment": "청수사 인근, 전통 분위기",
-        "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
-        "city": "교토시, 교토, 일본",
-        "img1": "/images/img/building/hotel7.jpg",
-        "img2": "/images/img/lobby/lobby1.jpg",
-        "img3": "/images/img/room/onebed/room9.jpg",
-        "totalRoomNumber": "25",
-        "room1": [
-            {
-                "roomId": 20361,
-                "price": "380,000",
-                "bed": "2",
-                "maxCapa": "4",
-                "smoking": false,
-                "ocean view": false,
-                "breakfast": true,
-                "img1-1": "/images/img/room/twobed/room1.jpg",
-                "img1-2": "/images/img/room/twobed/room2.jpg",
-                "img1-3": "/images/img/room/twobed/room3.jpg",
-                "isBook": false
-            }
-        ],
-        "room2": [
-            {
-                "roomId": 20362,
-                "price": "320,000",
-                "bed": "1",
-                "maxCapa": "3",
-                "ocean view": true,
-                "smoking": false,
-                "breakfast": true,
-                "img1-1": "/images/img/room/onebed/room4.jpg",
-                "img1-2": "/images/img/room/onebed/room2.jpg",
-                "img1-3": "/images/img/room/onebed/room1.jpg",
-                "isBook": false
-            }
-        ],
-        "review1": [
-            {
-                "user": "naomi",
-                "comment": "아름다운 정원이 있어서 힐링됐어요.",
-                "score": "5",
-                "date": "2025-08-22"
-            }
-        ],
-        "review2": [
-            {
-                "user": "junsik",
-                "comment": "전통적인 분위기와 현대적인 편의시설이 잘 어우러져 있습니다.",
-                "score": "5",
-                "date": "2025-08-18"
-            }
-        ]
-    },
-    {
-        "hotelId": 2037,
-        "hotelName": "오키나와 아메리칸 빌리지 호텔",
-        "address": "오키나와현 나카가미군 차탄초 37-37",
-        "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
-        "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
-        "city": "차탄초, 오키나와, 일본",
-        "img1": "/images/img/building/hotel8.jpg",
-        "img2": "/images/img/lobby/lobby2.jpg",
-        "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "150",
-        "room1": [
-            {
-                "roomId": 20371,
-                "price": "290,000",
-                "bed": "2",
-                "ocean view": false,
-                "maxCapa": "4",
-                "smoking": false,
-                "breakfast": true,
-                "img1-1": "/images/img/room/twobed/room4.jpg",
-                "img1-2": "/images/img/room/twobed/room5.jpg",
-                "img1-3": "/images/img/room/twobed/room6.jpg",
-                "isBook": false
-            }
-        ],
-        "room2": [
-            {
-                "roomId": 20372,
-                "price": "250,000",
-                "bed": "1",
-                "maxCapa": "3",
-                "ocean view": true,
-                "smoking": false,
-                "breakfast": false,
-                "img1-1": "/images/img/room/onebed/room2.jpg",
-                "img1-2": "/images/img/room/onebed/room1.jpg",
-                "img1-3": "/images/img/room/onebed/room8.jpg",
-                "isBook": false
-            }
-        ],
-        "review1": [
-            {
-                "user": "yoko",
-                "comment": "위치가 너무 좋아서 즐겁게 여행했어요.",
-                "score": "5",
-                "date": "2025-08-25"
-            }
-        ],
-        "review2": [
-            {
-                "user": "dongho",
-                "comment": "주변에 먹을 곳도 많고 볼거리도 풍부합니다.",
-                "score": "4",
-                "date": "2025-08-20"
-            }
-        ]
-    },
+   
+  
+  {
+    "hotelId": 2034,
+    "hotelName": "도쿄 디즈니랜드 호텔",
+    "address": "치바현 우라야스시 34-34",
+    "hotelComment": "디즈니랜드 인근, 테마 숙소",
+    "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
+    "city": "우라야스시, 치바, 일본",
+    "img1": "/images/img/building/hotel5.jpg",
+    "img2": "/images/img/lobby/lobby5.jpg",
+    "img3": "/images/img/room/onebed/room7.jpg",
+    "totalRoomNumber": 5,
+    "room1": [
+      {
+        "roomId": 20341,
+        "price": 800000,
+        "bed": 2,
+        "maxCapa": 4,
+        "smoking": false,
+        "ocean view": false,
+        "breakfast": true,
+        "img1-1": "/images/img/room/twobed/room5.jpg",
+        "img1-2": "/images/img/room/twobed/room6.jpg",
+        "img1-3": "/images/img/room/twobed/room7.jpg",
+        "isBook": false
+      }
+    ],
+    "room2": [
+      {
+        "roomId": 20342,
+        "price": 750000,
+        "bed": 1,
+        "maxCapa": 5,
+        "ocean view": true,
+        "smoking": false,
+        "breakfast": true,
+        "img1-1": "/images/img/room/onebed/room1.jpg",
+        "img1-2": "/images/img/room/onebed/room12.jpg",
+        "img1-3": "/images/img/room/onebed/room2.jpg",
+        "isBook": false
+      }
+    ],
+    "review1": [
+      {
+        "user": "sakura",
+        "comment": "디즈니랜드 가기 너무 편하고, 호텔도 꿈같았어요.",
+        "score": 5,
+        "date": "2025-08-20"
+      }
+    ],
+    "review2": [
+      {
+        "user": "jungsun",
+        "comment": "아이들이 정말 좋아해서 행복했어요.",
+        "score": 5,
+        "date": "2025-08-15"
+      }
+    ]
+  },
+  {
+    "hotelId": 2035,
+    "hotelName": "오사카 유니버설 스튜디오 호텔",
+    "address": "오사카부 오사카시 코노하나구 35-35",
+    "hotelComment": "유니버설 스튜디오 인근",
+    "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
+    "city": "오사카시, 오사카, 일본",
+    "img1": "/images/img/building/hotel6.jpg",
+    "img2": "/images/img/lobby/lobby6.jpg",
+    "img3": "/images/img/room/onebed/room8.jpg",
+    "totalRoomNumber": 3,
+    "room1": [
+      {
+        "roomId": 20351,
+        "price": 280000,
+        "bed": 2,
+        "maxCapa": 4,
+        "smoking": false,
+        "breakfast": true,
+        "ocean view": false,
+        "img1-1": "/images/img/room/twobed/room8.jpg",
+        "img1-2": "/images/img/room/twobed/room9.jpg",
+        "img1-3": "/images/img/room/twobed/room1.jpg",
+        "isBook": false
+      }
+    ],
+    "room2": [
+      {
+        "roomId": 20352,
+        "price": 250000,
+        "bed": 1,
+        "maxCapa": 3,
+        "ocean view": true,
+        "smoking": false,
+        "breakfast": false,
+        "img1-1": "/images/img/room/onebed/room12.jpg",
+        "img1-2": "/images/img/room/onebed/room6.jpg",
+        "img1-3": "/images/img/room/onebed/room2.jpg",
+        "isBook": false
+      }
+    ],
+    "review1": [
+      {
+        "user": "ryota",
+        "comment": "USJ와 가까워서 편리하게 이용했어요.",
+        "score": 5,
+        "date": "2025-08-25"
+      }
+    ],
+    "review2": [
+      {
+        "user": "minah",
+        "comment": "테마가 재미있고 아이들이 좋아합니다.",
+        "score": 4,
+        "date": "2025-08-20"
+      }
+    ]
+  },
+  {
+    "hotelId": 2036,
+    "hotelName": "교토 청수사 료칸",
+    "address": "교토부 교토시 히가시야마구 36-36",
+    "hotelComment": "청수사 인근, 전통 분위기",
+    "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
+    "city": "교토시, 교토, 일본",
+    "img1": "/images/img/building/hotel7.jpg",
+    "img2": "/images/img/lobby/lobby1.jpg",
+    "img3": "/images/img/room/onebed/room9.jpg",
+    "totalRoomNumber": 2,
+    "room1": [
+      {
+        "roomId": 20361,
+        "price": 380000,
+        "bed": 2,
+        "maxCapa": 4,
+        "smoking": false,
+        "ocean view": false,
+        "breakfast": true,
+        "img1-1": "/images/img/room/twobed/room1.jpg",
+        "img1-2": "/images/img/room/twobed/room2.jpg",
+        "img1-3": "/images/img/room/twobed/room3.jpg",
+        "isBook": false
+      }
+    ],
+    "room2": [
+      {
+        "roomId": 20362,
+        "price": 320000,
+        "bed": 1,
+        "maxCapa": 3,
+        "ocean view": true,
+        "smoking": false,
+        "breakfast": true,
+        "img1-1": "/images/img/room/onebed/room4.jpg",
+        "img1-2": "/images/img/room/onebed/room2.jpg",
+        "img1-3": "/images/img/room/onebed/room1.jpg",
+        "isBook": false
+      }
+    ],
+    "review1": [
+      {
+        "user": "naomi",
+        "comment": "아름다운 정원이 있어서 힐링됐어요.",
+        "score": 5,
+        "date": "2025-08-22"
+      }
+    ],
+    "review2": [
+      {
+        "user": "junsik",
+        "comment": "전통적인 분위기와 현대적인 편의시설이 잘 어우러져 있습니다.",
+        "score": 5,
+        "date": "2025-08-18"
+      }
+    ]
+  },
+  {
+    "hotelId": 2037,
+    "hotelName": "오키나와 아메리칸 빌리지 호텔",
+    "address": "오키나와현 나카가미군 차탄초 37-37",
+    "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
+    "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
+    "city": "차탄초, 오키나와, 일본",
+    "img1": "/images/img/building/hotel8.jpg",
+    "img2": "/images/img/lobby/lobby2.jpg",
+    "img3": "/images/img/room/onebed/room1.jpg",
+    "totalRoomNumber": 3,
+    "room1": [
+      {
+        "roomId": 20371,
+        "price": 290000,
+        "bed": 2,
+        "ocean view": false,
+        "maxCapa": 4,
+        "smoking": false,
+        "breakfast": true,
+        "img1-1": "/images/img/room/twobed/room4.jpg",
+        "img1-2": "/images/img/room/twobed/room5.jpg",
+        "img1-3": "/images/img/room/twobed/room6.jpg",
+        "isBook": false
+      }
+    ],
+    "room2": [
+      {
+        "roomId": 20372,
+        "price": 250000,
+        "bed": 1,
+        "maxCapa": 3,
+        "ocean view": true,
+        "smoking": false,
+        "breakfast": false,
+        "img1-1": "/images/img/room/onebed/room2.jpg",
+        "img1-2": "/images/img/room/onebed/room1.jpg",
+        "img1-3": "/images/img/room/onebed/room8.jpg",
+        "isBook": false
+      }
+    ],
+    "review1": [
+      {
+        "user": "yoko",
+        "comment": "위치가 너무 좋아서 즐겁게 여행했어요.",
+        "score": 5,
+        "date": "2025-08-25"
+      }
+    ],
+    "review2": [
+      {
+        "user": "dongho",
+        "comment": "주변에 먹을 곳도 많고 볼거리도 풍부합니다.",
+        "score": 4,
+        "date": "2025-08-20"
+      }
+    ]
+  }
+,
+   
     {
         "hotelId": 2038,
         "hotelName": "오타루 오션 호텔",
@@ -2213,13 +2219,13 @@
         "img1": "/images/img/building/hotel9.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "90",
+        "totalRoomNumber": 4,
         "room1": [
             {
                 "roomId": 20381,
-                "price": "180,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 180000,
+                "bed": 2,
+                "maxCapa": 3,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -2232,9 +2238,9 @@
         "room2": [
             {
                 "roomId": 20382,
-                "price": "150,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 150000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -2248,7 +2254,7 @@
             {
                 "user": "kenji",
                 "comment": "운하 뷰가 정말 멋있어서 만족했습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-23"
             }
         ],
@@ -2256,7 +2262,7 @@
             {
                 "user": "jiyun",
                 "comment": "가격 대비 좋은 숙소입니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-19"
             }
         ]
@@ -2271,13 +2277,13 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "110",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20391,
-                "price": "220,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 220000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2290,9 +2296,9 @@
         "room2": [
             {
                 "roomId": 20392,
-                "price": "190,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 190000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -2306,7 +2312,7 @@
             {
                 "user": "shun",
                 "comment": "하코다테산 야경이 정말 최고였어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-24"
             }
         ],
@@ -2314,7 +2320,7 @@
             {
                 "user": "nayeon",
                 "comment": "방에서 편하게 야경을 볼 수 있어 좋았습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-18"
             }
         ]
@@ -2329,13 +2335,13 @@
         "img1": "/images/img/building/hotel10.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "120",
+        "totalRoomNumber": 5,
         "room1": [
             {
                 "roomId": 20401,
-                "price": "250,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 250000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2348,9 +2354,9 @@
         "room2": [
             {
                 "roomId": 20402,
-                "price": "220,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 220000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2364,7 +2370,7 @@
             {
                 "user": "minami",
                 "comment": "수족관과 가까워서 아이들이 정말 좋아했어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-25"
             }
         ],
@@ -2372,7 +2378,7 @@
             {
                 "user": "jisu",
                 "comment": "시설이 깨끗하고 편의시설이 잘 갖춰져 있습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-20"
             }
         ]
@@ -2387,14 +2393,14 @@
         "img1": "/images/img/building/hotel1.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "90",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20411,
-                "price": "75,000",
-                "bed": "1",
+                "price": 75000,
+                "bed": 1,
                 "ocean view": false,
-                "maxCapa": "2",
+                "maxCapa": 2,
                 "smoking": false,
                 "breakfast": false,
                 "img1-1": "/images/img/room/twobed/room6.jpg",
@@ -2406,10 +2412,10 @@
         "room2": [
             {
                 "roomId": 20412,
-                "price": "90,000",
-                "bed": "1",
+                "price": 90000,
+                "bed": 1,
                 "ocean view": true,
-                "maxCapa": "3",
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
                 "img1-1": "/images/img/room/onebed/room6.jpg",
@@ -2422,7 +2428,7 @@
             {
                 "user": "daiki",
                 "comment": "출장으로 잠시 묵기 좋았습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-22"
             }
         ],
@@ -2430,7 +2436,7 @@
             {
                 "user": "hyunji",
                 "comment": "가격 대비 시설이 깔끔해서 만족.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-19"
             }
         ]
@@ -2445,13 +2451,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room10.jpg",
-        "totalRoomNumber": "500",
+        "totalRoomNumber": 5,
         "room1": [
             {
                 "roomId": 20421,
-                "price": "450,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 450000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2464,9 +2470,9 @@
         "room2": [
             {
                 "roomId": 20422,
-                "price": "400,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 400000,
+                "bed": 1,
+                "maxCapa": 3,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -2480,7 +2486,7 @@
             {
                 "user": "yuko",
                 "comment": "럭셔리하고 서비스가 완벽했습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-25"
             }
         ],
@@ -2488,7 +2494,7 @@
             {
                 "user": "jinho",
                 "comment": "오션뷰가 정말 최고였어요. 다음에도 꼭 다시 방문할 거예요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-21"
             }
         ]
@@ -2503,13 +2509,13 @@
         "img1": "/images/img/building/hotel3.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "250",
+        "totalRoomNumber": 4,
         "room1": [
             {
                 "roomId": 20431,
-                "price": "160,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 160000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -2522,9 +2528,9 @@
         "room2": [
             {
                 "roomId": 20432,
-                "price": "130,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 130000,
+                "bed": 1,
+                "maxCapa": 2,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -2538,7 +2544,7 @@
             {
                 "user": "hikaru",
                 "comment": "위치가 정말 최고예요. 밤늦게까지 놀기 좋습니다.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-24"
             }
         ],
@@ -2546,7 +2552,7 @@
             {
                 "user": "minsu",
                 "comment": "방은 작지만 깔끔하고 편리했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-19"
             }
         ]
@@ -2561,13 +2567,13 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "80",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20441,
-                "price": "190,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 190000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2580,9 +2586,9 @@
         "room2": [
             {
                 "roomId": 20442,
-                "price": "165,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 165000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -2596,7 +2602,7 @@
             {
                 "user": "mai",
                 "comment": "호텔 분위기가 정말 독특하고 예뻐요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-23"
             }
         ],
@@ -2604,7 +2610,7 @@
             {
                 "user": "younghee",
                 "comment": "근처에 볼거리와 맛집이 많아서 좋았어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-18"
             }
         ]
@@ -2619,13 +2625,13 @@
         "img1": "/images/img/building/hotel9.jpg",
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "150",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20451,
-                "price": "180,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 180000,
+                "bed": 2,
+                "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2638,9 +2644,9 @@
         "room2": [
             {
                 "roomId": 20452,
-                "price": "150,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 150000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2654,7 +2660,7 @@
             {
                 "user": "kazuya",
                 "comment": "삿포로 눈 축제 기간에 묵기 좋은 곳이에요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-02-10"
             }
         ],
@@ -2662,7 +2668,7 @@
             {
                 "user": "minjun",
                 "comment": "방에서 공원이 보여서 좋았습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-02-05"
             }
         ]
@@ -2677,13 +2683,13 @@
         "img1": "/images/img/building/hotel12.jpg",
         "img2": "/images/img/lobby/lobby7.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "totalRoomNumber": "70",
+        "totalRoomNumber": 2,
         "room1": [
             {
                 "roomId": 20461,
-                "price": "110,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 110000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2696,9 +2702,9 @@
         "room2": [
             {
                 "roomId": 20462,
-                "price": "95,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 95000,
+                "bed": 1,
+                "maxCapa": 2,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -2712,7 +2718,7 @@
             {
                 "user": "yosuke",
                 "comment": "테마가 재미있고 객실도 깔끔했어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-20"
             }
         ],
@@ -2720,7 +2726,7 @@
             {
                 "user": "seonghwan",
                 "comment": "조용해서 푹 쉬고 왔습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-15"
             }
         ]
@@ -2730,18 +2736,18 @@
         "hotelName": "센다이 미야기 호텔",
         "address": "미야기현 센다이시 아오바구 47-47",
         "hotelComment": "시내 중심, 편리한 위치",
-        "content": "센다이 시내 중심가에 위치한 편리한 호텔. 🚶 ♂️ 주변에 백화점과 맛집이 많아 이동이 편리해요.",
+        "content": "센다이 시내 중심가에 위치한 편리한 호텔. 🚶‍♂️ 주변에 백화점과 맛집이 많아 이동이 편리해요.",
         "city": "센다이시, 미야기, 일본",
         "img1": "/images/img/building/hotel7.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "180",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20471,
-                "price": "135,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 135000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2754,9 +2760,9 @@
         "room2": [
             {
                 "roomId": 20472,
-                "price": "110,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 110000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2770,7 +2776,7 @@
             {
                 "user": "shizuka",
                 "comment": "시내에 있어서 편리하게 돌아다녔어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-24"
             }
         ],
@@ -2778,7 +2784,7 @@
             {
                 "user": "hyunsoo",
                 "comment": "직원들이 친절하고 방이 깨끗합니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-19"
             }
         ]
@@ -2793,13 +2799,13 @@
         "img1": "/images/img/building/hotel8.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "100",
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20481,
-                "price": "280,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 280000,
+                "bed": 2,
+                "maxCapa": 4,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -2812,9 +2818,9 @@
         "room2": [
             {
                 "roomId": 20482,
-                "price": "250,000",
-                "bed": "1",
-                "maxCapa": "3",
+                "price": 250000,
+                "bed": 1,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -2828,7 +2834,7 @@
             {
                 "user": "masato",
                 "comment": "수영장과 해변이 가까워서 아이들이 좋아했어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-25"
             }
         ],
@@ -2836,28 +2842,28 @@
             {
                 "user": "eunji",
                 "comment": "깨끗하고 시설이 잘 관리되어 있습니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-20"
             }
         ]
     },
     {
         "hotelId": 2049,
-        "hotelName": "히로시마 오션뷰 호텔",
-        "address": "히로시마현 히로시마시 미나미구 49-49",
+        "hotelName": "훗카이도 오션뷰 호텔",
+        "address": "훗카이도 49-49",
         "hotelComment": "오션뷰, 평화로운 분위기",
         "content": "바다가 보이는 조용하고 평화로운 분위기의 호텔. 🌊",
         "city": "히로시마시, 히로시마, 일본",
         "img1": "/images/img/building/hotel9.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "80",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20491,
-                "price": "160,000",
-                "bed": "2",
-                "maxCapa": "3",
+                "price": 160000,
+                "bed": 2,
+                "maxCapa": 3,
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2870,9 +2876,9 @@
         "room2": [
             {
                 "roomId": 20492,
-                "price": "140,000",
-                "bed": "1",
-                "maxCapa": "2",
+                "price": 140000,
+                "bed": 1,
+                "maxCapa": 2,
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2886,7 +2892,7 @@
             {
                 "user": "yuta",
                 "comment": "바다를 보며 힐링하기 좋은 숙소입니다.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-23"
             }
         ],
@@ -2894,7 +2900,7 @@
             {
                 "user": "myeongjin",
                 "comment": "조용하고 깨끗해서 좋았어요.",
-                "score": "4",
+                "score": 4,
                 "date": "2025-08-18"
             }
         ]
@@ -2909,13 +2915,13 @@
         "img1": "/images/img/building/hotel11.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
-        "totalRoomNumber": "60",
+        "totalRoomNumber": 3,
         "room1": [
             {
                 "roomId": 20501,
-                "price": "200,000",
-                "bed": "2",
-                "maxCapa": "4",
+                "price": 200000,
+                "bed": 2,
+                "maxCapa": 4,
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -2928,9 +2934,9 @@
         "room2": [
             {
                 "roomId": 20502,
-                "price": "280,000",
-                "bed": "1",
-                "maxCapa": "6",
+                "price": 280000,
+                "bed": 1,
+                "maxCapa": 6,
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -2944,9 +2950,18 @@
             {
                 "user": "min",
                 "comment": "가족 여행으로 완벽한 숙소였습니다. 냄새도 너무 좋았어요.",
-                "score": "5",
+                "score": 5,
                 "date": "2025-08-21"
-            }
+            }           
+        ],
+         "review2": [
+            {
+                "user": "minsu",
+                "comment": "벽지에 곰팡이가 있어요.",
+                "score": 1,
+                "date": "2025-05-05"
+            }           
         ]
+
     }
 ]
