@@ -14,6 +14,9 @@ export default function ListItem({hotel}) {
   const totalScore = 5
   const [starPoint, setStarPoint] = useState((review1[0].score + review2[0].score)/2);
 
+  // const handleClickHeart = () => {
+
+  // }
 
   return(
     <li className='ListItem'>
@@ -24,7 +27,7 @@ export default function ListItem({hotel}) {
           </div>
           <p className='heart'>
             <button>
-              <img src='/images/ping.png'></img>
+              <img src='/images/likebutton_unliked.png'></img>
             </button>
           </p>
         </div>
