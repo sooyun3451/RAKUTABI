@@ -31,7 +31,7 @@ export default function SignIn() {
   };
 
   return (
-    <div id="wrapper">
+    <div id="sign-in-wrapper">
       <p className="title">로그인</p>
       <div className="id">
         <input
