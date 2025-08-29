@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import '../css/list_item.css'
 
@@ -21,6 +22,11 @@ export default function ListItem({hotel}) {
           <div className='images'>
             <img src={hotel.img1} />
           </div>
+          <p className='heart'>
+            <button>
+              <img src='/images/ping.png'></img>
+            </button>
+          </p>
         </div>
         <div className='right'>
           <div className='info'>
@@ -52,7 +58,7 @@ export default function ListItem({hotel}) {
       </div>
       <div className='more'>
         {/* <button>자세히 보기</button> */}
-        {hotel.totalRoomNumber == 0 ?<button className='noRoom'>객실 판매 완료</button> : <button>자세히 보기</button>}
+        {hotel.totalRoomNumber == 0 ?<button className='noRoom'>객실 판매 완료</button> : <button><Link to={`/room/detail/${hotel.hotelId}`}>자세히 보기</Link></button>}
       </div>
     </li>
   );
