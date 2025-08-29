@@ -1,0 +1,238 @@
+.room-detail {
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hotel-summary {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+.hotel-images {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.hotel-images div {
+    width: 450px;
+    height: 200px;
+}
+
+.hotel-images div img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 32px 0 16px 0;
+    color: #222;
+}
+.room-detail .navi {
+    display: flex;
+    gap: 24px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #a19d9d;
+}
+.room-detail .navi > div {
+    font-weight: normal; /* 네비게이션 바의 텍스트는 일반 굵기로 */
+}
+.room-detail .navi button,
+.room-detail .navi span {
+    font-weight: normal;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+.room-detail .navi .room-look {
+    max-width: none;
+    width: fit-content;
+    margin-left: 70%;
+}
+.hotel-info h2 {
+    margin: 0;
+    font-size: 22px;
+}
+.address {
+    color: gray;
+    font-size: 14px;
+}
+
+.room-section {
+    margin: 40px 0;
+}
+.room-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    border: 1px solid #ddd;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    background: #fff;
+}
+.room-photo img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+.room-main-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.room-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.room-badge {
+    display: inline-block;
+    background: #eee;
+    color: #666;
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.room-badge.non-smoking {
+    background: #e0f7fa;
+    color: #009688;
+}
+.room-summary {
+    color: #444;
+    font-size: 15px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+.room-facilities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 14px;
+    color: #666;
+}
+.room-price {
+    min-width: 180px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+}
+.room-origin-price {
+    color: #aaa;
+    font-size: 15px;
+    margin-right: 6px;
+}
+.room-sale-price {
+    color: #388e3c;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.room-per-night {
+    color: #888;
+    font-size: 14px;
+}
+.room-price button {
+    background: #5a7d36;
+    border: none;
+    padding: 10px 28px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.room-price button:hover {
+    background: #46602a;
+}
+
+.review-section {
+    margin-top: 50px;
+}
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.circle-score {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.circle-progress {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-progress span {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+}
+.review-filters label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.review-list {
+    margin-top: 20px;
+}
+.review-card {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.review-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.review-filters select {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+.review-user {
+    color: #333;
+}
+.review-score {
+    color: #4caf50;
+}
+
+.sticky-navi {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+}
+
+.room-price button:disabled {
+    background-color: #cccccc; /* 회색 배경 */
+    color: #666666; /* 어두운 글자색 */
+    cursor: not-allowed; /* 마우스 오버 시 금지 커서 */
+    opacity: 0.7; /* 약간 투명하게 */
+}
