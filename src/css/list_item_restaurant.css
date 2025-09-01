@@ -1,0 +1,123 @@
+.ListItemRestaurant{
+    width: 1000px;
+    padding: 24px;
+    margin: 0 auto;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.ListItemRestaurant:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.ListItemRestaurant a{
+    color: black;
+}
+.ListItemRestaurant .item{
+    display: flex;
+    gap: 34px;
+}
+.ListItemRestaurant .item .left{
+    width: 40%;
+}
+
+.ListItemRestaurant .item .left .images{
+    width: 100%;
+}
+
+.ListItemRestaurant .item .left .images img{
+    border-radius: 24px;
+    width: 100%;
+    height: 300px;
+    object-position: center center;
+}
+
+
+.ListItemRestaurant .item .right{
+    display: flex;
+    width: 60%;
+    /* background-color: aquamarine; */
+}
+.ListItemRestaurant .item .right .info{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* background-color: rgb(194, 122, 122); */
+}
+.ListItemRestaurant .item .right .info .stars{
+    margin-top: -85px;
+    margin-bottom: 22px;
+    color: #ffd900;
+}
+.ListItemRestaurant .item .right .info .stars span{
+    margin-left: 10px;
+    color: black;
+    font-weight: 500;
+}
+.ListItemRestaurant .item .right .info .nameAndLocation{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.ListItemRestaurant .item .right .info .nameAndLocation .restaurantName{
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    line-height: 1.25;
+
+}
+.ListItemRestaurant .item .right .info .nameAndLocation .restaurantLocation{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    font-weight: 500;
+}
+.ListItemRestaurant .item .right .info .nameAndLocation .restaurantLocation .ping{
+    width: 24px;
+    height: 24px;
+
+}
+.ListItemRestaurant .item .right .info .nameAndLocation .restaurantLocation .ping img{
+    width: 100%;
+    height: auto;
+}
+.ListItemRestaurant .item .right .info .restaurantReview{
+    padding-right: 24px;
+}
+
+
+.ListItemRestaurant .item .right .userAndDate{
+    position: relative;
+}
+
+.ListItemRestaurant .item .right .userAndDate .user{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 140px;
+    text-align: center;
+    /* background-color: bisque; */
+}
+.ListItemRestaurant .item .right .userAndDate .user .profile{
+    width: 40px;
+    height: 40px;
+}
+.ListItemRestaurant .item .right .userAndDate .user .profile img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.ListItemRestaurant .item .right .userAndDate .user .nickname{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.ListItemRestaurant .item .right .userAndDate .date{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 80px;
+    text-align: center;
+    /* background-color: bisque; */
+}
