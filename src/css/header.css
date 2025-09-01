@@ -1,16 +1,12 @@
 #Header {
-  width: 1920px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
+  width: auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
-.top-header{
-  width: auto;
+.top-header {
   display: flex;
+  padding: 15px 30px;
   justify-content: space-between;
 }
 
@@ -40,7 +36,7 @@
 
 .rakutabi-logo img {
   height: 60px;
-  width: 140px;  
+  width: 140px;
   object-fit: cover;
 }
 
@@ -118,6 +114,7 @@
     opacity: 0;
     transform: scaleY(0.95);
   }
+
   to {
     opacity: 1;
     transform: scaleY(1);
@@ -189,4 +186,88 @@
   background-color: #f0f0f0;
   color: #333;
   cursor: default;
+}
+
+.bar-title {
+  width: auto;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+  padding: 10px 0;
+  padding-top: 20px;
+}
+
+.search-bar-alt {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.search-bar-alt .search,
+.search-bar-alt .check-in-out,
+.search-bar-alt .people {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+}
+
+.search-bar-alt .search {
+  flex-grow: 2;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.search-bar-alt .check-in-out {
+  flex-grow: 2.5;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.search-bar-alt .people {
+  flex-grow: 2.5;
+  gap: 5px;
+  margin-right: 10px;
+}
+
+.search-bar-alt .search input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+}
+
+.search-bar-alt .search img,
+.search-bar-alt .people img {
+  width: 16px;
+  height: 16px;
+}
+
+.search-bar-alt .check-in-out span {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.search-bar-alt .check-in-out span:first-child {
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.search-bar-alt .search-button {
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 42px;
 }

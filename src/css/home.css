@@ -312,10 +312,10 @@
   font-weight: bold;
 }
 
-/* 슬라이더 영역을 감싸는 컨테이너의 너비 조정 */
+
 .slider-wrapper {
   width: 100%;
-  max-width: 1400px; /* 기존 1200px에서 1400px로 증가 */
+  max-width: 1400px; 
   overflow: hidden;
 }
 
@@ -333,8 +333,8 @@
   flex-direction: column;
   text-align: left;
   flex-shrink: 0;
-  width: calc(25% - 75px); /* 4개 항목이 한 줄에 보이도록 너비 유지 */
-  margin-right: 100px; /* 항목 간 간격 */
+  width: calc(25% - 75px); 
+  margin-right: 100px; 
 }
 
 .ad-item-content {
