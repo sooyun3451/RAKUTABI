@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
+
 import '../css/restaurant_region.css';
+import ListItemRestaurant from "../components/ListItemRestaurant";
 
 const SORT_OPTION_LIST = [
   {value : 'new', name :'최신 순'},
@@ -12,6 +15,7 @@ export default function RestaurantRegion() {
   const [restaurants, setRestaurants] = useState([]);
 
   const [currentSort, setCurrentSort] = useState(SORT_OPTION_LIST[0].value);
+  const handleChangeCurrentSort = e => setCurrentSort(e.target.value);
   
   useEffect(() => {
     fetchData();
@@ -32,7 +36,7 @@ export default function RestaurantRegion() {
       if(currentSort === 'new') {
         sortedRestaurants = restaurants.sort((a, b) => new Date(b.date) - new Date(a.date));
       } else if (currentSort === 'scoreTop') {
-      sortedRestaurants = restaurants.sort((a, b) => a.rate - b.rate);
+      sortedRestaurants = restaurants.sort((a, b) => b.rate - a.rate);
       };
       return sortedRestaurants;
   }
@@ -40,21 +44,29 @@ export default function RestaurantRegion() {
   const filterSortList = getFilterChange();
 
   return (
-    <div>
+    <div id="RestaurantRegion">
       <div className="top">
         <p className="area">도쿄</p>
         <div className="filterWrap">
           <select
             value={currentSort}
+            onChange={handleChangeCurrentSort}
           >
-            {/* {SORT_OPTION_LIST.map()} */}
+            {SORT_OPTION_LIST.map((opt, idx) => 
+              <option key={idx} value={opt.value}>{opt.name}</option>
+            )}
           </select>
         </div>
       </div>
       <div className="botton">
-        {restaurants.map(
-          restaurant => restaurant.name
-        )}
+        <div>
+          {restaurants.map(
+            restaurant => <ListItemRestaurant key={restaurant.id} restaurant={restaurant}/>
+          )}
+        </div>  
+      </div>
+      <div className="review">
+        <button><Link to='/restaurant/write'>리뷰 작성</Link></button>
       </div>
     </div>
   );
