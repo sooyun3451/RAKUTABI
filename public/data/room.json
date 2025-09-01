@@ -9,8 +9,27 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        
-        "totalRoomNumber": 5,
+      "convenient facilities":[{
+        "parking":true,
+        "sauna":true,
+        "spa/hairdresser":true,
+        "pool":true,
+        "late-night-meal":true,
+        "banquet hall":true,
+        "open-air-bath":true
+      }],
+     "Facilities provision services":[{
+        "parcel service":true,
+        "moring-call":true,
+        "fax":true
+     }],
+    "a responsive language":[{
+     "english":true,
+     "japanese":true,
+     "korean":true
+    }],
+
+        "totalRoomNumber": 1,
         "room1": [
             {
                 "roomId": 20001,
@@ -69,6 +88,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna":  false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": false,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": false,
+                "moring-call": true,
+                "fax": false
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": false,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20011,
@@ -126,6 +170,31 @@
         "img1": "/images/img/building/hotel3.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
+        "convenient facilities": [
+            {
+                "parking": false,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": true,
+                "korean": false
+            }
+        ],
         "totalRoomNumber": 3,
         "room1": [
             {
@@ -184,6 +253,31 @@
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax":true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "totalRoomNumber": 4,
         "room1": [
             {
@@ -243,6 +337,31 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": 3,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": true,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": false,
+                "open-air-bath": false
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": true,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20041,
@@ -301,6 +420,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room11.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": true,
+                "spa/hairdresser": true,
+                "pool": true,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": true,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20051,
@@ -359,6 +503,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": true,
+                "spa/hairdresser": true,
+                "pool": true,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": true,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20061,
@@ -417,6 +586,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20071,
@@ -475,6 +669,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20081,
@@ -533,6 +752,31 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": 5,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20091,
@@ -591,6 +835,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20101,
@@ -649,6 +918,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 4,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20111,
@@ -707,6 +1001,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20121,
@@ -765,6 +1084,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20131,
@@ -823,6 +1167,31 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20141,
@@ -881,6 +1250,31 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": 3,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20151,
@@ -939,6 +1333,31 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20161,
@@ -988,63 +1407,88 @@
     }
 ,
      {
-        "hotelId": 2017,
-        "hotelName": "마츠야마 캐슬 뷰 호텔",
-        "address": "에히메현 마츠야마시 17-17",
-        "hotelComment": "마츠야마성 전망, 중심가 위치",
-        "content": "마츠야마성이 보이는 객실을 갖춘 호텔. 🏰 중심가에 위치하여 관광하기에 편리합니다.",
-        "city": "마츠야마시, 에히메, 일본",
-        "img1": "/images/img/building/hotel8.jpg",
-        "img2": "/images/img/lobby/lobby4.jpg",
-        "img3": "/images/img/room/onebed/room8.jpg",
-        "totalRoomNumber": 3,
-        "room1": [
-            {
-                "roomId": 20171,
-                "price": 130000,
-                "bed": 2,
-                "maxCapa": 3,
-                "smoking": false,
-                "breakfast": true,
-                "ocean view": false,
-                "img1-1": "/images/img/room/twobed/room4.jpg",
-                "img1-2": "/images/img/room/twobed/room5.jpg",
-                "img1-3": "/images/img/room/twobed/room6.jpg",
-                "isBook": false
-            }
-        ],
-        "room2": [
-            {
-                "roomId": 20172,
-                "price": 110000,
-                "bed": 1,
-                "maxCapa": 2,
-                "smoking": false,
-                "ocean view": true,
-                "breakfast": false,
-                "img1-1": "/images/img/room/onebed/room2.jpg",
-                "img1-2": "/images/img/room/onebed/room8.jpg",
-                "img1-3": "/images/img/room/onebed/room4.jpg",
-                "isBook": false
-            }
-        ],
-        "review1": [
-            {
-                "user": "ayaka",
-                "comment": "성 뷰가 정말 멋있어요.",
-                "score": 5,
-                "date": "2025-08-01"
-            }
-        ],
-        "review2": [
-            {
-                "user": "hyunwoo",
-                "comment": "위치가 좋아서 이동하기 편했어요.",
-                "score": 4,
-                "date": "2025-07-22"
-            }
-        ]
-    },
+         "hotelId": 2017,
+         "hotelName": "마츠야마 캐슬 뷰 호텔",
+         "address": "에히메현 마츠야마시 17-17",
+         "hotelComment": "마츠야마성 전망, 중심가 위치",
+         "content": "마츠야마성이 보이는 객실을 갖춘 호텔. 🏰 중심가에 위치하여 관광하기에 편리합니다.",
+         "city": "마츠야마시, 에히메, 일본",
+         "img1": "/images/img/building/hotel8.jpg",
+         "img2": "/images/img/lobby/lobby4.jpg",
+         "img3": "/images/img/room/onebed/room8.jpg",
+         "totalRoomNumber": 3,
+         "convenient facilities": [
+             {
+                 "parking": true,
+                 "sauna": false,
+                 "spa/hairdresser": true,
+                 "pool": false,
+                 "late-night-meal": true,
+                 "banquet hall": true,
+                 "open-air-bath": true
+             }
+         ],
+         "Facilities provision services": [
+             {
+                 "parcel service": true,
+                 "moring-call": false,
+                 "fax": true
+             }
+         ],
+         "a responsive language": [
+             {
+                 "english": false,
+                 "japanese": true,
+                 "korean": true
+             }
+         ],
+         "room1": [
+             {
+                 "roomId": 20171,
+                 "price": 130000,
+                 "bed": 2,
+                 "maxCapa": 3,
+                 "smoking": false,
+                 "breakfast": true,
+                 "ocean view": false,
+                 "img1-1": "/images/img/room/twobed/room4.jpg",
+                 "img1-2": "/images/img/room/twobed/room5.jpg",
+                 "img1-3": "/images/img/room/twobed/room6.jpg",
+                 "isBook": false
+             }
+         ],
+         "room2": [
+             {
+                 "roomId": 20172,
+                 "price": 110000,
+                 "bed": 1,
+                 "maxCapa": 2,
+                 "smoking": false,
+                 "ocean view": true,
+                 "breakfast": false,
+                 "img1-1": "/images/img/room/onebed/room2.jpg",
+                 "img1-2": "/images/img/room/onebed/room8.jpg",
+                 "img1-3": "/images/img/room/onebed/room4.jpg",
+                 "isBook": false
+             }
+         ],
+         "review1": [
+             {
+                 "user": "ayaka",
+                 "comment": "성 뷰가 정말 멋있어요.",
+                 "score": 5,
+                 "date": "2025-08-01"
+             }
+         ],
+         "review2": [
+             {
+                 "user": "hyunwoo",
+                 "comment": "위치가 좋아서 이동하기 편했어요.",
+                 "score": 4,
+                 "date": "2025-07-22"
+             }
+         ]
+     },
     {
         "hotelId": 2018,
         "hotelName": "고치 리버사이드 호텔",
@@ -1056,6 +1500,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 0,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20181,
@@ -1114,6 +1583,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 0,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20191,
@@ -1169,9 +1663,34 @@
         "content": "고베의 랜드마크인 하버랜드와 가까운 호텔입니다. 🎡 아름다운 야경과 함께 로맨틱한 분위기를 즐길 수 있어요.",
         "city": "고베시, 효고, 일본",
         "img1": "/images/img/building/hotel1.jpg",
-        "img2": "/images/img/lobby/lobby7.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": 5,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20201,
@@ -1230,6 +1749,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20211,
@@ -1288,6 +1832,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20221,
@@ -1346,6 +1915,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20231,
@@ -1404,6 +1998,31 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20241,
@@ -1462,6 +2081,31 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 3,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20251,
@@ -1520,6 +2164,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 4,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20261,
@@ -1578,6 +2247,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 5,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20271,
@@ -1636,6 +2330,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20281,
@@ -1694,6 +2413,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20291,
@@ -1752,6 +2496,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
         "totalRoomNumber": 0,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20301,
@@ -1810,6 +2579,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20311,
@@ -1868,6 +2662,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20321,
@@ -1926,6 +2745,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20331,
@@ -1968,7 +2812,7 @@
             {
                 "user": "minho",
                 "comment": "가족들과 함께 편안하게 보냈어요.",
-                "score":4,
+                "score": 4,
                 "date": "2025-08-05"
             }
         ]
@@ -1976,236 +2820,337 @@
    
   
   {
-    "hotelId": 2034,
-    "hotelName": "도쿄 디즈니랜드 호텔",
-    "address": "치바현 우라야스시 34-34",
-    "hotelComment": "디즈니랜드 인근, 테마 숙소",
-    "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
-    "city": "우라야스시, 치바, 일본",
-    "img1": "/images/img/building/hotel5.jpg",
-    "img2": "/images/img/lobby/lobby5.jpg",
-    "img3": "/images/img/room/onebed/room7.jpg",
-    "totalRoomNumber": 5,
-    "room1": [
-      {
-        "roomId": 20341,
-        "price": 800000,
-        "bed": 2,
-        "maxCapa": 4,
-        "smoking": false,
-        "ocean view": false,
-        "breakfast": true,
-        "img1-1": "/images/img/room/twobed/room5.jpg",
-        "img1-2": "/images/img/room/twobed/room6.jpg",
-        "img1-3": "/images/img/room/twobed/room7.jpg",
-        "isBook": false
-      }
-    ],
-    "room2": [
-      {
-        "roomId": 20342,
-        "price": 750000,
-        "bed": 1,
-        "maxCapa": 5,
-        "ocean view": true,
-        "smoking": false,
-        "breakfast": true,
-        "img1-1": "/images/img/room/onebed/room1.jpg",
-        "img1-2": "/images/img/room/onebed/room12.jpg",
-        "img1-3": "/images/img/room/onebed/room2.jpg",
-        "isBook": false
-      }
-    ],
-    "review1": [
-      {
-        "user": "sakura",
-        "comment": "디즈니랜드 가기 너무 편하고, 호텔도 꿈같았어요.",
-        "score": 5,
-        "date": "2025-08-20"
-      }
-    ],
-    "review2": [
-      {
-        "user": "jungsun",
-        "comment": "아이들이 정말 좋아해서 행복했어요.",
-        "score": 5,
-        "date": "2025-08-15"
-      }
-    ]
+      "hotelId": 2034,
+      "hotelName": "도쿄 디즈니랜드 호텔",
+      "address": "치바현 우라야스시 34-34",
+      "hotelComment": "디즈니랜드 인근, 테마 숙소",
+      "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
+      "city": "우라야스시, 치바, 일본",
+      "img1": "/images/img/building/hotel5.jpg",
+      "img2": "/images/img/lobby/lobby5.jpg",
+      "img3": "/images/img/room/onebed/room7.jpg",
+      "totalRoomNumber": 5,
+      "convenient facilities": [
+          {
+              "parking": true,
+              "sauna": false,
+              "spa/hairdresser": true,
+              "pool": false,
+              "late-night-meal": true,
+              "banquet hall": true,
+              "open-air-bath": true
+          }
+      ],
+      "Facilities provision services": [
+          {
+              "parcel service": true,
+              "moring-call": false,
+              "fax": true
+          }
+      ],
+      "a responsive language": [
+          {
+              "english": false,
+              "japanese": true,
+              "korean": true
+          }
+      ],
+      "room1": [
+          {
+              "roomId": 20341,
+              "price": 800000,
+              "bed": 2,
+              "maxCapa": 4,
+              "smoking": false,
+              "ocean view": false,
+              "breakfast": true,
+              "img1-1": "/images/img/room/twobed/room5.jpg",
+              "img1-2": "/images/img/room/twobed/room6.jpg",
+              "img1-3": "/images/img/room/twobed/room7.jpg",
+              "isBook": false
+          }
+      ],
+      "room2": [
+          {
+              "roomId": 20342,
+              "price": 750000,
+              "bed": 1,
+              "maxCapa": 5,
+              "ocean view": true,
+              "smoking": false,
+              "breakfast": true,
+              "img1-1": "/images/img/room/onebed/room1.jpg",
+              "img1-2": "/images/img/room/onebed/room12.jpg",
+              "img1-3": "/images/img/room/onebed/room2.jpg",
+              "isBook": false
+          }
+      ],
+      "review1": [
+          {
+              "user": "sakura",
+              "comment": "디즈니랜드 가기 너무 편하고, 호텔도 꿈같았어요.",
+              "score": 5,
+              "date": "2025-08-20"
+          }
+      ],
+      "review2": [
+          {
+              "user": "jungsun",
+              "comment": "아이들이 정말 좋아해서 행복했어요.",
+              "score": 5,
+              "date": "2025-08-15"
+          }
+      ]
   },
   {
-    "hotelId": 2035,
-    "hotelName": "오사카 유니버설 스튜디오 호텔",
-    "address": "오사카부 오사카시 코노하나구 35-35",
-    "hotelComment": "유니버설 스튜디오 인근",
-    "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
-    "city": "오사카시, 오사카, 일본",
-    "img1": "/images/img/building/hotel6.jpg",
-    "img2": "/images/img/lobby/lobby6.jpg",
-    "img3": "/images/img/room/onebed/room8.jpg",
-    "totalRoomNumber": 3,
-    "room1": [
-      {
-        "roomId": 20351,
-        "price": 280000,
-        "bed": 2,
-        "maxCapa": 4,
-        "smoking": false,
-        "breakfast": true,
-        "ocean view": false,
-        "img1-1": "/images/img/room/twobed/room8.jpg",
-        "img1-2": "/images/img/room/twobed/room9.jpg",
-        "img1-3": "/images/img/room/twobed/room1.jpg",
-        "isBook": false
-      }
-    ],
-    "room2": [
-      {
-        "roomId": 20352,
-        "price": 250000,
-        "bed": 1,
-        "maxCapa": 3,
-        "ocean view": true,
-        "smoking": false,
-        "breakfast": false,
-        "img1-1": "/images/img/room/onebed/room12.jpg",
-        "img1-2": "/images/img/room/onebed/room6.jpg",
-        "img1-3": "/images/img/room/onebed/room2.jpg",
-        "isBook": false
-      }
-    ],
-    "review1": [
-      {
-        "user": "ryota",
-        "comment": "USJ와 가까워서 편리하게 이용했어요.",
-        "score": 5,
-        "date": "2025-08-25"
-      }
-    ],
-    "review2": [
-      {
-        "user": "minah",
-        "comment": "테마가 재미있고 아이들이 좋아합니다.",
-        "score": 4,
-        "date": "2025-08-20"
-      }
-    ]
+      "hotelId": 2035,
+      "hotelName": "오사카 유니버설 스튜디오 호텔",
+      "address": "오사카부 오사카시 코노하나구 35-35",
+      "hotelComment": "유니버설 스튜디오 인근",
+      "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
+      "city": "오사카시, 오사카, 일본",
+      "img1": "/images/img/building/hotel6.jpg",
+      "img2": "/images/img/lobby/lobby6.jpg",
+      "img3": "/images/img/room/onebed/room8.jpg",
+      "totalRoomNumber": 3,
+      "convenient facilities": [
+          {
+              "parking": true,
+              "sauna": false,
+              "spa/hairdresser": true,
+              "pool": false,
+              "late-night-meal": true,
+              "banquet hall": true,
+              "open-air-bath": true
+          }
+      ],
+      "Facilities provision services": [
+          {
+              "parcel service": true,
+              "moring-call": false,
+              "fax": true
+          }
+      ],
+      "a responsive language": [
+          {
+              "english": false,
+              "japanese": true,
+              "korean": true
+          }
+      ],
+      "room1": [
+          {
+              "roomId": 20351,
+              "price": 280000,
+              "bed": 2,
+              "maxCapa": 4,
+              "smoking": false,
+              "breakfast": true,
+              "ocean view": false,
+              "img1-1": "/images/img/room/twobed/room8.jpg",
+              "img1-2": "/images/img/room/twobed/room9.jpg",
+              "img1-3": "/images/img/room/twobed/room1.jpg",
+              "isBook": false
+          }
+      ],
+      "room2": [
+          {
+              "roomId": 20352,
+              "price": 250000,
+              "bed": 1,
+              "maxCapa": 3,
+              "ocean view": true,
+              "smoking": false,
+              "breakfast": false,
+              "img1-1": "/images/img/room/onebed/room12.jpg",
+              "img1-2": "/images/img/room/onebed/room6.jpg",
+              "img1-3": "/images/img/room/onebed/room2.jpg",
+              "isBook": false
+          }
+      ],
+      "review1": [
+          {
+              "user": "ryota",
+              "comment": "USJ와 가까워서 편리하게 이용했어요.",
+              "score": 5,
+              "date": "2025-08-25"
+          }
+      ],
+      "review2": [
+          {
+              "user": "minah",
+              "comment": "테마가 재미있고 아이들이 좋아합니다.",
+              "score": 4,
+              "date": "2025-08-20"
+          }
+      ]
   },
   {
-    "hotelId": 2036,
-    "hotelName": "교토 청수사 료칸",
-    "address": "교토부 교토시 히가시야마구 36-36",
-    "hotelComment": "청수사 인근, 전통 분위기",
-    "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
-    "city": "교토시, 교토, 일본",
-    "img1": "/images/img/building/hotel7.jpg",
-    "img2": "/images/img/lobby/lobby1.jpg",
-    "img3": "/images/img/room/onebed/room9.jpg",
-    "totalRoomNumber": 2,
-    "room1": [
-      {
-        "roomId": 20361,
-        "price": 380000,
-        "bed": 2,
-        "maxCapa": 4,
-        "smoking": false,
-        "ocean view": false,
-        "breakfast": true,
-        "img1-1": "/images/img/room/twobed/room1.jpg",
-        "img1-2": "/images/img/room/twobed/room2.jpg",
-        "img1-3": "/images/img/room/twobed/room3.jpg",
-        "isBook": false
-      }
-    ],
-    "room2": [
-      {
-        "roomId": 20362,
-        "price": 320000,
-        "bed": 1,
-        "maxCapa": 3,
-        "ocean view": true,
-        "smoking": false,
-        "breakfast": true,
-        "img1-1": "/images/img/room/onebed/room4.jpg",
-        "img1-2": "/images/img/room/onebed/room2.jpg",
-        "img1-3": "/images/img/room/onebed/room1.jpg",
-        "isBook": false
-      }
-    ],
-    "review1": [
-      {
-        "user": "naomi",
-        "comment": "아름다운 정원이 있어서 힐링됐어요.",
-        "score": 5,
-        "date": "2025-08-22"
-      }
-    ],
-    "review2": [
-      {
-        "user": "junsik",
-        "comment": "전통적인 분위기와 현대적인 편의시설이 잘 어우러져 있습니다.",
-        "score": 5,
-        "date": "2025-08-18"
-      }
-    ]
+      "hotelId": 2036,
+      "hotelName": "교토 청수사 료칸",
+      "address": "교토부 교토시 히가시야마구 36-36",
+      "hotelComment": "청수사 인근, 전통 분위기",
+      "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
+      "city": "교토시, 교토, 일본",
+      "img1": "/images/img/building/hotel7.jpg",
+      "img2": "/images/img/lobby/lobby1.jpg",
+      "img3": "/images/img/room/onebed/room9.jpg",
+      "totalRoomNumber": 2,
+      "convenient facilities": [
+          {
+              "parking": true,
+              "sauna": false,
+              "spa/hairdresser": true,
+              "pool": false,
+              "late-night-meal": true,
+              "banquet hall": true,
+              "open-air-bath": true
+          }
+      ],
+      "Facilities provision services": [
+          {
+              "parcel service": true,
+              "moring-call": false,
+              "fax": true
+          }
+      ],
+      "a responsive language": [
+          {
+              "english": false,
+              "japanese": true,
+              "korean": true
+          }
+      ],
+
+      "room1": [
+          {
+              "roomId": 20361,
+              "price": 380000,
+              "bed": 2,
+              "maxCapa": 4,
+              "smoking": false,
+              "ocean view": false,
+              "breakfast": true,
+              "img1-1": "/images/img/room/twobed/room1.jpg",
+              "img1-2": "/images/img/room/twobed/room2.jpg",
+              "img1-3": "/images/img/room/twobed/room3.jpg",
+              "isBook": false
+          }
+      ],
+      "room2": [
+          {
+              "roomId": 20362,
+              "price": 320000,
+              "bed": 1,
+              "maxCapa": 3,
+              "ocean view": true,
+              "smoking": false,
+              "breakfast": true,
+              "img1-1": "/images/img/room/onebed/room4.jpg",
+              "img1-2": "/images/img/room/onebed/room2.jpg",
+              "img1-3": "/images/img/room/onebed/room1.jpg",
+              "isBook": false
+          }
+      ],
+      "review1": [
+          {
+              "user": "naomi",
+              "comment": "아름다운 정원이 있어서 힐링됐어요.",
+              "score": 5,
+              "date": "2025-08-22"
+          }
+      ],
+      "review2": [
+          {
+              "user": "junsik",
+              "comment": "전통적인 분위기와 현대적인 편의시설이 잘 어우러져 있습니다.",
+              "score": 5,
+              "date": "2025-08-18"
+          }
+      ]
   },
   {
-    "hotelId": 2037,
-    "hotelName": "오키나와 아메리칸 빌리지 호텔",
-    "address": "오키나와현 나카가미군 차탄초 37-37",
-    "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
-    "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
-    "city": "차탄초, 오키나와, 일본",
-    "img1": "/images/img/building/hotel8.jpg",
-    "img2": "/images/img/lobby/lobby2.jpg",
-    "img3": "/images/img/room/onebed/room1.jpg",
-    "totalRoomNumber": 3,
-    "room1": [
-      {
-        "roomId": 20371,
-        "price": 290000,
-        "bed": 2,
-        "ocean view": false,
-        "maxCapa": 4,
-        "smoking": false,
-        "breakfast": true,
-        "img1-1": "/images/img/room/twobed/room4.jpg",
-        "img1-2": "/images/img/room/twobed/room5.jpg",
-        "img1-3": "/images/img/room/twobed/room6.jpg",
-        "isBook": false
-      }
-    ],
-    "room2": [
-      {
-        "roomId": 20372,
-        "price": 250000,
-        "bed": 1,
-        "maxCapa": 3,
-        "ocean view": true,
-        "smoking": false,
-        "breakfast": false,
-        "img1-1": "/images/img/room/onebed/room2.jpg",
-        "img1-2": "/images/img/room/onebed/room1.jpg",
-        "img1-3": "/images/img/room/onebed/room8.jpg",
-        "isBook": false
-      }
-    ],
-    "review1": [
-      {
-        "user": "yoko",
-        "comment": "위치가 너무 좋아서 즐겁게 여행했어요.",
-        "score": 5,
-        "date": "2025-08-25"
-      }
-    ],
-    "review2": [
-      {
-        "user": "dongho",
-        "comment": "주변에 먹을 곳도 많고 볼거리도 풍부합니다.",
-        "score": 4,
-        "date": "2025-08-20"
-      }
-    ]
+      "hotelId": 2037,
+      "hotelName": "오키나와 아메리칸 빌리지 호텔",
+      "address": "오키나와현 나카가미군 차탄초 37-37",
+      "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
+      "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
+      "city": "차탄초, 오키나와, 일본",
+      "img1": "/images/img/building/hotel8.jpg",
+      "img2": "/images/img/lobby/lobby2.jpg",
+      "img3": "/images/img/room/onebed/room1.jpg",
+      "totalRoomNumber": 3,
+      "convenient facilities": [
+          {
+              "parking": true,
+              "sauna": false,
+              "spa/hairdresser": true,
+              "pool": false,
+              "late-night-meal": true,
+              "banquet hall": true,
+              "open-air-bath": true
+          }
+      ],
+      "Facilities provision services": [
+          {
+              "parcel service": true,
+              "moring-call": false,
+              "fax": true
+          }
+      ],
+      "a responsive language": [
+          {
+              "english": false,
+              "japanese": true,
+              "korean": true
+          }
+      ],
+      "room1": [
+          {
+              "roomId": 20371,
+              "price": 290000,
+              "bed": 2,
+              "ocean view": false,
+              "maxCapa": 4,
+              "smoking": false,
+              "breakfast": true,
+              "img1-1": "/images/img/room/twobed/room4.jpg",
+              "img1-2": "/images/img/room/twobed/room5.jpg",
+              "img1-3": "/images/img/room/twobed/room6.jpg",
+              "isBook": false
+          }
+      ],
+      "room2": [
+          {
+              "roomId": 20372,
+              "price": 250000,
+              "bed": 1,
+              "maxCapa": 3,
+              "ocean view": true,
+              "smoking": false,
+              "breakfast": false,
+              "img1-1": "/images/img/room/onebed/room2.jpg",
+              "img1-2": "/images/img/room/onebed/room1.jpg",
+              "img1-3": "/images/img/room/onebed/room8.jpg",
+              "isBook": false
+          }
+      ],
+      "review1": [
+          {
+              "user": "yoko",
+              "comment": "위치가 너무 좋아서 즐겁게 여행했어요.",
+              "score": 5,
+              "date": "2025-08-25"
+          }
+      ],
+      "review2": [
+          {
+              "user": "dongho",
+              "comment": "주변에 먹을 곳도 많고 볼거리도 풍부합니다.",
+              "score": 4,
+              "date": "2025-08-20"
+          }
+      ]
   }
 ,
    
@@ -2220,6 +3165,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 4,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20381,
@@ -2278,6 +3248,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20391,
@@ -2336,6 +3331,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 5,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20401,
@@ -2394,6 +3414,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 3,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20411,
@@ -2452,6 +3497,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room10.jpg",
         "totalRoomNumber": 5,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20421,
@@ -2510,6 +3580,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 4,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20431,
@@ -2568,6 +3663,31 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20441,
@@ -2676,14 +3796,39 @@
     {
         "hotelId": 2046,
         "hotelName": "아오모리 애플 호텔",
-        "address": "아오모리현 아오모리시 46-46",
+        "address": "홋카이도아오모리현 아오모리시 46-46",
         "hotelComment": "사과 테마, 조용한 분위기",
         "content": "사과로 유명한 아오모리에 있는 독특한 테마 호텔. 🍎 조용하고 깨끗해서 편안하게 쉴 수 있습니다.",
         "city": "아오모리시, 아오모리, 일본",
         "img1": "/images/img/building/hotel12.jpg",
-        "img2": "/images/img/lobby/lobby7.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 2,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20461,
@@ -2742,6 +3887,31 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20471,
@@ -2800,6 +3970,31 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20481,
@@ -2858,6 +4053,31 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 3,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20491,
@@ -2916,6 +4136,31 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 3,
+        "convenient facilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20501,
@@ -2952,16 +4197,15 @@
                 "comment": "가족 여행으로 완벽한 숙소였습니다. 냄새도 너무 좋았어요.",
                 "score": 5,
                 "date": "2025-08-21"
-            }           
+            }
         ],
-         "review2": [
+        "review2": [
             {
                 "user": "minsu",
                 "comment": "벽지에 곰팡이가 있어요.",
                 "score": 1,
                 "date": "2025-05-05"
-            }           
+            }
         ]
-
     }
 ]
