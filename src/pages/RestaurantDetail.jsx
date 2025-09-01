@@ -2,12 +2,15 @@ import React, { useEffect, useState } from 'react';
 import "../css/restaurant_detail.css"
 import axios from 'axios';
 import Modal from 'react-modal';
+import { useParams } from 'react-router-dom';
 
 export default function RestaurantDetail() {
+  const {id} = useParams();
+
   const [restaurant, setRestaurant] = useState({photo: []});
   const fetchData = async () => {
     const response = await axios.get('/data/restaurantDetail.json');
-    setRestaurant(response.data[14]);
+    setRestaurant(response.data[id]);
   }  
   useEffect(() => {
     fetchData();
