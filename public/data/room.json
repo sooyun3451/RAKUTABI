@@ -9,25 +9,25 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-        "convenient facilities":[{
-            "parking":true,
-            "sauna":true,
-            "spa/hairdresser":true,
-            "pool":true,
-            "late-night-meal":true,
-            "banquet hall":true,
-            "open-air-bath":true
-        }],
-        "Facilities provision services":[{
-            "parcel service":true,
-            "moring-call":true,
-            "fax":true
-        }],
-        "a responsive language":[{
-        "english":true,
-        "japanese":true,
-        "korean":true
-        }],
+      "convenient facilities":[{
+        "parking":true,
+        "sauna":true,
+        "spa/hairdresser":true,
+        "pool":true,
+        "late-night-meal":true,
+        "banquet hall":true,
+        "open-air-bath":true
+      }],
+     "Facilities provision services":[{
+        "parcel service":true,
+        "moring-call":true,
+        "fax":true
+     }],
+    "a responsive language":[{
+     "english":true,
+     "japanese":true,
+     "korean":true
+    }],
 
         "totalRoomNumber": 1,
         "room1": [

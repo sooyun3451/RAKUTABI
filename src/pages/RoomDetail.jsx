@@ -10,17 +10,47 @@ export default function RoomDetail() {
     const [bookedRooms, setBookedRooms] = useState(0); // 예약된 객실 수 상태 추가
     const { id } = useParams();
 
+    // fetch 후 id에 맞는 호텔을 정확히 찾아 설정하도록 개선
     useEffect(() => {
         fetch("/data/room.json")
             .then((res) => res.json())
             .then((data) => {
                 setHotels(data);
-                const found = data.find(
-                    (h) => String(h.hotelId) === String(id)
-                );
+                const findById = (list, targetId) =>
+                    list.find(
+                        (h) =>
+                            Number(h.hotelId) === Number(targetId) ||
+                            String(h.hotelId).trim() === String(targetId).trim()
+                    );
+
+                const found = findById(data, id);
+                if (!found) {
+                    console.warn(
+                        "[RoomDetail] hotel not found for id:",
+                        id,
+                        "available ids:",
+                        data.map((h) => h.hotelId)
+                    );
+                }
                 setSelectedHotel(found || data[0]);
+            })
+            .catch((err) => {
+                console.error("[RoomDetail] fetch error:", err);
             });
     }, [id]);
+
+    // (안전장치) hotels가 나중에 업데이트될 경우에도 id에 맞게 selectedHotel 보정
+    useEffect(() => {
+        if (!hotels || hotels.length === 0) return;
+        const found = hotels.find(
+            (h) =>
+                Number(h.hotelId) === Number(id) ||
+                String(h.hotelId).trim() === String(id).trim()
+        );
+        if (found && (!selectedHotel || selectedHotel.hotelId !== found.hotelId)) {
+            setSelectedHotel(found);
+        }
+    }, [hotels, id]);
 
     if (!selectedHotel) return <div>Loading...</div>;
 
@@ -63,6 +93,13 @@ export default function RoomDetail() {
             setBookedRooms(bookedRooms + 1);
             alert("객실이 예약되었습니다!");
         }
+    };
+
+    const getScoreLabel = (score) => {
+        if (score >= 4.0) return { text: "매우 훌륭함", cls: "excellent" };
+        if (score >= 3.0) return { text: "훌륭함", cls: "good" };
+        if (score >= 2.0) return { text: "보통", cls: "average" };
+        return { text: "최악", cls: "poor" };
     };
 
     return (
@@ -112,15 +149,87 @@ export default function RoomDetail() {
                         </button>
                     </div>
                     <div className="room-look">
-                        <button>
+                        <button
+                            onClick={() =>
+                                document
+                                    .getElementById("section-reviews")
+                                    .scrollIntoView({ behavior: "smooth" })
+                            }>
                             <span>객실보기</span>
                         </button>
                     </div>
                 </div>
                 <div id="section-overview" className="hotel-info">
                     <h2>{hotel.hotelName}</h2>
-                    <p className="address">{hotel.address}</p>
-                    <p>{hotel.content}</p>
+                </div>
+
+                <div id="item-box" className="hotel-meta">
+                    <div className="circle-review">
+                        <div className="circle-score">
+                            <div className="address">
+                            <p className="address">{hotel.address}</p>
+                            <p>{hotel.content}</p>
+                            </div>
+                            <div
+                                className="circle-progress"
+                                style={{
+                                    background: `conic-gradient(#4caf50 ${(
+                                        (avgScore / 5) *
+                                        360
+                                    ).toFixed(2)}deg, #eee 0deg)`,
+                                }}>
+                                <span>{avgScore.toFixed(1)}</span>
+                            </div>
+                            {(() => {
+                                const label = getScoreLabel(avgScore);
+                                return (
+                                    <div
+                                        className={`score-label ${label.cls}`}
+                                        aria-hidden>
+                                        <strong>{label.text}</strong>
+                                        <div className="score-note">
+                                            평균 {avgScore.toFixed(1)}점
+                                        </div>
+                                    </div>
+                                );
+                            })()}
+                        </div>
+                    </div>
+                    {/* 점수 레이블 (숫자 옆 표시) */}
+
+                    <div className="convenient">
+                        <h3>숙소 편의 시설/서비스</h3>
+                        <div className="convenient-list">
+                            {hotel["convenient facilities"] &&
+                                hotel["convenient facilities"][0] && (() => {
+                                    const defs = {
+                                        parking: { label: "주차", icon: "🅿️" },
+                                        sauna: { label: "사우나", icon: "♨️" },
+                                        "spa/hairdresser": { label: "스파/미용", icon: "💆" },
+                                        pool: { label: "수영장", icon: "🏊" },
+                                        "late-night-meal": { label: "심야식사", icon: "🌙" },
+                                        "banquet hall": { label: "연회장", icon: "🎉" },
+                                        "open-air-bath": { label: "노천탕", icon: "🛁" },
+                                    };
+                                    const avail = hotel["convenient facilities"][0];
+                                    // 정의된 순서대로 true 항목만 표시
+                                    const items = Object.keys(defs).filter((k) => avail[k] === true);
+                                    if (!items.length) return null;
+                                    return (
+                                        <div className="facility-grid" aria-hidden>
+                                            {items.map((k) => (
+                                                <div key={k} className="facility-item">
+                                                    <span className="facility-icon" aria-hidden>
+                                                        {defs[k].icon}
+                                                    </span>
+                                                    <span className="facility-label">{defs[k].label}</span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    );
+                                })()}
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -201,6 +310,19 @@ export default function RoomDetail() {
                             }}>
                             <span>{avgScore.toFixed(1)}</span>
                         </div>
+                        {(() => {
+                            const label = getScoreLabel(avgScore);
+                            return (
+                                <div
+                                    className={`score-label ${label.cls}`}
+                                    aria-hidden>
+                                    <strong>{label.text}</strong>
+                                    <div className="score-note">
+                                        평균 {avgScore.toFixed(1)}점
+                                    </div>
+                                </div>
+                            );
+                        })()}
                     </div>
                     <div className="review-filters">
                         <select
@@ -228,12 +350,36 @@ export default function RoomDetail() {
                 <div className="review-list">
                     {sortedReviews.map((r, idx) => (
                         <div key={idx} className="review-card">
-                            <div className="review-top">
-                                <span className="review-user">{r.user}</span>
-                                <span className="review-score">{r.score}</span>
+                            <div className="review-content">
+                                <div className="review-top">
+                                    <span className="review-user">
+                                        {r.user}
+                                    </span>
+                                </div>
+                                <p>{r.comment}</p>
+                                <small>{r.date}</small>
                             </div>
-                            <p>{r.comment}</p>
-                            <small>{r.date}</small>
+                            <div
+                                className="review-score-circle"
+                                aria-hidden
+                                style={{
+                                    background: `conic-gradient(#4caf50 ${(
+                                        (r.score / 5) *
+                                        360
+                                    ).toFixed(2)}deg, #eee 0deg)`,
+                                }}>
+                                <span>{r.score}</span>
+                            </div>
+                            {(() => {
+                                const label = getScoreLabel(avgScore);
+                                return (
+                                    <div
+                                        className={`score-label ${label.cls}`}
+                                        aria-hidden>
+                                        <strong>{label.text}</strong>
+                                    </div>
+                                );
+                            })()}
                         </div>
                     ))}
                 </div>
