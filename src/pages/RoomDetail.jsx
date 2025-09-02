@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "./RoomDetail.css";
+import "../css/RoomDetail.css";
 
 export default function RoomDetail() {
     const [hotels, setHotels] = useState([]);
     const [selectedHotel, setSelectedHotel] = useState(null);
     const [reviewFilter, setReviewFilter] = useState([]);
     const [sortOrder, setSortOrder] = useState("latest");
-    const [bookedRooms, setBookedRooms] = useState(0); // 예약된 객실 수 상태 추가
+    const [bookedRooms, setBookedRooms] = useState(0);
     const { id } = useParams();
 
     useEffect(() => {
@@ -45,7 +45,10 @@ export default function RoomDetail() {
                 Number(h.hotelId) === Number(id) ||
                 String(h.hotelId).trim() === String(id).trim()
         );
-        if (found && (!selectedHotel || selectedHotel.hotelId !== found.hotelId)) {
+        if (
+            found &&
+            (!selectedHotel || selectedHotel.hotelId !== found.hotelId)
+        ) {
             setSelectedHotel(found);
         }
     }, [hotels, id]);
@@ -54,16 +57,13 @@ export default function RoomDetail() {
 
     const hotel = selectedHotel;
 
-    // 모든 리뷰 모으기
     const allReviews = [...hotel.review1, ...hotel.review2];
 
-    // 평점 필터 적용
     const filteredReviews =
         reviewFilter.length > 0
             ? allReviews.filter((r) => reviewFilter.includes(r.score))
             : allReviews;
 
-    // 평균 평점
     const avgScore =
         allReviews.length > 0
             ? allReviews.reduce((sum, r) => sum + r.score, 0) /
@@ -76,7 +76,6 @@ export default function RoomDetail() {
                 : [...prev, score]
         );
     };
-    // 정렬된 리뷰 만들기
     const sortedReviews = [...filteredReviews].sort((a, b) => {
         if (sortOrder === "latest") {
             return new Date(b.date) - new Date(a.date);
@@ -85,7 +84,6 @@ export default function RoomDetail() {
         }
     });
 
-    // 예약 버튼 클릭 핸들러
     const handleBookRoom = () => {
         if (bookedRooms < hotel.totalRoomNumber) {
             setBookedRooms(bookedRooms + 1);
@@ -99,10 +97,30 @@ export default function RoomDetail() {
         if (score >= 2.0) return { text: "보통", cls: "average" };
         return { text: "최악", cls: "poor" };
     };
+    const facilityLabels = {
+        parking: "주차",
+        sauna: "사우나",
+        "spa/hairdresser": "스파/미용실",
+        pool: "수영장",
+        "late-night-meal": "야간식사",
+        "banquet hall": "연회장",
+        "open-air-bath": "노천탕",
+    };
 
+    const serviceLabels = {
+        "parcel service": "택배 서비스",
+        "moring-call": "모닝콜",
+        fax: "팩스",
+    };
+
+    const languageLabels = {
+        english: "영어",
+        japanese: "일본어",
+        korean: "한국어",
+    };
     return (
         <div className="room-detail">
-            {/* 호텔 개요 */}
+            {/* 1. 호텔 이미지 섹션 */}
             <div className="hotel-summary">
                 <div className="hotel-images">
                     <div>
@@ -115,62 +133,49 @@ export default function RoomDetail() {
                         <img src={hotel.img3} alt="room" />
                     </div>
                 </div>
-                <div className="navi sticky-navi">
-                    <div className="outline">
-                        <button
-                            onClick={() =>
-                                document
-                                    .getElementById("section-overview")
-                                    .scrollIntoView({ behavior: "smooth" })
-                            }>
-                            개요
-                        </button>
-                    </div>
-                    <div className="rooms-accommodation-products">
-                        <button
-                            onClick={() =>
-                                document
-                                    .getElementById("section-rooms")
-                                    .scrollIntoView({ behavior: "smooth" })
-                            }>
-                            객실&숙박상품
-                        </button>
-                    </div>
-                    <div className="navi-Reviews">
-                        <button
-                            onClick={() =>
-                                document
-                                    .getElementById("section-reviews")
-                                    .scrollIntoView({ behavior: "smooth" })
-                            }>
-                            이용후기
-                        </button>
-                    </div>
-                    <div className="room-look">
-                        <button
-                            onClick={() =>
-                                document
-                                    .getElementById("section-reviews")
-                                    .scrollIntoView({ behavior: "smooth" })
-                            }>
-                            <span>객실보기</span>
-                        </button>
-                    </div>
-                    <div className="room-services">
-                        <button
-                            onClick={() =>
-                                document
-                                    .getElementById("section-services")
-                                    .scrollIntoView({ behavior: "smooth" })
-                            }>
-                            편의시설/서비스
-                        </button>
-                    </div>
-                </div>
-                <div id="section-overview" className="hotel-info">
-                    <h2>{hotel.hotelName}</h2>
-                </div>
+            </div>
 
+            {/* 2. 네비게이션 컨테이너 (여기를 바깥으로 빼야 합니다!) */}
+            <div className="sticky-nav-container">
+                <div className="navi sticky-navi">
+                    <button
+                        onClick={() =>
+                            document
+                                .getElementById("section-overview")
+                                .scrollIntoView({ behavior: "smooth" })
+                        }>
+                        개요
+                    </button>
+                    <button
+                        onClick={() =>
+                            document
+                                .getElementById("section-rooms")
+                                .scrollIntoView({ behavior: "smooth" })
+                        }>
+                        객실&숙박상품
+                    </button>
+                    <button
+                        onClick={() =>
+                            document
+                                .getElementById("section-reviews")
+                                .scrollIntoView({ behavior: "smooth" })
+                        }>
+                        이용후기
+                    </button>
+                    <button
+                        onClick={() =>
+                            document
+                                .getElementById("section-services")
+                                .scrollIntoView({ behavior: "smooth" })
+                        }>
+                        편의시설/서비스
+                    </button>
+                </div>
+            </div>
+
+            {/* 3. 호텔 정보 (개요) 섹션 - 네비게이션 컨테이너와 분리 */}
+            <div id="section-overview" className="hotel-info">
+                <h2>{hotel.hotelName}</h2>
                 <div id="item-box" className="hotel-meta">
                     <div className="circle-review">
                         <div className="circle-score">
@@ -203,7 +208,6 @@ export default function RoomDetail() {
                             })()}
                         </div>
                     </div>
-
                     <div className="convenient">
                         <h3>숙소 편의 시설/서비스</h3>
                         <div className="convenient-list">
@@ -263,18 +267,16 @@ export default function RoomDetail() {
                 </div>
             </div>
 
-            {/* 객실 */}
+            {/* 객실 섹션 */}
             <h3 className="section-title" id="section-rooms">
                 객실과 숙박 상품
             </h3>
             <div className="room-section">
                 {[...hotel.room1, ...hotel.room2].map((room) => (
                     <div key={room.roomId} className="room-card">
-                        {/* 좌측: 객실 이미지 */}
                         <div className="room-photo">
                             <img src={room["img1-1"]} alt="room" />
                         </div>
-                        {/* 중앙: 객실 정보 */}
                         <div className="room-main-info">
                             <div className="room-title">
                                 <strong>{room.name}</strong>
@@ -299,7 +301,6 @@ export default function RoomDetail() {
                                 )}
                             </div>
                         </div>
-                        {/* 우측: 가격 및 예약 */}
                         <div className="room-price">
                             <p>
                                 <span className="room-origin-price">
@@ -325,7 +326,7 @@ export default function RoomDetail() {
                 ))}
             </div>
 
-            {/* 리뷰 */}
+            {/* 리뷰 섹션 */}
             <div className="review-section" id="section-reviews">
                 <h3>투숙객 평점 및 이용후기</h3>
                 <div className="review-header">
@@ -333,9 +334,10 @@ export default function RoomDetail() {
                         <div
                             className="circle-progress"
                             style={{
-                                background: `conic-gradient(#4caf50 ${
-                                    (avgScore / 5) * 360
-                                }deg, #eee 0deg)`,
+                                background: `conic-gradient(#4caf50 ${(
+                                    (avgScore / 5) *
+                                    360
+                                ).toFixed(2)}deg, #eee 0deg)`,
                             }}>
                             <span>{avgScore.toFixed(1)}</span>
                         </div>
@@ -415,26 +417,30 @@ export default function RoomDetail() {
             </div>
             <div id="section-services" className="section">
                 <h2>특징 및 편의시설 서비스</h2>
-                <ul className="conven">
+                <ul className="conven-list">
                     <h4>시설</h4>
                     {hotel["convenientFacilities"].map((facility, index) => (
                         <li key={index}>
                             {Object.entries(facility).map(([key, value]) => (
                                 <span key={key}>
-                                    {key}: {value ? "☑" : "☐"}
+                                    {facilityLabels[key] || key}:{" "}
+                                    {value ? "☑" : "☐"}
                                 </span>
                             ))}
                         </li>
                     ))}
                 </ul>
-                <ul className="facilities"><h4>시설 제공 서비스</h4>
+
+                <ul className="facilities">
+                    <h4>시설 제공 서비스</h4>
                     {hotel["Facilities provision services"].map(
                         (provision, index) => (
                             <li key={index}>
                                 {Object.entries(provision).map(
                                     ([key, value]) => (
                                         <span key={key}>
-                                            {key}: {value ? "☑" : "☐"}
+                                            {serviceLabels[key] || key}:{" "}
+                                            {value ? "☑" : "☐"}
                                         </span>
                                     )
                                 )}
@@ -442,12 +448,15 @@ export default function RoomDetail() {
                         )
                     )}
                 </ul>
-                <ul className="languages"><h4>응답 언어</h4>
+
+                <ul className="languages">
+                    <h4>응답 언어</h4>
                     {hotel["a responsive language"].map((language, index) => (
                         <li key={index}>
                             {Object.entries(language).map(([key, value]) => (
                                 <span key={key}>
-                                    {key}: {value ? "☑" : "☐"}
+                                    {languageLabels[key] || key}:{" "}
+                                    {value ? "☑" : "☐"}
                                 </span>
                             ))}
                         </li>
