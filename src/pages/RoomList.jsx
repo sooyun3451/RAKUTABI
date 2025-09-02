@@ -117,10 +117,17 @@ export default function RoomList() {
 
   // 1박당 요금 슬라이더
   const handlePrice = () => {
-    const filtered = hotels.filter(
-      hotel =>
-        Number(hotel.room1[0].price) <= price ||
-        Number(hotel.room2[0].price) <= price
+      
+    // const filtered = hotels.filter(
+    //   hotel =>
+    //     Number(hotel.room1[0].price) <= price ||
+    //     Number(hotel.room2[0].price) <= price
+    // );
+    // setHotelData(filtered);
+
+    // 정렬된 리스트에서 슬라이더 조건으로 필터링
+    const filtered = filterSortList.filter(
+    hotel => hotel.minRoomPrice <= price
     );
     setHotelData(filtered);
   };
@@ -154,7 +161,7 @@ export default function RoomList() {
     } else if (currentSort === 'priceDown') {
       sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => a.minRoomPrice - b.minRoomPrice);
     } else {
-      sortedHotels = hotelsWithAvgScoreAndMinPrice;
+      sortedHotels = [...hotelData];
     }
     setHotelData(sortedHotels);
   }
