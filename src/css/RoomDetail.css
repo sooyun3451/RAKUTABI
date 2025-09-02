@@ -71,7 +71,7 @@ h2, h3 {
 
 /* 투숙객 평점 */
 .circle-review {
-  flex: 0.9; /* 좁게 */
+  width: 70%;
   background: #fff;
   border-radius: 12px;
   padding: 20px;
@@ -387,4 +387,19 @@ h2, h3 {
   .room-price {
     text-align: left;
   }
+}
+.conven {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  width: 100%;
+}
+.facilities {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  width: 100%;
+}
+.languages {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  width: 100%;
 }

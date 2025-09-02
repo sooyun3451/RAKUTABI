@@ -1,5 +1,5 @@
 [
-        {
+    {
         "hotelId": 2000,
         "hotelName": "오키나와 비치 호텔",
         "address": "오키나와현 나하시 히가시마치 12-3",
@@ -9,25 +9,31 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-      "convenient facilities":[{
-        "parking":true,
-        "sauna":true,
-        "spa/hairdresser":true,
-        "pool":true,
-        "late-night-meal":true,
-        "banquet hall":true,
-        "open-air-bath":true
-      }],
-     "Facilities provision services":[{
-        "parcel service":true,
-        "moring-call":true,
-        "fax":true
-     }],
-    "a responsive language":[{
-     "english":true,
-     "japanese":true,
-     "korean":true
-    }],
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": true,
+                "spa/hairdresser": true,
+                "pool": true,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": true,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": true,
+                "korean": true
+            }
+        ],
 
         "totalRoomNumber": 1,
         "room1": [
@@ -38,6 +44,7 @@
                 "maxCapa": 4,
                 "ocean view": true,
                 "smoking": false,
+                "roomSize": "13㎡",
                 "breakfast": true,
                 "img1-1": "/images/img/room/twobed/room1.jpg",
                 "img1-2": "/images/img/room/twobed/room2.jpg",
@@ -51,6 +58,7 @@
                 "price": 250000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "16㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -88,10 +96,10 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
-                "sauna":  false,
+                "sauna": false,
                 "spa/hairdresser": true,
                 "pool": false,
                 "late-night-meal": true,
@@ -119,6 +127,7 @@
                 "price": 318805,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "18㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": false,
@@ -134,6 +143,7 @@
                 "price": 255000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "16㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -170,7 +180,7 @@
         "img1": "/images/img/building/hotel3.jpg",
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": false,
                 "sauna": false,
@@ -202,6 +212,7 @@
                 "price": 103232,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -217,6 +228,7 @@
                 "price": 87000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "16㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -248,12 +260,12 @@
         "hotelName": "&몬드 오키나와 아레나 콘도미니엄",
         "address": "오키나와현 오키나와시 야마자토 3-3",
         "hotelComment": "2023 오픈 콘도, 가족/장기체류 적합",
-        "content": "2023년 오픈한 신축 콘도로, 넓은 공간과 주방/세탁 시설을 갖추어 가족 및 장기 투숙에 적합해요. 👨‍👩‍👧‍👦",
+        "content": "2023년 오픈한 신축 콘도로, 넓은 공간과 주방/세탁 시설을 갖추어 가족 및 장기 투숙에 적합해요. 👨 👩 👧 👦",
         "city": "오키나와시, 오키나와, 일본",
         "img1": "/images/img/building/hotel4.jpg",
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -268,7 +280,7 @@
             {
                 "parcel service": true,
                 "moring-call": false,
-                "fax":true
+                "fax": true
             }
         ],
         "a responsive language": [
@@ -285,7 +297,9 @@
                 "price": 237206,
                 "bed": 2,
                 "maxCapa": 5,
+                "roomSize": "14㎡",
                 "smoking": false,
+                "roomSize": "16㎡",
                 "ocean view": true,
                 "breakfast": false,
                 "img1-1": "/images/img/room/twobed/room1.jpg",
@@ -300,6 +314,7 @@
                 "price": 199000,
                 "bed": 1,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -337,7 +352,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": 3,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": true,
@@ -368,6 +383,7 @@
                 "price": 56929,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "15㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -383,6 +399,7 @@
                 "price": 69000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -420,7 +437,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room11.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": true,
@@ -452,6 +469,7 @@
                 "bed": 2,
                 "maxCapa": 3,
                 "ocean view": true,
+                "roomSize": "16㎡",
                 "smoking": false,
                 "breakfast": false,
                 "img1-1": "/images/img/room/twobed/room6.jpg",
@@ -466,6 +484,7 @@
                 "price": 99000,
                 "bed": 1,
                 "maxCapa": 4,
+                "roomSize": "16㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -503,7 +522,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": true,
@@ -534,6 +553,7 @@
                 "price": 63191,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -549,6 +569,7 @@
                 "price": 75000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "18㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -586,7 +607,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -618,6 +639,7 @@
                 "bed": 2,
                 "maxCapa": 3,
                 "smoking": false,
+                "roomSize": "18㎡",
                 "ocean view": false,
                 "breakfast": true,
                 "img1-1": "/images/img/room/twobed/room2.jpg",
@@ -632,6 +654,7 @@
                 "price": 129000,
                 "bed": 1,
                 "maxCapa": 4,
+                "roomSize": "15㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -669,7 +692,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -700,6 +723,7 @@
                 "price": 75906,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "18㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -715,6 +739,7 @@
                 "price": 89000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -752,7 +777,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": 5,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -783,6 +808,7 @@
                 "price": 46966,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": false,
@@ -798,6 +824,7 @@
                 "price": 59000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -835,7 +862,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -868,6 +895,7 @@
                 "maxCapa": 4,
                 "ocean view": true,
                 "smoking": false,
+                "roomSize": "14㎡",
                 "breakfast": false,
                 "img1-1": "/images/img/room/twobed/room3.jpg",
                 "img1-2": "/images/img/room/twobed/room4.jpg",
@@ -881,6 +909,7 @@
                 "price": 189000,
                 "bed": 1,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -918,7 +947,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 4,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -949,6 +978,7 @@
                 "price": 80650,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -964,6 +994,7 @@
                 "price": 92000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -1001,7 +1032,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room7.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1032,6 +1063,7 @@
                 "price": 155000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1048,6 +1080,7 @@
                 "bed": 1,
                 "ocean view": true,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": true,
                 "breakfast": false,
                 "img1-1": "/images/img/room/onebed/room9.jpg",
@@ -1084,7 +1117,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room8.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1115,6 +1148,7 @@
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -1130,6 +1164,7 @@
                 "price": 165000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": false,
@@ -1167,7 +1202,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1198,6 +1233,7 @@
                 "price": 199000,
                 "bed": 2,
                 "ocean view": false,
+                "roomSize": "14㎡",
                 "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
@@ -1213,6 +1249,7 @@
                 "price": 170000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1250,7 +1287,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room9.jpg",
         "totalRoomNumber": 3,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1281,6 +1318,7 @@
                 "price": 220000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -1296,6 +1334,7 @@
                 "price": 190000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": true,
                 "breakfast": false,
@@ -1333,7 +1372,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1364,6 +1403,7 @@
                 "price": 120000,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1379,6 +1419,7 @@
                 "price": 145000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1404,91 +1445,92 @@
                 "date": "2025-08-10"
             }
         ]
-    }
-,
-     {
-         "hotelId": 2017,
-         "hotelName": "마츠야마 캐슬 뷰 호텔",
-         "address": "에히메현 마츠야마시 17-17",
-         "hotelComment": "마츠야마성 전망, 중심가 위치",
-         "content": "마츠야마성이 보이는 객실을 갖춘 호텔. 🏰 중심가에 위치하여 관광하기에 편리합니다.",
-         "city": "마츠야마시, 에히메, 일본",
-         "img1": "/images/img/building/hotel8.jpg",
-         "img2": "/images/img/lobby/lobby4.jpg",
-         "img3": "/images/img/room/onebed/room8.jpg",
-         "totalRoomNumber": 3,
-         "convenient facilities": [
-             {
-                 "parking": true,
-                 "sauna": false,
-                 "spa/hairdresser": true,
-                 "pool": false,
-                 "late-night-meal": true,
-                 "banquet hall": true,
-                 "open-air-bath": true
-             }
-         ],
-         "Facilities provision services": [
-             {
-                 "parcel service": true,
-                 "moring-call": false,
-                 "fax": true
-             }
-         ],
-         "a responsive language": [
-             {
-                 "english": false,
-                 "japanese": true,
-                 "korean": true
-             }
-         ],
-         "room1": [
-             {
-                 "roomId": 20171,
-                 "price": 130000,
-                 "bed": 2,
-                 "maxCapa": 3,
-                 "smoking": false,
-                 "breakfast": true,
-                 "ocean view": false,
-                 "img1-1": "/images/img/room/twobed/room4.jpg",
-                 "img1-2": "/images/img/room/twobed/room5.jpg",
-                 "img1-3": "/images/img/room/twobed/room6.jpg",
-                 "isBook": false
-             }
-         ],
-         "room2": [
-             {
-                 "roomId": 20172,
-                 "price": 110000,
-                 "bed": 1,
-                 "maxCapa": 2,
-                 "smoking": false,
-                 "ocean view": true,
-                 "breakfast": false,
-                 "img1-1": "/images/img/room/onebed/room2.jpg",
-                 "img1-2": "/images/img/room/onebed/room8.jpg",
-                 "img1-3": "/images/img/room/onebed/room4.jpg",
-                 "isBook": false
-             }
-         ],
-         "review1": [
-             {
-                 "user": "ayaka",
-                 "comment": "성 뷰가 정말 멋있어요.",
-                 "score": 5,
-                 "date": "2025-08-01"
-             }
-         ],
-         "review2": [
-             {
-                 "user": "hyunwoo",
-                 "comment": "위치가 좋아서 이동하기 편했어요.",
-                 "score": 4,
-                 "date": "2025-07-22"
-             }
-         ]
-     },
+    },
+    {
+        "hotelId": 2017,
+        "hotelName": "마츠야마 캐슬 뷰 호텔",
+        "address": "에히메현 마츠야마시 17-17",
+        "hotelComment": "마츠야마성 전망, 중심가 위치",
+        "content": "마츠야마성이 보이는 객실을 갖춘 호텔. 🏰 중심가에 위치하여 관광하기에 편리합니다.",
+        "city": "마츠야마시, 에히메, 일본",
+        "img1": "/images/img/building/hotel8.jpg",
+        "img2": "/images/img/lobby/lobby4.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
+        "totalRoomNumber": 3,
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
+        "room1": [
+            {
+                "roomId": 20171,
+                "price": 130000,
+                "bed": 2,
+                "maxCapa": 3,
+                "roomSize": "14㎡",
+                "smoking": false,
+                "breakfast": true,
+                "ocean view": false,
+                "img1-1": "/images/img/room/twobed/room4.jpg",
+                "img1-2": "/images/img/room/twobed/room5.jpg",
+                "img1-3": "/images/img/room/twobed/room6.jpg",
+                "isBook": false
+            }
+        ],
+        "room2": [
+            {
+                "roomId": 20172,
+                "price": 110000,
+                "bed": 1,
+                "maxCapa": 2,
+                "roomSize": "14㎡",
+                "smoking": false,
+                "ocean view": true,
+                "breakfast": false,
+                "img1-1": "/images/img/room/onebed/room2.jpg",
+                "img1-2": "/images/img/room/onebed/room8.jpg",
+                "img1-3": "/images/img/room/onebed/room4.jpg",
+                "isBook": false
+            }
+        ],
+        "review1": [
+            {
+                "user": "ayaka",
+                "comment": "성 뷰가 정말 멋있어요.",
+                "score": 5,
+                "date": "2025-08-01"
+            }
+        ],
+        "review2": [
+            {
+                "user": "hyunwoo",
+                "comment": "위치가 좋아서 이동하기 편했어요.",
+                "score": 4,
+                "date": "2025-07-22"
+            }
+        ]
+    },
     {
         "hotelId": 2018,
         "hotelName": "고치 리버사이드 호텔",
@@ -1500,7 +1542,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 0,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1533,6 +1575,7 @@
                 "ocean view": false,
                 "maxCapa": 3,
                 "smoking": false,
+                "roomSize": "14㎡",
                 "breakfast": false,
                 "img1-1": "/images/img/room/twobed/room7.jpg",
                 "img1-2": "/images/img/room/twobed/room8.jpg",
@@ -1583,7 +1626,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 0,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1614,6 +1657,7 @@
                 "price": 105000,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -1666,7 +1710,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": 5,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1697,6 +1741,7 @@
                 "price": 210000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1712,6 +1757,7 @@
                 "price": 180000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -1749,7 +1795,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1780,6 +1826,7 @@
                 "price": 250000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1795,6 +1842,7 @@
                 "price": 200000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1832,7 +1880,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1863,6 +1911,7 @@
                 "price": 185000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -1878,6 +1927,7 @@
                 "price": 160000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -1915,7 +1965,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room12.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -1961,6 +2011,7 @@
                 "price": 280000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -1998,7 +2049,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2029,6 +2080,7 @@
                 "price": 190000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -2044,6 +2096,7 @@
                 "price": 165000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -2081,7 +2134,7 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 3,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2112,6 +2165,7 @@
                 "price": 450000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2127,6 +2181,7 @@
                 "price": 400000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -2164,7 +2219,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 4,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2195,6 +2250,7 @@
                 "price": 550000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": true,
                 "ocean view": false,
@@ -2210,6 +2266,7 @@
                 "price": 500000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -2247,7 +2304,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 5,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2278,6 +2335,7 @@
                 "price": 350000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2293,6 +2351,7 @@
                 "price": 300000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": true,
@@ -2330,7 +2389,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2361,6 +2420,7 @@
                 "price": 145000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2376,6 +2436,7 @@
                 "price": 120000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2413,7 +2474,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2444,6 +2505,7 @@
                 "price": 170000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2459,6 +2521,7 @@
                 "price": 140000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2496,7 +2559,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room3.jpg",
         "totalRoomNumber": 0,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2527,6 +2590,7 @@
                 "price": 350000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2542,6 +2606,7 @@
                 "price": 300000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -2579,7 +2644,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room4.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2610,6 +2675,7 @@
                 "price": 95000,
                 "bed": 2,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2625,6 +2691,7 @@
                 "price": 110000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2662,7 +2729,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room5.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2693,6 +2760,7 @@
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2708,6 +2776,7 @@
                 "price": 150000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2745,7 +2814,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room6.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -2776,6 +2845,7 @@
                 "price": 165000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -2791,6 +2861,7 @@
                 "price": 130000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -2817,343 +2888,348 @@
             }
         ]
     },
-   
-  
-  {
-      "hotelId": 2034,
-      "hotelName": "도쿄 디즈니랜드 호텔",
-      "address": "치바현 우라야스시 34-34",
-      "hotelComment": "디즈니랜드 인근, 테마 숙소",
-      "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
-      "city": "우라야스시, 치바, 일본",
-      "img1": "/images/img/building/hotel5.jpg",
-      "img2": "/images/img/lobby/lobby5.jpg",
-      "img3": "/images/img/room/onebed/room7.jpg",
-      "totalRoomNumber": 5,
-      "convenient facilities": [
-          {
-              "parking": true,
-              "sauna": false,
-              "spa/hairdresser": true,
-              "pool": false,
-              "late-night-meal": true,
-              "banquet hall": true,
-              "open-air-bath": true
-          }
-      ],
-      "Facilities provision services": [
-          {
-              "parcel service": true,
-              "moring-call": false,
-              "fax": true
-          }
-      ],
-      "a responsive language": [
-          {
-              "english": false,
-              "japanese": true,
-              "korean": true
-          }
-      ],
-      "room1": [
-          {
-              "roomId": 20341,
-              "price": 800000,
-              "bed": 2,
-              "maxCapa": 4,
-              "smoking": false,
-              "ocean view": false,
-              "breakfast": true,
-              "img1-1": "/images/img/room/twobed/room5.jpg",
-              "img1-2": "/images/img/room/twobed/room6.jpg",
-              "img1-3": "/images/img/room/twobed/room7.jpg",
-              "isBook": false
-          }
-      ],
-      "room2": [
-          {
-              "roomId": 20342,
-              "price": 750000,
-              "bed": 1,
-              "maxCapa": 5,
-              "ocean view": true,
-              "smoking": false,
-              "breakfast": true,
-              "img1-1": "/images/img/room/onebed/room1.jpg",
-              "img1-2": "/images/img/room/onebed/room12.jpg",
-              "img1-3": "/images/img/room/onebed/room2.jpg",
-              "isBook": false
-          }
-      ],
-      "review1": [
-          {
-              "user": "sakura",
-              "comment": "디즈니랜드 가기 너무 편하고, 호텔도 꿈같았어요.",
-              "score": 5,
-              "date": "2025-08-20"
-          }
-      ],
-      "review2": [
-          {
-              "user": "jungsun",
-              "comment": "아이들이 정말 좋아해서 행복했어요.",
-              "score": 5,
-              "date": "2025-08-15"
-          }
-      ]
-  },
-  {
-      "hotelId": 2035,
-      "hotelName": "오사카 유니버설 스튜디오 호텔",
-      "address": "오사카부 오사카시 코노하나구 35-35",
-      "hotelComment": "유니버설 스튜디오 인근",
-      "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
-      "city": "오사카시, 오사카, 일본",
-      "img1": "/images/img/building/hotel6.jpg",
-      "img2": "/images/img/lobby/lobby6.jpg",
-      "img3": "/images/img/room/onebed/room8.jpg",
-      "totalRoomNumber": 3,
-      "convenient facilities": [
-          {
-              "parking": true,
-              "sauna": false,
-              "spa/hairdresser": true,
-              "pool": false,
-              "late-night-meal": true,
-              "banquet hall": true,
-              "open-air-bath": true
-          }
-      ],
-      "Facilities provision services": [
-          {
-              "parcel service": true,
-              "moring-call": false,
-              "fax": true
-          }
-      ],
-      "a responsive language": [
-          {
-              "english": false,
-              "japanese": true,
-              "korean": true
-          }
-      ],
-      "room1": [
-          {
-              "roomId": 20351,
-              "price": 280000,
-              "bed": 2,
-              "maxCapa": 4,
-              "smoking": false,
-              "breakfast": true,
-              "ocean view": false,
-              "img1-1": "/images/img/room/twobed/room8.jpg",
-              "img1-2": "/images/img/room/twobed/room9.jpg",
-              "img1-3": "/images/img/room/twobed/room1.jpg",
-              "isBook": false
-          }
-      ],
-      "room2": [
-          {
-              "roomId": 20352,
-              "price": 250000,
-              "bed": 1,
-              "maxCapa": 3,
-              "ocean view": true,
-              "smoking": false,
-              "breakfast": false,
-              "img1-1": "/images/img/room/onebed/room12.jpg",
-              "img1-2": "/images/img/room/onebed/room6.jpg",
-              "img1-3": "/images/img/room/onebed/room2.jpg",
-              "isBook": false
-          }
-      ],
-      "review1": [
-          {
-              "user": "ryota",
-              "comment": "USJ와 가까워서 편리하게 이용했어요.",
-              "score": 5,
-              "date": "2025-08-25"
-          }
-      ],
-      "review2": [
-          {
-              "user": "minah",
-              "comment": "테마가 재미있고 아이들이 좋아합니다.",
-              "score": 4,
-              "date": "2025-08-20"
-          }
-      ]
-  },
-  {
-      "hotelId": 2036,
-      "hotelName": "교토 청수사 료칸",
-      "address": "교토부 교토시 히가시야마구 36-36",
-      "hotelComment": "청수사 인근, 전통 분위기",
-      "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
-      "city": "교토시, 교토, 일본",
-      "img1": "/images/img/building/hotel7.jpg",
-      "img2": "/images/img/lobby/lobby1.jpg",
-      "img3": "/images/img/room/onebed/room9.jpg",
-      "totalRoomNumber": 2,
-      "convenient facilities": [
-          {
-              "parking": true,
-              "sauna": false,
-              "spa/hairdresser": true,
-              "pool": false,
-              "late-night-meal": true,
-              "banquet hall": true,
-              "open-air-bath": true
-          }
-      ],
-      "Facilities provision services": [
-          {
-              "parcel service": true,
-              "moring-call": false,
-              "fax": true
-          }
-      ],
-      "a responsive language": [
-          {
-              "english": false,
-              "japanese": true,
-              "korean": true
-          }
-      ],
 
-      "room1": [
-          {
-              "roomId": 20361,
-              "price": 380000,
-              "bed": 2,
-              "maxCapa": 4,
-              "smoking": false,
-              "ocean view": false,
-              "breakfast": true,
-              "img1-1": "/images/img/room/twobed/room1.jpg",
-              "img1-2": "/images/img/room/twobed/room2.jpg",
-              "img1-3": "/images/img/room/twobed/room3.jpg",
-              "isBook": false
-          }
-      ],
-      "room2": [
-          {
-              "roomId": 20362,
-              "price": 320000,
-              "bed": 1,
-              "maxCapa": 3,
-              "ocean view": true,
-              "smoking": false,
-              "breakfast": true,
-              "img1-1": "/images/img/room/onebed/room4.jpg",
-              "img1-2": "/images/img/room/onebed/room2.jpg",
-              "img1-3": "/images/img/room/onebed/room1.jpg",
-              "isBook": false
-          }
-      ],
-      "review1": [
-          {
-              "user": "naomi",
-              "comment": "아름다운 정원이 있어서 힐링됐어요.",
-              "score": 5,
-              "date": "2025-08-22"
-          }
-      ],
-      "review2": [
-          {
-              "user": "junsik",
-              "comment": "전통적인 분위기와 현대적인 편의시설이 잘 어우러져 있습니다.",
-              "score": 5,
-              "date": "2025-08-18"
-          }
-      ]
-  },
-  {
-      "hotelId": 2037,
-      "hotelName": "오키나와 아메리칸 빌리지 호텔",
-      "address": "오키나와현 나카가미군 차탄초 37-37",
-      "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
-      "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
-      "city": "차탄초, 오키나와, 일본",
-      "img1": "/images/img/building/hotel8.jpg",
-      "img2": "/images/img/lobby/lobby2.jpg",
-      "img3": "/images/img/room/onebed/room1.jpg",
-      "totalRoomNumber": 3,
-      "convenient facilities": [
-          {
-              "parking": true,
-              "sauna": false,
-              "spa/hairdresser": true,
-              "pool": false,
-              "late-night-meal": true,
-              "banquet hall": true,
-              "open-air-bath": true
-          }
-      ],
-      "Facilities provision services": [
-          {
-              "parcel service": true,
-              "moring-call": false,
-              "fax": true
-          }
-      ],
-      "a responsive language": [
-          {
-              "english": false,
-              "japanese": true,
-              "korean": true
-          }
-      ],
-      "room1": [
-          {
-              "roomId": 20371,
-              "price": 290000,
-              "bed": 2,
-              "ocean view": false,
-              "maxCapa": 4,
-              "smoking": false,
-              "breakfast": true,
-              "img1-1": "/images/img/room/twobed/room4.jpg",
-              "img1-2": "/images/img/room/twobed/room5.jpg",
-              "img1-3": "/images/img/room/twobed/room6.jpg",
-              "isBook": false
-          }
-      ],
-      "room2": [
-          {
-              "roomId": 20372,
-              "price": 250000,
-              "bed": 1,
-              "maxCapa": 3,
-              "ocean view": true,
-              "smoking": false,
-              "breakfast": false,
-              "img1-1": "/images/img/room/onebed/room2.jpg",
-              "img1-2": "/images/img/room/onebed/room1.jpg",
-              "img1-3": "/images/img/room/onebed/room8.jpg",
-              "isBook": false
-          }
-      ],
-      "review1": [
-          {
-              "user": "yoko",
-              "comment": "위치가 너무 좋아서 즐겁게 여행했어요.",
-              "score": 5,
-              "date": "2025-08-25"
-          }
-      ],
-      "review2": [
-          {
-              "user": "dongho",
-              "comment": "주변에 먹을 곳도 많고 볼거리도 풍부합니다.",
-              "score": 4,
-              "date": "2025-08-20"
-          }
-      ]
-  }
-,
-   
+    {
+        "hotelId": 2034,
+        "hotelName": "도쿄 디즈니랜드 호텔",
+        "address": "치바현 우라야스시 34-34",
+        "hotelComment": "디즈니랜드 인근, 테마 숙소",
+        "content": "도쿄 디즈니랜드 및 디즈니씨와 가까운 공식 호텔. 🏰 테마파크를 좋아하는 분들에게 최고의 경험을 선사합니다.",
+        "city": "우라야스시, 치바, 일본",
+        "img1": "/images/img/building/hotel5.jpg",
+        "img2": "/images/img/lobby/lobby5.jpg",
+        "img3": "/images/img/room/onebed/room7.jpg",
+        "totalRoomNumber": 5,
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
+        "room1": [
+            {
+                "roomId": 20341,
+                "price": 800000,
+                "bed": 2,
+                "maxCapa": 4,
+                "roomSize": "14㎡",
+                "smoking": false,
+                "ocean view": false,
+                "breakfast": true,
+                "img1-1": "/images/img/room/twobed/room5.jpg",
+                "img1-2": "/images/img/room/twobed/room6.jpg",
+                "img1-3": "/images/img/room/twobed/room7.jpg",
+                "isBook": false
+            }
+        ],
+        "room2": [
+            {
+                "roomId": 20342,
+                "price": 750000,
+                "bed": 1,
+                "maxCapa": 5,
+                "roomSize": "14㎡",
+                "ocean view": true,
+                "smoking": false,
+                "breakfast": true,
+                "img1-1": "/images/img/room/onebed/room1.jpg",
+                "img1-2": "/images/img/room/onebed/room12.jpg",
+                "img1-3": "/images/img/room/onebed/room2.jpg",
+                "isBook": false
+            }
+        ],
+        "review1": [
+            {
+                "user": "sakura",
+                "comment": "디즈니랜드 가기 너무 편하고, 호텔도 꿈같았어요.",
+                "score": 5,
+                "date": "2025-08-20"
+            }
+        ],
+        "review2": [
+            {
+                "user": "jungsun",
+                "comment": "아이들이 정말 좋아해서 행복했어요.",
+                "score": 5,
+                "date": "2025-08-15"
+            }
+        ]
+    },
+    {
+        "hotelId": 2035,
+        "hotelName": "오사카 유니버설 스튜디오 호텔",
+        "address": "오사카부 오사카시 코노하나구 35-35",
+        "hotelComment": "유니버설 스튜디오 인근",
+        "content": "유니버설 스튜디오 재팬과 가까워 테마파크를 방문하는 여행객에게 최적의 호텔입니다. 🎢",
+        "city": "오사카시, 오사카, 일본",
+        "img1": "/images/img/building/hotel6.jpg",
+        "img2": "/images/img/lobby/lobby6.jpg",
+        "img3": "/images/img/room/onebed/room8.jpg",
+        "totalRoomNumber": 3,
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
+        "room1": [
+            {
+                "roomId": 20351,
+                "price": 280000,
+                "bed": 2,
+                "maxCapa": 4,
+                "roomSize": "14㎡",
+                "smoking": false,
+                "breakfast": true,
+                "ocean view": false,
+                "img1-1": "/images/img/room/twobed/room8.jpg",
+                "img1-2": "/images/img/room/twobed/room9.jpg",
+                "img1-3": "/images/img/room/twobed/room1.jpg",
+                "isBook": false
+            }
+        ],
+        "room2": [
+            {
+                "roomId": 20352,
+                "price": 250000,
+                "bed": 1,
+                "maxCapa": 3,
+                "roomSize": "14㎡",
+                "ocean view": true,
+                "smoking": false,
+                "breakfast": false,
+                "img1-1": "/images/img/room/onebed/room12.jpg",
+                "img1-2": "/images/img/room/onebed/room6.jpg",
+                "img1-3": "/images/img/room/onebed/room2.jpg",
+                "isBook": false
+            }
+        ],
+        "review1": [
+            {
+                "user": "ryota",
+                "comment": "USJ와 가까워서 편리하게 이용했어요.",
+                "score": 5,
+                "date": "2025-08-25"
+            }
+        ],
+        "review2": [
+            {
+                "user": "minah",
+                "comment": "테마가 재미있고 아이들이 좋아합니다.",
+                "score": 4,
+                "date": "2025-08-20"
+            }
+        ]
+    },
+    {
+        "hotelId": 2036,
+        "hotelName": "교토 청수사 료칸",
+        "address": "교토부 교토시 히가시야마구 36-36",
+        "hotelComment": "청수사 인근, 전통 분위기",
+        "content": "교토의 유명 관광지인 청수사와 가까운 전통 료칸. ⛩️ 교토의 고즈넉한 분위기를 만끽할 수 있어요.",
+        "city": "교토시, 교토, 일본",
+        "img1": "/images/img/building/hotel7.jpg",
+        "img2": "/images/img/lobby/lobby1.jpg",
+        "img3": "/images/img/room/onebed/room9.jpg",
+        "totalRoomNumber": 2,
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
+
+        "room1": [
+            {
+                "roomId": 20361,
+                "price": 380000,
+                "bed": 2,
+                "maxCapa": 4,
+                "roomSize": "14㎡",
+                "smoking": false,
+                "ocean view": false,
+                "breakfast": true,
+                "img1-1": "/images/img/room/twobed/room1.jpg",
+                "img1-2": "/images/img/room/twobed/room2.jpg",
+                "img1-3": "/images/img/room/twobed/room3.jpg",
+                "isBook": false
+            }
+        ],
+        "room2": [
+            {
+                "roomId": 20362,
+                "price": 320000,
+                "bed": 1,
+                "maxCapa": 3,
+                "roomSize": "14㎡",
+                "ocean view": true,
+                "smoking": false,
+                "breakfast": true,
+                "img1-1": "/images/img/room/onebed/room4.jpg",
+                "img1-2": "/images/img/room/onebed/room2.jpg",
+                "img1-3": "/images/img/room/onebed/room1.jpg",
+                "isBook": false
+            }
+        ],
+        "review1": [
+            {
+                "user": "naomi",
+                "comment": "아름다운 정원이 있어서 힐링됐어요.",
+                "score": 5,
+                "date": "2025-08-22"
+            }
+        ],
+        "review2": [
+            {
+                "user": "junsik",
+                "comment": "전통적인 분위기와 현대적인 편의시설이 잘 어우러져 있습니다.",
+                "score": 5,
+                "date": "2025-08-18"
+            }
+        ]
+    },
+    {
+        "hotelId": 2037,
+        "hotelName": "오키나와 아메리칸 빌리지 호텔",
+        "address": "오키나와현 나카가미군 차탄초 37-37",
+        "hotelComment": "아메리칸 빌리지 인근, 쇼핑/관광",
+        "content": "이국적인 분위기의 아메리칸 빌리지와 가까운 호텔. 🌴 쇼핑과 다양한 액티비티를 즐기기에 좋습니다.",
+        "city": "차탄초, 오키나와, 일본",
+        "img1": "/images/img/building/hotel8.jpg",
+        "img2": "/images/img/lobby/lobby2.jpg",
+        "img3": "/images/img/room/onebed/room1.jpg",
+        "totalRoomNumber": 3,
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
+        "room1": [
+            {
+                "roomId": 20371,
+                "price": 290000,
+                "bed": 2,
+                "roomSize": "14㎡",
+                "ocean view": false,
+                "maxCapa": 4,
+                "smoking": false,
+                "breakfast": true,
+                "img1-1": "/images/img/room/twobed/room4.jpg",
+                "img1-2": "/images/img/room/twobed/room5.jpg",
+                "img1-3": "/images/img/room/twobed/room6.jpg",
+                "isBook": false
+            }
+        ],
+        "room2": [
+            {
+                "roomId": 20372,
+                "price": 250000,
+                "bed": 1,
+                "maxCapa": 3,
+                "roomSize": "14㎡",
+                "ocean view": true,
+                "smoking": false,
+                "breakfast": false,
+                "img1-1": "/images/img/room/onebed/room2.jpg",
+                "img1-2": "/images/img/room/onebed/room1.jpg",
+                "img1-3": "/images/img/room/onebed/room8.jpg",
+                "isBook": false
+            }
+        ],
+        "review1": [
+            {
+                "user": "yoko",
+                "comment": "위치가 너무 좋아서 즐겁게 여행했어요.",
+                "score": 5,
+                "date": "2025-08-25"
+            }
+        ],
+        "review2": [
+            {
+                "user": "dongho",
+                "comment": "주변에 먹을 곳도 많고 볼거리도 풍부합니다.",
+                "score": 4,
+                "date": "2025-08-20"
+            }
+        ]
+    },
     {
         "hotelId": 2038,
         "hotelName": "오타루 오션 호텔",
@@ -3165,7 +3241,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 4,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3196,6 +3272,7 @@
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -3211,6 +3288,7 @@
                 "price": 150000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -3248,7 +3326,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3279,6 +3357,7 @@
                 "price": 220000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -3295,6 +3374,7 @@
                 "bed": 1,
                 "maxCapa": 3,
                 "smoking": false,
+                "roomSize": "14㎡",
                 "breakfast": false,
                 "ocean view": true,
                 "img1-1": "/images/img/room/onebed/room6.jpg",
@@ -3331,7 +3411,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 5,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3361,6 +3441,7 @@
                 "roomId": 20401,
                 "price": 250000,
                 "bed": 2,
+                "roomSize": "14㎡",
                 "maxCapa": 4,
                 "smoking": false,
                 "ocean view": false,
@@ -3377,6 +3458,7 @@
                 "price": 220000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -3414,7 +3496,7 @@
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 3,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3444,6 +3526,7 @@
                 "roomId": 20411,
                 "price": 75000,
                 "bed": 1,
+                "roomSize": "14㎡",
                 "ocean view": false,
                 "maxCapa": 2,
                 "smoking": false,
@@ -3459,6 +3542,7 @@
                 "roomId": 20412,
                 "price": 90000,
                 "bed": 1,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "maxCapa": 3,
                 "smoking": false,
@@ -3497,7 +3581,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room10.jpg",
         "totalRoomNumber": 5,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3528,6 +3612,7 @@
                 "price": 450000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -3543,6 +3628,7 @@
                 "price": 400000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -3580,7 +3666,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 4,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3610,6 +3696,7 @@
                 "roomId": 20431,
                 "price": 160000,
                 "bed": 2,
+                "roomSize": "14㎡",
                 "maxCapa": 3,
                 "smoking": false,
                 "breakfast": true,
@@ -3626,6 +3713,7 @@
                 "price": 130000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -3663,7 +3751,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3694,6 +3782,7 @@
                 "price": 190000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -3709,6 +3798,7 @@
                 "price": 165000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "breakfast": false,
                 "ocean view": true,
@@ -3746,12 +3836,38 @@
         "img2": "/images/img/lobby/lobby6.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 1,
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": false,
+                "spa/hairdresser": true,
+                "pool": false,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": false,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": false,
+                "japanese": true,
+                "korean": true
+            }
+        ],
         "room1": [
             {
                 "roomId": 20451,
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -3767,6 +3883,7 @@
                 "price": 150000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -3804,7 +3921,7 @@
         "img2": "/images/img/lobby/lobby5.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
         "totalRoomNumber": 2,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3835,6 +3952,7 @@
                 "price": 110000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -3850,6 +3968,7 @@
                 "price": 95000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": false,
@@ -3881,13 +4000,13 @@
         "hotelName": "센다이 미야기 호텔",
         "address": "미야기현 센다이시 아오바구 47-47",
         "hotelComment": "시내 중심, 편리한 위치",
-        "content": "센다이 시내 중심가에 위치한 편리한 호텔. 🚶‍♂️ 주변에 백화점과 맛집이 많아 이동이 편리해요.",
+        "content": "센다이 시내 중심가에 위치한 편리한 호텔. 🚶 ♂️ 주변에 백화점과 맛집이 많아 이동이 편리해요.",
         "city": "센다이시, 미야기, 일본",
         "img1": "/images/img/building/hotel7.jpg",
         "img2": "/images/img/lobby/lobby2.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -3918,6 +4037,7 @@
                 "price": 135000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -3933,6 +4053,7 @@
                 "price": 110000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -3970,7 +4091,7 @@
         "img2": "/images/img/lobby/lobby3.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 1,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -4001,6 +4122,7 @@
                 "price": 280000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,
@@ -4016,6 +4138,7 @@
                 "price": 250000,
                 "bed": 1,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": false,
@@ -4053,7 +4176,7 @@
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 3,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -4084,6 +4207,7 @@
                 "price": 160000,
                 "bed": 2,
                 "maxCapa": 3,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": false,
                 "breakfast": true,
@@ -4099,6 +4223,7 @@
                 "price": 140000,
                 "bed": 1,
                 "maxCapa": 2,
+                "roomSize": "14㎡",
                 "smoking": false,
                 "ocean view": true,
                 "breakfast": false,
@@ -4136,7 +4261,7 @@
         "img2": "/images/img/lobby/lobby4.jpg",
         "img3": "/images/img/room/onebed/room2.jpg",
         "totalRoomNumber": 3,
-        "convenient facilities": [
+        "convenientFacilities": [
             {
                 "parking": true,
                 "sauna": false,
@@ -4167,6 +4292,7 @@
                 "price": 200000,
                 "bed": 2,
                 "maxCapa": 4,
+                "roomSize": "14㎡",
                 "ocean view": false,
                 "smoking": false,
                 "breakfast": true,
@@ -4182,6 +4308,7 @@
                 "price": 280000,
                 "bed": 1,
                 "maxCapa": 6,
+                "roomSize": "14㎡",
                 "ocean view": true,
                 "smoking": false,
                 "breakfast": true,

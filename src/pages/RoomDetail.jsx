@@ -10,7 +10,6 @@ export default function RoomDetail() {
     const [bookedRooms, setBookedRooms] = useState(0); // 예약된 객실 수 상태 추가
     const { id } = useParams();
 
-    // fetch 후 id에 맞는 호텔을 정확히 찾아 설정하도록 개선
     useEffect(() => {
         fetch("/data/room.json")
             .then((res) => res.json())
@@ -39,7 +38,6 @@ export default function RoomDetail() {
             });
     }, [id]);
 
-    // (안전장치) hotels가 나중에 업데이트될 경우에도 id에 맞게 selectedHotel 보정
     useEffect(() => {
         if (!hotels || hotels.length === 0) return;
         const found = hotels.find(
@@ -158,6 +156,16 @@ export default function RoomDetail() {
                             <span>객실보기</span>
                         </button>
                     </div>
+                    <div className="room-services">
+                        <button
+                            onClick={() =>
+                                document
+                                    .getElementById("section-services")
+                                    .scrollIntoView({ behavior: "smooth" })
+                            }>
+                            편의시설/서비스
+                        </button>
+                    </div>
                 </div>
                 <div id="section-overview" className="hotel-info">
                     <h2>{hotel.hotelName}</h2>
@@ -167,8 +175,8 @@ export default function RoomDetail() {
                     <div className="circle-review">
                         <div className="circle-score">
                             <div className="address">
-                            <p className="address">{hotel.address}</p>
-                            <p>{hotel.content}</p>
+                                <p className="address">{hotel.address}</p>
+                                <p>{hotel.content}</p>
                             </div>
                             <div
                                 className="circle-progress"
@@ -195,34 +203,56 @@ export default function RoomDetail() {
                             })()}
                         </div>
                     </div>
-                    {/* 점수 레이블 (숫자 옆 표시) */}
 
                     <div className="convenient">
                         <h3>숙소 편의 시설/서비스</h3>
                         <div className="convenient-list">
-                            {hotel["convenient facilities"] &&
-                                hotel["convenient facilities"][0] && (() => {
+                            {hotel["convenientFacilities"] &&
+                                hotel["convenientFacilities"][0] &&
+                                (() => {
                                     const defs = {
                                         parking: { label: "주차", icon: "🅿️" },
                                         sauna: { label: "사우나", icon: "♨️" },
-                                        "spa/hairdresser": { label: "스파/미용", icon: "💆" },
+                                        "spa/hairdresser": {
+                                            label: "스파/미용",
+                                            icon: "💆",
+                                        },
                                         pool: { label: "수영장", icon: "🏊" },
-                                        "late-night-meal": { label: "심야식사", icon: "🌙" },
-                                        "banquet hall": { label: "연회장", icon: "🎉" },
-                                        "open-air-bath": { label: "노천탕", icon: "🛁" },
+                                        "late-night-meal": {
+                                            label: "심야식사",
+                                            icon: "🌙",
+                                        },
+                                        "banquet hall": {
+                                            label: "연회장",
+                                            icon: "🎉",
+                                        },
+                                        "open-air-bath": {
+                                            label: "노천탕",
+                                            icon: "🛁",
+                                        },
                                     };
-                                    const avail = hotel["convenient facilities"][0];
-                                    // 정의된 순서대로 true 항목만 표시
-                                    const items = Object.keys(defs).filter((k) => avail[k] === true);
+                                    const avail =
+                                        hotel["convenientFacilities"][0];
+                                    const items = Object.keys(defs).filter(
+                                        (k) => avail[k] === true
+                                    );
                                     if (!items.length) return null;
                                     return (
-                                        <div className="facility-grid" aria-hidden>
+                                        <div
+                                            className="facility-grid"
+                                            aria-hidden>
                                             {items.map((k) => (
-                                                <div key={k} className="facility-item">
-                                                    <span className="facility-icon" aria-hidden>
+                                                <div
+                                                    key={k}
+                                                    className="facility-item">
+                                                    <span
+                                                        className="facility-icon"
+                                                        aria-hidden>
                                                         {defs[k].icon}
                                                     </span>
-                                                    <span className="facility-label">{defs[k].label}</span>
+                                                    <span className="facility-label">
+                                                        {defs[k].label}
+                                                    </span>
                                                 </div>
                                             ))}
                                         </div>
@@ -257,9 +287,8 @@ export default function RoomDetail() {
                                 )}
                             </div>
                             <div className="room-summary">
-                                <span>면적: {room.size}㎡</span>
+                                <span>면적: {room["roomSize"]}</span>
                                 <span>최대 성인 {room.maxCapa}명</span>
-                                {/* 필요시 아동 정보 등 추가 */}
                             </div>
                             <div className="room-facilities">
                                 <span>🛁 욕실 및 화장실 있음</span>
@@ -383,6 +412,47 @@ export default function RoomDetail() {
                         </div>
                     ))}
                 </div>
+            </div>
+            <div id="section-services" className="section">
+                <h2>특징 및 편의시설 서비스</h2>
+                <ul className="conven">
+                    <h4>시설</h4>
+                    {hotel["convenientFacilities"].map((facility, index) => (
+                        <li key={index}>
+                            {Object.entries(facility).map(([key, value]) => (
+                                <span key={key}>
+                                    {key}: {value ? "☑" : "☐"}
+                                </span>
+                            ))}
+                        </li>
+                    ))}
+                </ul>
+                <ul className="facilities"><h4>시설 제공 서비스</h4>
+                    {hotel["Facilities provision services"].map(
+                        (provision, index) => (
+                            <li key={index}>
+                                {Object.entries(provision).map(
+                                    ([key, value]) => (
+                                        <span key={key}>
+                                            {key}: {value ? "☑" : "☐"}
+                                        </span>
+                                    )
+                                )}
+                            </li>
+                        )
+                    )}
+                </ul>
+                <ul className="languages"><h4>응답 언어</h4>
+                    {hotel["a responsive language"].map((language, index) => (
+                        <li key={index}>
+                            {Object.entries(language).map(([key, value]) => (
+                                <span key={key}>
+                                    {key}: {value ? "☑" : "☐"}
+                                </span>
+                            ))}
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     );
