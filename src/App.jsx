@@ -40,7 +40,7 @@ export default function App() {
             <Route path="/restaurant/region" element={<RestaurantRegion />} />
             <Route path="/restaurant/write" element={<RestaurantWrite />} />
             <Route path="/room/detail/:id" element={<RoomDetail />} />
-            <Route path="/room/list/:id" element={<RoomList />} />
+            <Route path="/room/list" element={<RoomList />} />
             <Route path="/signIn" element={<SignIn />} />
             <Route path="/signUp" element={<SignUp />} />
             <Route path='/find' element={<FindIdPw />} />
