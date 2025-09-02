@@ -69,6 +69,24 @@
     font-size: 16px;
     line-height: 1.25;
 }
+.ListItem .item .right .info .facilities .facilCheck{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 180px;
+    height: 18px;
+    font-size: 12px;
+}
+.ListItem .item .right .info .facilities .facilCheck img{
+    margin-left: -3px;
+    width: 10%;
+    height: auto;
+}
+.ListItem .item .right .info .facilities .facilCheck span{
+    width: 600px;
+    font-size: 12px;
+    color: #333;
+}
 .ListItem .item .right .info .hotelCity,
 .ListItem .item .right .info .nonSmoking,
 .ListItem .item .right .info .breakfast{
@@ -106,6 +124,7 @@
 .ListItem .item .right .price{
     width: 50%;
     text-align: right;
+    color: #6d6d6d;
 }
 .ListItem .item .right .price .roomPrice{
     padding-top: 20px;

@@ -40,19 +40,21 @@ export default function RoomList() {
   const [minPrice, setMinPrice] = useState(minRoomPrice); // 최저가
   const [maxPrice, setMaxPrice] = useState(maxRoomPrice); // 최고가
   const handleChangeCurrentSort = e => setCurrentSort(e.target.value);
-  const handleChangePrice = e => setPrice(e.target.value);
+  const handleChangePrice = e => setPrice(Number(e.target.value));
   
   
   const handleChangeMinPrice = e => setMinPrice(e.target.value);
   const handleChangeMaxPrice = e => setMaxPrice(e.target.value);
   
   const handleChangeMinPriceInput = e => {
-    const value = Number(e.target.value);
-    if(!isNaN(value)) setMinPrice(value);
+    const value = e.target.value.replace(/[₩,]/g, '');
+    const num = Number(value);
+    if(!isNaN(num)) setMinPrice(num);
   };
   const handleChangePriceInput = e => {
-    const value = Number(e.target.value);
-    if(!isNaN(value)) setPrice(value);
+    const value = e.target.value.replace(/[₩,]/g, '');
+    const num = Number(value);
+    if(!isNaN(num)) setPrice(num);
   };
 
 
@@ -195,15 +197,15 @@ export default function RoomList() {
           <div className='rangeResult'>
             <input 
               type='text'
-              // value={`₩${minPrice}`}
-              value={minPrice}
+              value={`₩${minPrice.toLocaleString()}`}
+              // value={minPrice}
               onChange={handleChangeMinPriceInput}
               className='priceRangeFilterInput'
             />
             <input 
               type='text'
-              // value={`₩${price}`}
-              value={price}
+              // value={'₩' + `${price}`}
+              value={`₩${price.toLocaleString()}`}
               onChange={handleChangePriceInput}
               className='priceRangeFilterInput'
             />
