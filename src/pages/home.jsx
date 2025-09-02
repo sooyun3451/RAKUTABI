@@ -10,8 +10,14 @@ export default function Home() {
   const [checkOutDate, setCheckOutDate] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const [currentSlide, setCurrentSlide] = useState(0); 
-  const totalSlides = 2; 
+  const [isPeopleCalendarOpen, setIsPeopleCalendarOpen] = useState(false);
+  const [capacity, setCapacity] = useState(1);
+  const [roomCount, setRoomCount] = useState(1);
+
+  const peopleRef = useRef(null);
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 2;
 
   const handlePrevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
@@ -22,11 +28,23 @@ export default function Home() {
   };
 
   const handleSearch = () => {
+    const params = new URLSearchParams();
+
     if (searchQuery.trim() !== '') {
-      alert('검색이 완료되었습니다!');
-    } else {
-      alert('검색어를 입력해주세요.');
+      params.append('query', searchQuery.trim());
     }
+    if (checkInDate) {
+      params.append('checkIn', checkInDate.toISOString());
+    }
+    if (checkOutDate) {
+      params.append('checkOut', checkOutDate.toISOString());
+    }
+
+    params.append('capacity', capacity);
+    params.append('roomCount', roomCount);
+
+    navigate(`/room/list?${params.toString()}`);
+    setIsPeopleCalendarOpen(false);
   };
 
   const calendarRef = useRef(null);
@@ -68,6 +86,23 @@ export default function Home() {
     return weeks;
   };
 
+  const handlePeopleClick = () => {
+    setIsPeopleCalendarOpen(!isPeopleCalendarOpen);
+    setShowCalendar(false);
+  };
+
+  const handleCapacityChange = (change) => {
+    setCapacity(prev => Math.max(1, prev + change));
+  };
+
+  const handleRoomCountChange = (change) => {
+    setRoomCount(prev => Math.max(1, prev + change));
+  };
+
+  const handleConfirmPeople = () => {
+    setIsPeopleCalendarOpen(false);
+  }
+
   const handlePrevMonth = () => {
     setCurrentDate(prevDate => {
       const newDate = new Date(prevDate);
@@ -94,7 +129,7 @@ export default function Home() {
 
   const handleDateClick = (date) => {
     if (date < today) {
-        return;
+      return;
     }
 
     if (!checkInDate || (checkInDate && checkOutDate)) {
@@ -141,9 +176,12 @@ export default function Home() {
       ) {
         setShowCalendar(false);
       }
+      if (peopleRef.current && !peopleRef.current.contains(event.target)) {
+        setIsPeopleCalendarOpen(false);
+      }
     };
 
-    if (showCalendar) {
+    if (showCalendar || isPeopleCalendarOpen) {
       document.addEventListener('mousedown', handleClickOutside);
     } else {
       document.removeEventListener('mousedown', handleClickOutside);
@@ -152,7 +190,7 @@ export default function Home() {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [showCalendar]);
+  }, [showCalendar, isPeopleCalendarOpen]);
 
   return (
     <div className='big'>
@@ -170,14 +208,37 @@ export default function Home() {
             </input>
           </div>
           <div className='check-in-out' onClick={() => setShowCalendar(!showCalendar)} ref={checkInOutRef}>
-            <img src="/images/check_in.png" alt="체크인 아이콘" width="19px" height="19px"/>
+            <img src="/images/check_in.png" alt="체크인 아이콘" width="19px" height="19px" />
             <span>{formatCheckInDate}</span>
             <img src="/images/check_out.png" alt="체크아웃 아이콘" width="18px" height="18px" />
             <span>{formatCheckOutDate}</span>
           </div>
-          <div className='people'>
+          <div className='people' ref={peopleRef} onClick={handlePeopleClick}>
             <img src="/images/group.png" alt="인원 아이콘" />
-            <span>객실당 1명 객실 1개</span>
+            <span>
+              {capacity}명, {roomCount}객실
+            </span>
+            {isPeopleCalendarOpen && (
+              <div className='people-popup' onClick={(e) => e.stopPropagation()}>
+                <div className='option-row'>
+                  <span>성인</span>
+                  <div className='counter'>
+                    <button onClick={() => handleCapacityChange(-1)}>-</button>
+                    <span>{capacity}</span>
+                    <button onClick={() => handleCapacityChange(1)}>+</button>
+                  </div>
+                </div>
+                <div className='option-row'>
+                  <span>객실</span>
+                  <div className='counter'>
+                    <button onClick={() => handleRoomCountChange(-1)}>-</button>
+                    <span>{roomCount}</span>
+                    <button onClick={() => handleRoomCountChange(1)}>+</button>
+                  </div>
+                </div>
+                <button onClick={handleConfirmPeople} className='confirm-button'>확인</button>
+              </div>
+            )}
           </div>
           <button className='search-button' onClick={handleSearch}>
             검색하기
@@ -219,8 +280,8 @@ export default function Home() {
             </div>
             <div className="calendar-container">
               <div className='calendar-header'>
-                  <h2>{new Date(Date.UTC(year, month + 1, 1)).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })}</h2>
-                  <button onClick={handleNextMonth} className="nav-button">&gt;</button>
+                <h2>{new Date(Date.UTC(year, month + 1, 1)).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })}</h2>
+                <button onClick={handleNextMonth} className="nav-button">&gt;</button>
               </div>
               <div className="week-days">
                 <div className="day">일</div>
@@ -327,24 +388,24 @@ export default function Home() {
         <div className='res-text'>식당 추천</div>
         <div className='res-img'>
           <li>
-        <Link to="/restaurant/list/:id"><img src="public/images/tokyo.jpg" alt="tokyo" /></Link>
-          <p>도쿄</p>
+            <Link to="/restaurant/list/:id"><img src="public/images/tokyo.jpg" alt="tokyo" /></Link>
+            <p>도쿄</p>
           </li>
           <li>
-        <Link to="/restaurant/list/:id"><img src="public/images/osaka.jpg" alt="osaka" /></Link>
-          <p>오사카</p>
+            <Link to="/restaurant/list/:id"><img src="public/images/osaka.jpg" alt="osaka" /></Link>
+            <p>오사카</p>
           </li>
           <li>
-        <Link to="/restaurant/list/:id"><img src="public/images/sapporo.jpg" alt="sappro" /></Link>
-          <p>삿포로</p>
+            <Link to="/restaurant/list/:id"><img src="public/images/sapporo.jpg" alt="sappro" /></Link>
+            <p>삿포로</p>
           </li>
           <li>
-        <Link to="/restaurant/list/:id"><img src="public/images/fukuoka.jpg" alt="fukuoka" /></Link> 
-          <p>후쿠오카</p>
+            <Link to="/restaurant/list/:id"><img src="public/images/fukuoka.jpg" alt="fukuoka" /></Link>
+            <p>후쿠오카</p>
           </li>
           <li>
-        <Link to="/restaurant/list/:id"><img src="public/images/okinawa.jpg" alt="okinawa" /></Link>
-          <p>오키나와</p>
+            <Link to="/restaurant/list/:id"><img src="public/images/okinawa.jpg" alt="okinawa" /></Link>
+            <p>오키나와</p>
           </li>
         </div>
       </div>
