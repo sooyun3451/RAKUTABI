@@ -406,7 +406,7 @@ h2, h3 {
     }
 }
 
-.conven-list, .facilities, .languages {
+/* .conven-list, .facilities, .languages {
     list-style: none;
     padding: 16px;
     margin: 12px 0;
@@ -416,7 +416,7 @@ h2, h3 {
     font-size: 15px;
     line-height: 1.6;
     width: 100%;
-}
+} */
 
 /* 섹션 제목 */
 .conven-list h4, .facilities h4, .languages h4 {
