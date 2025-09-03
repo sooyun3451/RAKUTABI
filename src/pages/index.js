@@ -4,6 +4,7 @@ import RestaurantDetail from './RestaurantDetail';
 import RestaurantList from './RestaurantList';
 import RestaurantRegion from './RestaurantRegion';
 import RestaurantWrite from './RestaurantWrite';
+import RestaurantUpdate from './RestaurantUpdate';
 import RoomDetail from './RoomDetail';
 import RoomList from './RoomList';
 import SignUp from './SignUp';
@@ -24,6 +25,7 @@ export {
   RestaurantList,
   RestaurantRegion,
   RestaurantWrite,
+  RestaurantUpdate,
   RoomDetail,
   RoomList,
 };

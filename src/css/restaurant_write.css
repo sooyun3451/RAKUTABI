@@ -1,20 +1,137 @@
-#RestaurantWrite .title{
-    display: flex;
+#RestaurantItem {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
-#RestaurantWrite .title .rateStar{
+
+/* title---------------------------- */
+#RestaurantItem .title{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
-#RestaurantWrite .title .selectStar{
-    font-size: 18px;
+#RestaurantItem .title .left{
+    width: 400px;
+}
+#RestaurantItem .title .left .restaurantArea{
+    width: 70px;
+}
+#RestaurantItem .title .left .restaurantArea select{
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+#RestaurantItem .title .left .restaurantName{
+    width: 200px;
+}
+#RestaurantItem .title .left .restaurantName input{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3%;
+    font-size: 14px;
+}
+#RestaurantItem .title .left .rateStar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#RestaurantItem .title .left .rateStar .star{
+    height: 40px;
+}
+#RestaurantItem .title .left .rateStar .star svg{
+    width: 25px;
+    height: 25px;
+}
+#RestaurantItem .title .left .selectStar{
+    font-size: 14px;
     font-weight: normal;
     color: gray;
 }
-#RestaurantWrite .title .location{
+#RestaurantItem .title .right .location{
+    width: 260px;
+    height: 40px;
     display: flex;
-    align-items: center;
+    gap: 10px;
 }
-#RestaurantWrite .title .location img{
+#RestaurantItem .title .right .location img{
     width: 40px;
     height: 40px;
+}
+#RestaurantItem .title .right .location .locationInput{
+    margin-top: 6px;
+}
+#RestaurantItem .title .right .location input{
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3%;
+    font-size: 14px;
+}
+
+/* review---------------------------- */
+#RestaurantItem .review{
+    margin: 0 20px;
+}
+#RestaurantItem .review .content{
+    position: relative;
+}
+#RestaurantItem .review .content textarea{
+    width: calc(100% - 42px);
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+}
+#RestaurantItem .review .function{
+    display: flex;
+    justify-content: space-between;
+}
+#RestaurantItem .review .function .addfile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#RestaurantItem .review .function .addfile .fileInfoDisplay{
+    width: 400px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 14px;
+    overflow: hidden;
+}
+#RestaurantItem .review .function .addfile .fileUploadBtn{
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #121212;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+#RestaurantItem .review .function .writeBtn{
+    display: flex;
+    gap: 10px;
+}
+#RestaurantItem .review .function .writeBtn .writeDone, .writeCancle{
+    width: 70px;
+    line-height: 27px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#RestaurantItem .review .function .writeBtn .writeDone{
+    color: #fff;
+    background-color: #007bff;
+}
+#RestaurantItem .review .function .writeBtn .writeCancle{
+    color: #fff;
+    background-color: gray;
 }
