@@ -16,21 +16,18 @@ export default function RestaurantRegion() {
   const [currentSort, setCurrentSort] = useState(SORT_OPTION_LIST[0].value);
   const handleChangeCurrentSort = e => setCurrentSort(e.target.value);
   
-  const {area} = useParams(); // URL에서 area 파라미터 가져오기
-
-  // area에 해당하는 식당만 필터링
-  const filteredRestaurants = restaurants.filter(
-    restaurant => restaurant.area === area
-  );
+  // URL에서 area 파라미터 가져오기
+  const {id} = useParams();
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [id]);
 
   const fetchData = async () => {
     try {
       const res = await axios.get('/data/restaurantDetail.json');
-      setRestaurants(res.data);
+      const filtered = res.data.filter(r => r.area === id);
+      setRestaurants(filtered);
     } catch (e) {
       console.error('데이터 로딩 에러', e);
     }
@@ -40,14 +37,9 @@ export default function RestaurantRegion() {
     
     let sortedRestaurants = [];
       if(currentSort === 'new') {
-        // sortedRestaurants = filteredRestaurants.sort((a, b) => new Date(b.date) - new Date(a.date));
         sortedRestaurants = restaurants.sort((a, b) => new Date(b.date) - new Date(a.date));
       } else if (currentSort === 'scoreTop') {
-      // sortedRestaurants = filteredRestaurants.sort((a, b) => b.rate - a.rate);
       sortedRestaurants = restaurants.sort((a, b) => b.rate - a.rate);
-      }
-      else {
-        sortedRestaurants = filteredRestaurants;
       };
       return sortedRestaurants;
   }
@@ -57,8 +49,7 @@ export default function RestaurantRegion() {
   return (
     <div id="RestaurantRegion">
       <div className="top">
-        {/* <p className="area">{area}</p> */}
-        <p className="area">도쿄</p>
+        <p className="area">{id}</p>
         <div className="filterWrap">
           <select
             value={currentSort}
@@ -72,7 +63,7 @@ export default function RestaurantRegion() {
       </div>
       <div className="botton">
         <div>
-          {restaurants.map(
+          {filterSortList.map(
             restaurant => <ListItemRestaurant key={restaurant.id} restaurant={restaurant}/>
           )}
         </div>  
