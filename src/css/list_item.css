@@ -69,7 +69,7 @@
     font-size: 16px;
     line-height: 1.25;
 }
-.ListItem .item .right .info .facilities .facilCheck{
+.ListItem .item .right .info .facilityList .facilCheck{
     display: flex;
     align-items: center;
     gap: 2px;
@@ -77,12 +77,12 @@
     height: 18px;
     font-size: 12px;
 }
-.ListItem .item .right .info .facilities .facilCheck img{
+.ListItem .item .right .info .facilityList .facilCheck img{
     margin-left: -3px;
     width: 10%;
     height: auto;
 }
-.ListItem .item .right .info .facilities .facilCheck span{
+.ListItem .item .right .info .facilityList .facilCheck span{
     width: 600px;
     font-size: 12px;
     color: #333;

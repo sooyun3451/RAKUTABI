@@ -57,7 +57,7 @@ export default function ListItem({hotel}) {
                 )}
               </p>
               <p className='hotelName'>{hotel.hotelName}</p>
-              <div className='facilities'>
+              <div className='facilityList'>
                 {convenientFacilities[0].parking && (
                   <p className='facilCheck'>
                     <img src='/images/checkmark.png'/>
