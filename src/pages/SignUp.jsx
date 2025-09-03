@@ -27,20 +27,6 @@ export default function SignUp() {
     phone: '',
   });
 
-  const handleSubmit = () => {
-    const hasError = Object.values(errorMsg).some((msg) => msg !== "");
-  if (hasError) {
-    alert("입력값을 다시 확인해주세요."); 
-    return;
-  }
-
-  if(!signUpInfo.id || !signUpInfo.pw || !signUpInfo.checkPw || !signUpInfo.nickName || !signUpInfo.email || !signUpInfo.phone || !signUpInfo.privacyPolicyAgreed) {
-    alert('모든항목을 입력하고 개인정보 처리방침에 동의해주세요.');
-    return;
-  }
-    navigate('/');
-  };
-
   const passwordVisibility1 = () => {
     setShowPassword1((prev) => !prev);
   };
@@ -143,6 +129,20 @@ export default function SignUp() {
         ...prev, phone: ''
       }))
     }
+  };
+
+  const handleSubmit = () => {
+  const hasError = Object.values(errorMsg).some((msg) => msg !== "");
+  if (hasError) {
+    alert("입력값을 다시 확인해주세요."); 
+    return;
+  }
+
+  if(!signUpInfo.id || !signUpInfo.pw || !signUpInfo.checkPw || !signUpInfo.nickName || !signUpInfo.email || !signUpInfo.phone || !signUpInfo.privacyPolicyAgreed) {
+    alert('모든항목을 입력하고 개인정보 처리방침에 동의해주세요.');
+    return;
+  }
+    navigate('/');
   };
 
   return (

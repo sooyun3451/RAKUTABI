@@ -2,20 +2,39 @@ import React, { useEffect, useState } from 'react';
 import '../css/my_page.css';
 import { useNavigate } from 'react-router-dom';
 
-export default function MyPage({ isCheck, user, onUpdatedUser }) {
+export default function MyPage({ isCheck, user }) {
   const navigate = useNavigate();
 
   const [activeTab, setActiveTab] = useState('review');
   const [id, setId] = useState('');
   const [pw, setPw] = useState('');
+  const [checkPw, setCheckPw] = useState('');
+  const [showPassword1, setShowPassword1] = useState(false);
+  const [showPassword2, setShowPassword2] = useState(false);
   const [nickName, setNickName] = useState('');
   const [photo, setPhoto] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
 
+  const [errorMsg, setErrorMsg] = useState({
+    pw: '',
+    checkPw: '',
+    nickName: '',
+    email: '',
+    phone: '',
+  });
+
   const maskPassword = (password) => {
     if (!password) return '';
     return password[0] + '*'.repeat(password.length - 1);
+  };
+
+  const passwordVisibility1 = () => {
+    setShowPassword1((prev) => !prev);
+  };
+
+  const passwordVisibility2 = () => {
+    setShowPassword2((prev) => !prev);
   };
 
   useEffect(() => {
@@ -28,14 +47,6 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
       setPhone(user.phone ?? '');
     }
   }, [isCheck, user]);
-
-  const handleSave = () => {
-    const updatedUser = { id, password: pw, nickName, photo, email, phone };
-    if (onUpdatedUser) {
-      onUpdatedUser(updatedUser);
-    }
-    navigate('/myPage');
-  };
 
   const handleCancel = () => {
     setId(user.id ?? '');
@@ -61,13 +72,95 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
   };
 
   const handleDeleteaccount = () => {
-    if(confirm('정말 계정을 삭제하시겠습니까?')) {
+    if (confirm('정말 계정을 삭제하시겠습니까?')) {
       navigate('/');
     }
+  };
+
+  const userPasswordDuplicationCheck = () => {
+    const passwordRegex =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{4,20}$/;
+    if (!pw || pw.trim() === '') {
+      setErrorMsg((prev) => ({
+        ...prev,
+        pw: '비밀번호를 입력해주세요.',
+      }));
+      return;
+    }
+
+    if (!passwordRegex.test(pw)) {
+      setErrorMsg((prev) => ({
+        ...prev,
+        pw: '비밀번호는 대소문자 + 숫자 + 특수문자를 포함한 4~20글자여야 합니다.',
+      }));
+      return;
+    }
+
+    setErrorMsg((prev) => ({
+      ...prev,
+      pw: '',
+    }));
+  };
+
+  const checkUserPasswordDuplicationCheck = () => {
+    if (pw !== checkPw) {
+      setErrorMsg((prev) => ({
+        ...prev,
+        checkPw: '비밀번호가 일치하지 않습니다.',
+      }));
+    } else {
+      setErrorMsg((prev) => ({
+        ...prev,
+        checkPw: '',
+      }));
+    }
+  };
+
+    const userEmailDuplicationCheck = () => {
+    const emailRegex = /.+@.+\.com$/;
+    if (!emailRegex.test(email)) {
+      setErrorMsg((prev) => ({
+        ...prev,
+        email: '유효한 이메일 주소를 입력해 주세요.',
+      }));
+    }else {
+      setErrorMsg((prev) => ({
+        ...prev, email: ''
+      }))
+    }
+  };
+
+  const userPhoneDuplicationCheck = () => {
+    const phoneRegex = /^01[016789]-?\d{3,4}-?\d{4}$/;
+    if (!phoneRegex.test(phone)) {
+      setErrorMsg((prev) => ({
+        ...prev,
+        phone: '유효한 번호를 입력해주세요.',
+      }));
+    }else {
+      setErrorMsg((prev) => ({
+        ...prev, phone: ''
+      }))
+    }
+  };
+
+  const handleSubmit = () => {
+    const hasError = Object.values(errorMsg).some((msg) => msg !== "");
+    if(hasError) {
+      alert('입력값을 다시 확인해주세요.');
+      return;
+    }
+
+    if(!id || !pw || !checkPw || !nickName || !email || !phone) {
+      alert('모든항목을 입력해주세요.');
+      return;
+    }
+    navigate('/myPage');
   }
 
   const handleChangeId = (e) => setId(e.target.value);
   const handleChangePw = (e) => setPw(e.target.value);
+  const handleChangeCheckPw = (e) => setCheckPw(e.target.value);
   const handleChangeNickName = (e) => setNickName(e.target.value);
   const handleChangeEmail = (e) => setEmail(e.target.value);
   const handleChangePhone = (e) => setPhone(e.target.value);
@@ -84,20 +177,25 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
           />
 
           {!isCheck && (
-            <input type="file" accept="image/*" onChange={handlePhotoChange} />
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handlePhotoChange}
+              className="file"
+            />
           )}
         </div>
         <div>
           {isCheck ? (
-            <>
+            <div className="view-mode">
               <p>아이디: {user.id}</p>
               <p>비밀번호: {maskPassword(user?.password)}</p>
               <p>닉네임: {user.nickName}</p>
               <p>이메일: {user.email}</p>
               <p>전화번호: {user.phone}</p>
-            </>
+            </div>
           ) : (
-            <>
+            <div className="edit-mode">
               <p>
                 아이디:{' '}
                 <input
@@ -109,14 +207,41 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
                 />
               </p>
               <p>
-                비밀번호:{' '}
+                <label htmlFor="password">비밀번호:</label>
                 <input
-                  type="password"
+                  type={showPassword1 ? 'text' : 'password'}
                   name="password"
                   value={pw}
                   onChange={handleChangePw}
+                  onBlur={userPasswordDuplicationCheck}
                 />
+                <button type="button" onClick={passwordVisibility1}>
+                  {showPassword1 ? (
+                    <img src="/images/view.png" alt="뜬눈" />
+                  ) : (
+                    <img src="/images/hide.png" alt="감은 눈" />
+                  )}
+                </button>
               </p>
+              {errorMsg.pw && <p className='error-text'>{errorMsg.pw}</p>}
+              <p>
+                <label htmlFor="password">비밀번호 확인:</label>
+                <input
+                  type={showPassword2 ? 'text' : 'password'}
+                  name="password"
+                  value={checkPw}
+                  onChange={handleChangeCheckPw}
+                  onBlur={checkUserPasswordDuplicationCheck}
+                />
+                <button type="button" onClick={passwordVisibility2}>
+                  {showPassword2 ? (
+                    <img src="/images/view.png" alt="뜬눈" />
+                  ) : (
+                    <img src="/images/hide.png" alt="감은 눈" />
+                  )}
+                </button>
+              </p>
+              {errorMsg.checkPw && <p className='error-text'>{errorMsg.checkPw}</p>}
               <p>
                 닉네임:{' '}
                 <input
@@ -133,8 +258,10 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
                   name="email"
                   value={email}
                   onChange={handleChangeEmail}
+                  onBlur={userEmailDuplicationCheck}
                 />
               </p>
+              {errorMsg.email && <p className='error-text'>{errorMsg.email}</p>}
               <p>
                 전화번호:{' '}
                 <input
@@ -142,9 +269,11 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
                   name="phone"
                   value={phone}
                   onChange={handleChangePhone}
+                  onBlur={userPhoneDuplicationCheck}
                 />
               </p>
-            </>
+              {errorMsg.phone && <p className='error-text'>{errorMsg.phone}</p>}
+            </div>
           )}
         </div>
       </div>
@@ -155,7 +284,7 @@ export default function MyPage({ isCheck, user, onUpdatedUser }) {
         </div>
       ) : (
         <div className="account-buttons">
-          <button onClick={handleSave}>수정 완료</button>
+          <button onClick={handleSubmit}>수정 완료</button>
           <button onClick={handleCancel}>수정 취소</button>
         </div>
       )}
