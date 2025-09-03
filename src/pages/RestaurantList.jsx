@@ -1,9 +1,10 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../css/restaurant_list.css';
 
 export default function RestaurantList() {
+  const navigate = useNavigate();
 
   const [restaurants, setRestaurants] = useState([]);
 
@@ -40,10 +41,11 @@ const toggleFavo = (area, id) => {
   );
 };
 
-
   useEffect(() => {
     fetchData();
   },[]);
+
+
 
   return (
     <div className='restaurant-wrapper'>
@@ -53,7 +55,7 @@ const toggleFavo = (area, id) => {
           <div key={group.area} className='area-list'>
             <div className='area-div'>
             <h2>{group.area}</h2>
-            <button>더 보기</button>
+            <button onClick={() => navigate(`/restaurant/region/${group.area}`)}>더 보기</button>
             </div>
             <ul>
               {
