@@ -1,0 +1,461 @@
+/* =======================
+    공통
+======================= */
+.room-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #333;
+}
+
+h2, h3 {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* =======================
+    호텔 요약
+======================= */
+.hotel-summary {
+    margin-bottom: 40px;
+}
+
+.hotel-images {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.hotel-images div {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.hotel-images img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* 네비게이션 */
+.navi {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    padding: 12px 20px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.sticky-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    padding: 12px 20px;
+
+    
+    margin: 0 -20px; /* .room-detail의 패딩을 상쇄 */
+}
+
+.navi button {
+    background: #f5f5f5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.navi button:hover {
+    background: #e0e0e0;
+}
+
+/* =======================
+    호텔 메타 (평점 + 편의시설)
+======================= */
+.hotel-meta {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+/* 투숙객 평점 */
+.circle-review {
+    width: 70%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.circle-score {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle-progress {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 내부 흰 원(구멍) */
+.circle-progress::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #fff;
+    z-index: 0;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.02);
+}
+
+.circle-progress span {
+    position: relative;
+    z-index: 1;
+}
+
+.score-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score-label strong {
+    font-size: 18px;
+    color: #4caf50;
+}
+
+.score-note {
+    font-size: 14px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.circle-review .address {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #555;
+}
+
+.circle-review p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* 숙소 편의시설 */
+.convenient {
+    flex: 1.1;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.convenient h3 {
+    margin-bottom: 16px;
+}
+
+.facility-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 20px;
+}
+
+.facility-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.facility-icon {
+    font-size: 20px;
+}
+
+.facility-label {
+    font-size: 15px;
+}
+
+/* =======================
+    객실 카드
+======================= */
+.section-title {
+    font-size: 20px;
+    margin: 40px 0 20px;
+}
+
+.room-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.room-card {
+    display: flex;
+    gap: 20px;
+    border-radius: 12px;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.room-photo {
+    flex: 0.8;
+}
+
+.room-photo img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.room-main-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.room-badge {
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    background: #eee;
+}
+
+.non-smoking {
+    background: #4caf50;
+    color: #fff;
+}
+
+.room-summary span {
+    margin-right: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+.room-facilities {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.room-price {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-origin-price {
+    font-size: 14px;
+    color: #aaa;
+    margin-right: 6px;
+}
+
+.room-sale-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e53935;
+}
+
+.room-per-night {
+    font-size: 13px;
+    color: #777;
+}
+
+.room-price button {
+    margin-top: 12px;
+    padding: 8px 14px;
+    background: #4caf50;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.room-price button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* =======================
+    리뷰
+======================= */
+.review-section {
+    margin-top: 40px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-filters select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.review-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.review-content {
+    flex: 1;
+}
+
+.review-user {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.review-score-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+.review-score-circle::after {
+    content: "";
+    position: absolute;
+    width: 66%;
+    height: 66%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #fff;
+    z-index: 0;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.02);
+}
+
+.review-score-circle span {
+    position: relative;
+    z-index: 1;
+}
+
+/* =======================
+    반응형
+======================= */
+@media (max-width: 768px) {
+    .hotel-meta {
+        flex-direction: column;
+    }
+    .room-card {
+        flex-direction: column;
+    }
+    .room-price {
+        text-align: left;
+    }
+}
+
+.conven-list, .facilities, .languages {
+    list-style: none;
+    padding: 16px;
+    margin: 12px 0;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.6;
+    width: 100%;
+}
+
+/* 섹션 제목 */
+.conven-list h4, .facilities h4, .languages h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+}
+
+/* 리스트 아이템 */
+.conven-list li,
+.facilities li,
+.languages li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+}
+
+/* 아이템 안의 체크 표시 */
+.conven-list span,
+.facilities span,
+.languages span {
+    display: inline-block;
+    background: #f9f9f9;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #444;
+    border: 1px solid #eee;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    .conven-list li,
+    .facilities li,
+    .languages li {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
