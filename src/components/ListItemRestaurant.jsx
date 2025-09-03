@@ -1,9 +1,17 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import '../css/list_item_restaurant.css'
 
 export default function ListItemRestaurant({restaurant}) {
     
+    // 좋아요 상태변수, 핸들러
+    const [liked, setLiked] = useState(false);
+    const handleClickHeart = (e) => {
+        e.preventDefault();
+        setLiked(prev => !prev);
+    }
+
     return(
         <li className="ListItemRestaurant">
             <Link to={`/restaurant/detail/${restaurant.id - 1}`}>
@@ -12,6 +20,17 @@ export default function ListItemRestaurant({restaurant}) {
                         <div className="images">
                             <img src={restaurant.photo[0]} />
                         </div>
+                        <p className='heart'>
+                            <button onClick={handleClickHeart}>
+                                <img 
+                                    src={liked ?
+                                        '/images/icon_favorite_checked.png' :
+                                        '/images/icon_favorite_unchecked.png'} 
+                                    alt='좋아요'
+                                >
+                                </img>
+                            </button>
+                        </p>
                     </div>
                     <div className="right">
                         <div className="info">

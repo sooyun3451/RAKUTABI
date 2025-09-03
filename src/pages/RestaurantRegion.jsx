@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import axios from "axios";
-
+import ListItemRestaurant from "../components/ListItemRestaurant";
 
 import '../css/restaurant_region.css';
-import ListItemRestaurant from "../components/ListItemRestaurant";
 
 const SORT_OPTION_LIST = [
   {value : 'new', name :'최신 순'},
@@ -17,6 +16,13 @@ export default function RestaurantRegion() {
   const [currentSort, setCurrentSort] = useState(SORT_OPTION_LIST[0].value);
   const handleChangeCurrentSort = e => setCurrentSort(e.target.value);
   
+  const {area} = useParams(); // URL에서 area 파라미터 가져오기
+
+  // area에 해당하는 식당만 필터링
+  const filteredRestaurants = restaurants.filter(
+    restaurant => restaurant.area === area
+  );
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -34,9 +40,14 @@ export default function RestaurantRegion() {
     
     let sortedRestaurants = [];
       if(currentSort === 'new') {
+        // sortedRestaurants = filteredRestaurants.sort((a, b) => new Date(b.date) - new Date(a.date));
         sortedRestaurants = restaurants.sort((a, b) => new Date(b.date) - new Date(a.date));
       } else if (currentSort === 'scoreTop') {
+      // sortedRestaurants = filteredRestaurants.sort((a, b) => b.rate - a.rate);
       sortedRestaurants = restaurants.sort((a, b) => b.rate - a.rate);
+      }
+      else {
+        sortedRestaurants = filteredRestaurants;
       };
       return sortedRestaurants;
   }
@@ -46,6 +57,7 @@ export default function RestaurantRegion() {
   return (
     <div id="RestaurantRegion">
       <div className="top">
+        {/* <p className="area">{area}</p> */}
         <p className="area">도쿄</p>
         <div className="filterWrap">
           <select
