@@ -1,14 +1,21 @@
 .big {
-  width: auto;
-  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-image: url(D:\kgw\react_rakutabi\RAKUTABI\public\images\Mount-Fuji.jpg);
+}
+
+.bg-img {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(/public/images/Mount-Fuji.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding-top: 270px;
 }
 
 .box {
@@ -308,7 +315,7 @@
 }
 
 .ad-title{
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: bold;

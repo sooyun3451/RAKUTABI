@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
-import { Header } from './components';
+import { Footer, Header } from './components';
 import './css/reset.css';
 import {
   Admin,
@@ -9,6 +9,7 @@ import {
   RestaurantList,
   RestaurantRegion,
   RestaurantWrite,
+  RestaurantUpdate,
   RoomDetail,
   RoomList,
   SignIn,
@@ -23,6 +24,7 @@ const Layout = () => {
     <div id="Layout">
       <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 };
@@ -37,8 +39,9 @@ export default function App() {
             <Route path="/admin" element={<Admin />} />
             <Route path="/restaurant/detail/:id" element={<RestaurantDetail />}/>
             <Route path="/restaurant/list/:id" element={<RestaurantList />} />
-            <Route path="/restaurant/region" element={<RestaurantRegion />} />
+            <Route path="/restaurant/region/:id" element={<RestaurantRegion />} />
             <Route path="/restaurant/write" element={<RestaurantWrite />} />
+            <Route path="/restaurant/update" element={<RestaurantUpdate />} />
             <Route path="/room/detail/:id" element={<RoomDetail />} />
             <Route path="/room/list" element={<RoomList />} />
             <Route path="/signIn" element={<SignIn />} />

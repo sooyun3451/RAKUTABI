@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "../css/RoomDetail.css";
+import "../css/room_detail.css" ;
 
 export default function RoomDetail() {
     const [hotels, setHotels] = useState([]);
