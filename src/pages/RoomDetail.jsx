@@ -200,8 +200,8 @@ export default function RoomDetail() {
                     <div className="convenient">
                         <h3>숙소 편의 시설/서비스</h3>
                         <div className="convenient-list">
-                            {hotel["convenient facilities"] &&
-                                hotel["convenient facilities"][0] && (() => {
+                            {hotel["convenientFacilities"] &&
+                                hotel["convenientFacilities"][0] && (() => {
                                     const defs = {
                                         parking: { label: "주차", icon: "🅿️" },
                                         sauna: { label: "사우나", icon: "♨️" },
@@ -211,7 +211,7 @@ export default function RoomDetail() {
                                         "banquet hall": { label: "연회장", icon: "🎉" },
                                         "open-air-bath": { label: "노천탕", icon: "🛁" },
                                     };
-                                    const avail = hotel["convenient facilities"][0];
+                                    const avail = hotel["convenientFacilities"][0];
                                     // 정의된 순서대로 true 항목만 표시
                                     const items = Object.keys(defs).filter((k) => avail[k] === true);
                                     if (!items.length) return null;
