@@ -186,14 +186,11 @@ export default function Header() {
           </a>
           <div className='go-list'>
             <Link to="/room/list">숙소</Link>
-            <Link to="/restaurant/list/:id">식당</Link>
+            <Link to="/restaurant/list">식당</Link>
           </div>
         </div>
 
         <div className='right-side'>
-          <p className='like-icon'>
-            <img src="/images/shop_icon.png" alt="like-icon" />
-          </p>
           <div className='go-sign-up'>
             <Link to="/SignIn">로그인</Link>
             <Link to="/SignUp">회원가입</Link>

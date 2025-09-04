@@ -68,7 +68,7 @@ const toggleFavo = (area, id) => {
                     <p className='star'>{restaurant.star}</p>
                     <p className='name'>{restaurant.name}</p>
                     </Link>
-                      <p className='favo'><button onClick={() => toggleFavo(group.area,restaurant.id)}><img src={restaurant.favo ? '/public/images/icon_favorite_checked.png' : '/public/images/icon_favorite_unchecked.png'} /></button></p>
+                      <p className='favo'><button onClick={() => toggleFavo(group.area,restaurant.id)}><img src={restaurant.favo ? '/public/images/icon_favorite_checked_pink.png' : '/public/images/icon_favorite_unchecked_white.png'} /></button></p>
                   </li>
                 ))
               }
