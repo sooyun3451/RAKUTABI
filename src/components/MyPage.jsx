@@ -208,6 +208,7 @@ export default function MyPage({ isCheck, user }) {
               </p>
               <p>
                 <label htmlFor="password">비밀번호:</label>
+                <div className='input-wrapper'>
                 <input
                   type={showPassword1 ? 'text' : 'password'}
                   name="password"
@@ -222,10 +223,12 @@ export default function MyPage({ isCheck, user }) {
                     <img src="/images/hide.png" alt="감은 눈" />
                   )}
                 </button>
+                </div>
               </p>
               {errorMsg.pw && <p className='error-text'>{errorMsg.pw}</p>}
               <p>
                 <label htmlFor="password">비밀번호 확인:</label>
+                <div className='input-wrapper'>
                 <input
                   type={showPassword2 ? 'text' : 'password'}
                   name="password"
@@ -240,6 +243,7 @@ export default function MyPage({ isCheck, user }) {
                     <img src="/images/hide.png" alt="감은 눈" />
                   )}
                 </button>
+                  </div>
               </p>
               {errorMsg.checkPw && <p className='error-text'>{errorMsg.checkPw}</p>}
               <p>

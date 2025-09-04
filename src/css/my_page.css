@@ -25,6 +25,36 @@
   margin-left: 60px;
 }
 
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: 36px;
+  box-sizing: border-box;
+}
+
+.input-wrapper button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wrapper button input {
+  width: 20px;
+  height: 20px;
+}
+
 .view-mode p {
   margin: 12px 0;
   font-size: 16px;
@@ -54,6 +84,8 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
+  box-sizing: border-box;
+  height: auto;
 }
 
 .edit-mode p button {
@@ -70,6 +102,7 @@
 }
 
 .edit-mode p button img {
+  position: absolute;
   width: 20px;
   height: 20px;
 }

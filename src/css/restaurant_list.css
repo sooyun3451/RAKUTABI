@@ -55,12 +55,12 @@
 
 .favo {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
 }
 
 .favo button img{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background-size: 20px;
 }

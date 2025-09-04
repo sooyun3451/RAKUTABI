@@ -7,24 +7,36 @@ export default function SignIn() {
   const [id, setId] = useState('');
   const [pw, setPw] = useState('');
   const [error, setError] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
 
   const navigate = useNavigate();
 
   const handleChangeId = (e) => setId(e.target.value);
   const handleChangePw = (e) => setPw(e.target.value);
 
+  const passwordVisibility = () => {
+    setShowPassword((prev) => !prev);
+  }
+
   const handleSubmit = async () => {
     try {
       const response = await axios.get('/data/user.json');
       const user = response.data;
-      if(user.id === id && user.password === pw) {
-        alert(`${user.nickname}님 환영합니다.`);
-        localStorage.setItem('user', user);
+      if(user.id !== id) {
+        setError('해댱 아이디의 유저가 존재하지 않습니다.');
+        return;
+      };
+
+      if(user.password != pw) {
+        setError('비밀번호가 올바르지 않습니다.');
+        return;
+      };
+
+        alert(`${user.nickName}님 환영합니다.`);
+        localStorage.setItem('user', JSON.stringify(user));
         navigate('/');
         setError('');
-      }else {
-        setError('아이디 또는 비밀번호가 잘못되었습니다.');
-      }
+
     } catch (e) {
       console.error(e);
     }
@@ -43,14 +55,23 @@ export default function SignIn() {
       </div>
       <div className="pw">
         <input
-          type="password"
+          type={showPassword ? 'text' : 'password'}
           placeholder="비밀번호"
           value={pw}
           onChange={handleChangePw}
         />
+      <button type="button" onClick={passwordVisibility}>
+        {showPassword ? (
+          <img src="/images/view.png" alt="뜬 눈" />
+        ) : (
+          <img src="/images/hide.png" alt="감은 눈" />
+        )}
+      </button>
       </div>
-      <button className="signin-button" onClick={handleSubmit}>로그인</button>
-      {error && <p className='error'>{error}</p>}
+      <button className="signin-button" onClick={handleSubmit}>
+        로그인
+      </button>
+      {error && <p className="error">{error}</p>}
       <div className="find-signup">
         <Link to="/find">아이디/비밀번호 찾기</Link>
         <Link to="/signUp">회원가입</Link>
