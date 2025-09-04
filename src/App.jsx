@@ -38,7 +38,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/restaurant/detail/:id" element={<RestaurantDetail />}/>
-            <Route path="/restaurant/list/:id" element={<RestaurantList />} />
+            <Route path="/restaurant/list" element={<RestaurantList />} />
             <Route path="/restaurant/region/:id" element={<RestaurantRegion />} />
             <Route path="/restaurant/write" element={<RestaurantWrite />} />
             <Route path="/restaurant/update" element={<RestaurantUpdate />} />
