@@ -251,9 +251,9 @@ export default function RoomList() {
             <button onClick={handlePrice}>검색</button>
           </div>
         </div>
+        <p className='total'>총 {hotelData.length}건</p>
       </div>
       <div className='bottom'>
-        <p className='total'>총 {hotelData.length}건</p>
         <div>
           {hotelData.map(hotel => <ListItem key={hotel.hotelId} hotel={hotel} />)}
         </div>

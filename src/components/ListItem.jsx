@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 import '../css/list_item.css'
 
 export default function ListItem({hotel}) {
+  const navigate = useNavigate();
 
   // 객실
   const room1 = hotel.room1
@@ -96,7 +97,7 @@ export default function ListItem({hotel}) {
         <div className='more'>
           {hotel.totalRoomNumber == 0 ?
             <button className='noRoom'>객실 판매 완료</button> : 
-            <button><Link to={`/room/detail/${hotel.hotelId}`}>자세히 보기</Link></button>
+            <button onClick={() => navigate(`/room/detail/${hotel.hotelId}`)}>자세히 보기</button>
           }
         </div>
       </Link>
