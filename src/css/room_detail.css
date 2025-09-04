@@ -253,10 +253,28 @@ h2, h3 {
     font-size: 12px;
     background: #eee;
 }
-
 .non-smoking {
-    background: #4caf50;
-    color: #fff;
+  color: #000;
+}
+.one-bed {
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    background: #eee;
+}
+.two-bed {
+   color: #000;
+}
+.room-breakfast {
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    background: #eee;
+}
+.non-breakfast {
+  color: #000;
 }
 
 .room-summary span {
