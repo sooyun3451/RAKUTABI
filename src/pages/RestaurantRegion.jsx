@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import axios from "axios";
-
+import ListItemRestaurant from "../components/ListItemRestaurant";
 
 import '../css/restaurant_region.css';
-import ListItemRestaurant from "../components/ListItemRestaurant";
 
 const SORT_OPTION_LIST = [
   {value : 'new', name :'최신 순'},
@@ -17,14 +16,18 @@ export default function RestaurantRegion() {
   const [currentSort, setCurrentSort] = useState(SORT_OPTION_LIST[0].value);
   const handleChangeCurrentSort = e => setCurrentSort(e.target.value);
   
+  // URL에서 area 파라미터 가져오기
+  const {id} = useParams();
+
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [id]);
 
   const fetchData = async () => {
     try {
       const res = await axios.get('/data/restaurantDetail.json');
-      setRestaurants(res.data);
+      const filtered = res.data.filter(r => r.area === id);
+      setRestaurants(filtered);
     } catch (e) {
       console.error('데이터 로딩 에러', e);
     }
@@ -46,7 +49,7 @@ export default function RestaurantRegion() {
   return (
     <div id="RestaurantRegion">
       <div className="top">
-        <p className="area">도쿄</p>
+        <p className="area">{id}</p>
         <div className="filterWrap">
           <select
             value={currentSort}
@@ -58,9 +61,9 @@ export default function RestaurantRegion() {
           </select>
         </div>
       </div>
-      <div className="botton">
+      <div className="bottom">
         <div>
-          {restaurants.map(
+          {filterSortList.map(
             restaurant => <ListItemRestaurant key={restaurant.id} restaurant={restaurant}/>
           )}
         </div>  
