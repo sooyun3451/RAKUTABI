@@ -471,31 +471,31 @@ export default function Home() {
         <div className="res-text">식당 추천</div>
         <div className="res-img">
           <li>
-            <Link to="/restaurant/list/:id">
+            <Link to="/restaurant/region/도쿄">
               <img src="public/images/tokyo.jpg" alt="tokyo" />
             </Link>
             <p>도쿄</p>
           </li>
           <li>
-            <Link to="/restaurant/list/:id">
+            <Link to="/restaurant/region/오사카">
               <img src="public/images/osaka.jpg" alt="osaka" />
             </Link>
             <p>오사카</p>
           </li>
           <li>
-            <Link to="/restaurant/list/:id">
+            <Link to="/restaurant/region/삿포로">
               <img src="public/images/sapporo.jpg" alt="sappro" />
             </Link>
             <p>삿포로</p>
           </li>
           <li>
-            <Link to="/restaurant/list/:id">
+            <Link to="/restaurant/region/후쿠오카">
               <img src="public/images/fukuoka.jpg" alt="fukuoka" />
             </Link>
             <p>후쿠오카</p>
           </li>
           <li>
-            <Link to="/restaurant/list/:id">
+            <Link to="/restaurant/region/오키나와">
               <img src="public/images/okinawa.jpg" alt="okinawa" />
             </Link>
             <p>오키나와</p>
