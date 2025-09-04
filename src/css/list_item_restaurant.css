@@ -5,43 +5,109 @@
     border: 1px solid #d6d6d6;
     border-radius: 10px;
     margin-bottom: 20px;
+    height: 400px;
+
 }
 .ListItemRestaurant:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 .ListItemRestaurant a{
+    position: relative;
     color: black;
+    z-index: 10;
 }
 .ListItemRestaurant .item{
+    height: 100%;
     display: flex;
     gap: 34px;
 }
 .ListItemRestaurant .item .left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
     width: 40%;
 }
 
 .ListItemRestaurant .item .left .images{
+    position: absolute;
+    display: flex;
+    /* align-self: center; */
+    row-gap: 20px;
+    margin: auto 0;
     width: 100%;
+    height: 300px;
+    opacity: 0;
+    &.active{
+        opacity: 1;
+        transition: opacity 0.1s ease-in-out;
+    }
 }
 
+.ListItemRestaurant .item .left .images .btnPrev{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    z-index: 100;
+}
+.ListItemRestaurant .item .left .images .btnPrev img{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+.ListItemRestaurant .item .left .images .btnPrev img:hover{
+    opacity: 1;
+}
 .ListItemRestaurant .item .left .images img{
     border-radius: 24px;
     width: 100%;
-    height: 300px;
+    height: auto;
+    object-fit: cover;
     object-position: center center;
 }
 
+.ListItemRestaurant .item .left .images .btnNext{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    z-index: 10;
+}
+.ListItemRestaurant .item .left .images .btnNext img{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+.ListItemRestaurant .item .left .images .btnNext img:hover{
+    opacity: 1;
+}
+.ListItemRestaurant .item .left .images .heart{
+    position: absolute;
+    top: 8px;
+    right: -6px;
+    width: 50px;
+    height: 30px;
+}
+.ListItemRestaurant .item .left .images .heart img{
+    width: 60%;
+    height: auto;
+}
 
 .ListItemRestaurant .item .right{
     display: flex;
     width: 60%;
-    /* background-color: aquamarine; */
 }
 .ListItemRestaurant .item .right .info{
     display: flex;
     flex-direction: column;
     gap: 0;
-    /* background-color: rgb(194, 122, 122); */
 }
 .ListItemRestaurant .item .right .info .stars{
     margin-top: -85px;
