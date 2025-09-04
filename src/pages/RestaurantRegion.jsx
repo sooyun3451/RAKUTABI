@@ -61,7 +61,7 @@ export default function RestaurantRegion() {
           </select>
         </div>
       </div>
-      <div className="botton">
+      <div className="bottom">
         <div>
           {filterSortList.map(
             restaurant => <ListItemRestaurant key={restaurant.id} restaurant={restaurant}/>
