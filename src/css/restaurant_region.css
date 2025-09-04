@@ -18,6 +18,12 @@
     font-weight: 700;
     color: black;
 }
+#RestaurantRegion .top .filterWrap select{
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #d6d6d6;
+    font-size: 14px;
+}
 
 #RestaurantRegion .review{
     position: fixed;

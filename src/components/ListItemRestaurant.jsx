@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 
 import '../css/list_item_restaurant.css'
 
+
+
 export default function ListItemRestaurant({restaurant}) {
+
+    // 이미지 슬라이드 인덱스
+    const [slideIndex, setSlideIndex] = useState(0);
     
     // 좋아요 상태변수, 핸들러
     const [liked, setLiked] = useState(false);
@@ -12,14 +17,28 @@ export default function ListItemRestaurant({restaurant}) {
         setLiked(prev => !prev);
     }
 
+    const imgData = [
+        {id : 0, img : restaurant.photo[0]},
+        {id : 1, img : restaurant.photo[1]},
+        {id : 2, img : restaurant.photo[2]},
+        {id : 3, img : restaurant.photo[3]},
+    ];
+
     return(
         <li className="ListItemRestaurant">
             <Link to={`/restaurant/detail/${restaurant.id - 1}`}>
                 <div className="item">
+                    <button className='prev'>이전</button>
                     <div className="left">
-                        <div className="images">
-                            <img src={restaurant.photo[0]} />
-                        </div>
+                        {imgData.map((data) =>
+                            <div 
+                                key={data.id} 
+                                className={data.id === slideIndex ? "images active" : "images" }
+                            >
+                                    <img src={data.img} />
+                                </div>
+                            )
+                        }
                         <p className='heart'>
                             <button onClick={handleClickHeart}>
                                 <img 
@@ -32,6 +51,7 @@ export default function ListItemRestaurant({restaurant}) {
                             </button>
                         </p>
                     </div>
+                    <button className='next'>다음</button>
                     <div className="right">
                         <div className="info">
                             <p className="stars">
