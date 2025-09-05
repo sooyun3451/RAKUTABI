@@ -55,7 +55,7 @@
 
 .ListItem .item .right{
     position: relative;
-    width: 533px;
+    width: 57%;
     display: flex;
 }
 .ListItem .item .right .info{

@@ -92,8 +92,9 @@ button{
 
 #RoomList .top .total{
     position: absolute;
-    right: 0;
+    right: 80px;
     bottom: 0;
+    bottom: -10px;
 }
 
 
