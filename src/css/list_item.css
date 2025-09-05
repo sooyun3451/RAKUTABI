@@ -50,7 +50,6 @@
 .ListItem .item .left .heart img{
     width: 55%;
     height: auto;
-    margin-right: 1px;
 }
 
 .ListItem .item .right{
@@ -127,18 +126,44 @@
     font-weight: 600;
     font-size: 12px;
 }
-.ListItem .item .right .price{
+.ListItem .item .right .roomInfo{
     width: 50%;
     text-align: right;
+    margin-top: 20px;
     color: #6d6d6d;
 }
-.ListItem .item .right .price .roomPrice{
-    padding-top: 20px;
+.ListItem .item .right .roomInfo .price .discountedPrice{
     color: #333;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
 }
-
+.ListItem .item .right .roomInfo .price .originP{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 8px;
+}
+.ListItem .item .right .roomInfo .price .originP .discountPer{
+    border: 1px solid #ec0f0f;
+    border-radius: 200px;
+    background-color: #ec0f0f;
+    font-size: 12px;
+    color: white;
+    padding: 1px 4px;
+}
+.ListItem .item .right .roomInfo .price .originP .originPrice{
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+}
+.ListItem .item .right .roomInfo .price .originP .originPrice.discount{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: line-through;
+    color: #ec0f0f;
+    font-size: 16px;
+}
 .ListItem .more{
     display: flex;
     justify-content: flex-end;

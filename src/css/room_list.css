@@ -68,9 +68,11 @@ button{
 }
 #RoomList .top .priceRange .rangeResult input{
     width: 80px;
-    line-height: 28px;
+    line-height: 32px;
     text-align: center;
     margin-right: 8px;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
 }
 #RoomList .top .priceRange .rangeResult input:first-child::after{
     content: '';
@@ -106,7 +108,18 @@ button{
 } */
 
 #RoomList .bottom .listNone{
+    padding-top: 50px;
     text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6d6d6d;
+}
+#RoomList .bottom .listNone span{
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 400;
+    /* padding-top: 20px; */
 }
 #RoomList .bottom ul{
     width: 1240px;

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ListItem } from '../components';
 import { useSearchParams } from 'react-router-dom';
 import '../css/room_list.css';
@@ -131,8 +131,8 @@ export default function RoomList() {
       sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => b.minRoomPrice - a.minRoomPrice);
     } else if (currentSort === 'priceDown') {
       sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => a.minRoomPrice - b.minRoomPrice);
-    } else {
-      sortedHotels = hotelsWithAvgScoreAndMinPrice;
+    } else  if (currentSort === 'recommend') {
+      sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => a.hotelId - b.hotelId);
     }
     return sortedHotels;
   };
@@ -162,6 +162,13 @@ export default function RoomList() {
     );
     setHotelData(filtered);
   };
+
+  useEffect(() => {
+    window.scrollTo({
+      top : 0,
+      behavior : 'smooth'
+    });
+  }, []);
   
 
   // 이게 없으니까 슬라이더 값 설정 후 필터 적용이 안 됨
@@ -193,8 +200,8 @@ export default function RoomList() {
         sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => b.minRoomPrice - a.minRoomPrice);
       } else if (currentSort === 'priceDown') {
         sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => a.minRoomPrice - b.minRoomPrice);
-      } else {
-        sortedHotels = [...hotelData];
+      } else  if (currentSort === 'recommend') {
+        sortedHotels = hotelsWithAvgScoreAndMinPrice.sort((a, b) => a.hotelId - b.hotelId);
       }
       setHotelData(sortedHotels);
     }
@@ -255,7 +262,7 @@ export default function RoomList() {
       </div>
       <div className='bottom'>
         {!hotelData.length ? 
-          <div className='listNone'>검색 조건에 일치하는 결과가 없습니다.<br></br><span>숙박 기간이나 여행지, 요금 조건을 변경하여 검색해 주세요.</span></div> : 
+          <div className='listNone'>검색 조건에 일치하는 결과가 없습니다.<br></br><span>여행지나 요금 조건을 변경하여 검색해 주세요.</span></div> : 
           hotelData.map(hotel => <ListItem key={hotel.hotelId} hotel={hotel} 
           />
         )}

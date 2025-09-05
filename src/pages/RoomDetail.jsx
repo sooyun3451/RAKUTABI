@@ -17,7 +17,7 @@ export default function RoomDetail() {
                     ...hotel,
                     rooms: [...hotel.room1, ...hotel.room2].map((room) => ({
                         ...room,
-                        availableRooms: room["room-count"],
+                        availableRooms: room["roomCount"],
                     })),
                 }));
 
@@ -331,7 +331,7 @@ export default function RoomDetail() {
                                     </span>
                                 </p>
                                 <div className="room-availability">
-                                    <span className="room-count-text">
+                                    <span className="roomCount-text">
                                         남은 객실: {room.availableRooms}개
                                     </span>
                                 </div>
