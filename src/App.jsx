@@ -41,7 +41,7 @@ export default function App() {
             <Route path="/restaurant/list" element={<RestaurantList />} />
             <Route path="/restaurant/region/:id" element={<RestaurantRegion />} />
             <Route path="/restaurant/write" element={<RestaurantWrite />} />
-            <Route path="/restaurant/update" element={<RestaurantUpdate />} />
+            <Route path="/restaurant/update/:id" element={<RestaurantUpdate />} />
             <Route path="/room/detail/:id" element={<RoomDetail />} />
             <Route path="/room/list" element={<RoomList />} />
             <Route path="/signIn" element={<SignIn />} />
