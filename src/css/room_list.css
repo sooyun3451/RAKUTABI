@@ -105,6 +105,9 @@ button{
 
 } */
 
+#RoomList .bottom .listNone{
+    text-align: center;
+}
 #RoomList .bottom ul{
     width: 1240px;
     margin: 0 auto;

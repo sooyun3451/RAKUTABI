@@ -62,7 +62,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
     margin-top: 0;
 }
 .ListItem .item .right .info .stars{
@@ -70,37 +70,38 @@
 }
 .ListItem .item .right .info .hotelName{
     font-weight: 700;
-    color: #333;
-    font-size: 16px;
+    color: black;
+    font-size: 20px;
     line-height: 1.25;
+    margin-bottom: 10px;
 }
 .ListItem .item .right .info .facilityList .facilCheck{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 2px;
     width: 180px;
     height: 18px;
-    font-size: 12px;
 }
 .ListItem .item .right .info .facilityList .facilCheck img{
     margin-left: -3px;
+    margin-right: 3px;
     width: 10%;
     height: auto;
 }
 .ListItem .item .right .info .facilityList .facilCheck span{
     width: 600px;
-    font-size: 12px;
+    font-size: 13px;
+    /* font-weight: 500; */
     color: #333;
 }
-.ListItem .item .right .info .hotelCity,
-.ListItem .item .right .info .nonSmoking,
-.ListItem .item .right .info .breakfast{
+.ListItem .item .right .info .hotelCity{
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 5px;
     color: #333;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.25;
+    margin-top: 0;
 }
 .ListItem .item .right .info .hotelCity span{
     margin-left: -3px;

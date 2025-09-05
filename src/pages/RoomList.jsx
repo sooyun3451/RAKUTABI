@@ -251,12 +251,14 @@ export default function RoomList() {
             <button onClick={handlePrice}>검색</button>
           </div>
         </div>
-        <p className='total'>총 {hotelData.length}건</p>
+        {!hotelData.length ? '': <p className='total'>총 {hotelData.length}건</p>}
       </div>
       <div className='bottom'>
-        <div>
-          {hotelData.map(hotel => <ListItem key={hotel.hotelId} hotel={hotel} />)}
-        </div>
+        {!hotelData.length ? 
+          <div className='listNone'>검색 조건에 일치하는 결과가 없습니다.<br></br><span>숙박 기간이나 여행지, 요금 조건을 변경하여 검색해 주세요.</span></div> : 
+          hotelData.map(hotel => <ListItem key={hotel.hotelId} hotel={hotel} 
+          />
+        )}
       </div>
     </div>
   );
