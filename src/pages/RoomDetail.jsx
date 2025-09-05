@@ -268,7 +268,7 @@ export default function RoomDetail() {
                             </div>
                             <div className="room-main-info">
                                 <div className="room-title">
-                                    <strong>{room.name}</strong>
+                                    <strong>{room.roomName}</strong>
                                     {room.smoking ? (
                                         <span className="room-badge">
                                             🚬 흡연
