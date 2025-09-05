@@ -33,6 +33,7 @@
         "room1": [
             {
                 "roomId": 20001,
+                "roomName": "싱글룸",
                 "price": 280000,
                 "bed": 2,
                 "room-count": 1,
@@ -50,6 +51,7 @@
         "room2": [
             {
                 "roomId": 20002,
+                "roomName": "더블룸",
                 "price": 250000,
                 "bed": 1,
                 "room-count": 3,
@@ -120,6 +122,7 @@
         "room1": [
             {
                 "roomId": 20011,
+                "roomName": "싱글룸",
                 "price": 318805,
                 "room-count": 2,
                 "bed": 2,
@@ -137,6 +140,7 @@
         "room2": [
             {
                 "roomId": 20012,
+                "roomName": "더블룸",
                 "price": 255000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -207,6 +211,7 @@
         "room1": [
             {
                 "roomId": 20021,
+                "roomName": "싱글룸",
                 "price": 103232,
                 "bed": 2,
                 "room-count": 2,
@@ -224,6 +229,7 @@
         "room2": [
             {
                 "roomId": 20022,
+                "roomName": "더블룸",
                 "price": 87000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -294,6 +300,7 @@
         "room1": [
             {
                 "roomId": 20031,
+                "roomName": "싱글룸",
                 "price": 237206,
                 "bed": 2,
                 "maxCapa": 5,
@@ -311,6 +318,7 @@
         "room2": [
             {
                 "roomId": 20032,
+                "roomName": "더블룸",
                 "price": 199000,
                 "bed": 1,
                 "maxCapa": 4,
@@ -381,6 +389,7 @@
         "room1": [
             {
                 "roomId": 20041,
+                "roomName": "싱글룸",
                 "price": 56929,
                 "bed": 2,
                 "maxCapa": 2,
@@ -398,6 +407,7 @@
         "room2": [
             {
                 "roomId": 20042,
+                "roomName": "더블룸",
                 "price": 69000,
                 "bed": 1,
                 "room-count": 2,
@@ -468,6 +478,7 @@
         "room1": [
             {
                 "roomId": 20051,
+                "roomName": "싱글룸",
                 "price": 84635,
                 "bed": 2,
                 "maxCapa": 3,
@@ -485,6 +496,7 @@
         "room2": [
             {
                 "roomId": 20052,
+                "roomName": "더블룸",
                 "price": 99000,
                 "bed": 1,
                 "room-count": 2,
@@ -555,6 +567,7 @@
         "room1": [
             {
                 "roomId": 20061,
+                "roomName": "싱글룸",
                 "price": 63191,
                 "bed": 2,
                 "maxCapa": 2,
@@ -572,6 +585,7 @@
         "room2": [
             {
                 "roomId": 20062,
+                "roomName": "더블룸",
                 "price": 75000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -642,6 +656,7 @@
         "room1": [
             {
                 "roomId": 20071,
+                "roomName": "싱글룸",
                 "price": 114333,
                 "bed": 2,
                 "maxCapa": 3,
@@ -659,6 +674,7 @@
         "room2": [
             {
                 "roomId": 20072,
+                "roomName": "싱글룸",
                 "price": 129000,
                 "bed": 1,
                 "maxCapa": 4,
@@ -729,6 +745,7 @@
         "room1": [
             {
                 "roomId": 20081,
+                "roomName": "더블룸",
                 "price": 75906,
                 "bed": 2,
                 "maxCapa": 2,
@@ -746,6 +763,7 @@
         "room2": [
             {
                 "roomId": 20082,
+                "roomName": "싱글룸",
                 "price": 89000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -816,6 +834,7 @@
         "room1": [
             {
                 "roomId": 20091,
+                "roomName": "싱글룸",
                 "price": 46966,
                 "bed": 2,
                 "maxCapa": 2,
@@ -833,6 +852,7 @@
         "room2": [
             {
                 "roomId": 20092,
+                "roomName": "더블룸",
                 "price": 59000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -903,6 +923,7 @@
         "room1": [
             {
                 "roomId": 20101,
+                "roomName": "트윈룸",
                 "price": 214434,
                 "bed": 2,
                 "maxCapa": 4,
@@ -920,6 +941,7 @@
         "room2": [
             {
                 "roomId": 20102,
+                "roomName": "싱글룸",
                 "price": 189000,
                 "bed": 1,
                 "room-count": 2,
@@ -990,6 +1012,7 @@
         "room1": [
             {
                 "roomId": 20111,
+                "roomName": "더블룸",
                 "price": 80650,
                 "bed": 2,
                 "maxCapa": 2,
@@ -1007,6 +1030,7 @@
         "room2": [
             {
                 "roomId": 20112,
+                "roomName": "트윈룸",
                 "price": 92000,
                 "bed": 1,
                 "room-count": 2,
@@ -1077,6 +1101,7 @@
         "room1": [
             {
                 "roomId": 20121,
+                "roomName": "트윈룸",
                 "price": 155000,
                 "bed": 2,
                 "room-count": 2,
@@ -1094,6 +1119,7 @@
         "room2": [
             {
                 "roomId": 20122,
+                "roomName": "싱글룸",
                 "price": 120000,
                 "bed": 1,
                 "room-count": 2,
@@ -1164,6 +1190,7 @@
         "room1": [
             {
                 "roomId": 20131,
+                "roomName": "트윈룸",
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -1181,6 +1208,7 @@
         "room2": [
             {
                 "roomId": 20132,
+                "roomName": "싱글룸",
                 "price": 165000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -1251,6 +1279,7 @@
         "room1": [
             {
                 "roomId": 20141,
+                "roomName": "트윈룸",
                 "price": 199000,
                 "bed": 2,
                 "room-count": 2,
@@ -1269,6 +1298,7 @@
             {
                 "roomId": 20142,
                 "price": 170000,
+                "roomName": "싱글룸",
                 "bed": 1,
                 "room-count": 2,
                 "maxCapa": 2,
@@ -1338,6 +1368,7 @@
         "room1": [
             {
                 "roomId": 20151,
+                "roomName": "트윈룸",
                 "price": 220000,
                 "bed": 2,
                 "room-count": 2,
@@ -1355,6 +1386,7 @@
         "room2": [
             {
                 "roomId": 20152,
+                "roomName": "더블룸",
                 "price": 190000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -1425,6 +1457,7 @@
         "room1": [
             {
                 "roomId": 20161,
+                "roomName": "트윈룸",
                 "price": 120000,
                 "bed": 2,
                 "room-count": 2,
@@ -1442,6 +1475,7 @@
         "room2": [
             {
                 "roomId": 20162,
+                "roomName": "싱글룸",
                 "price": 145000,
                 "bed": 1,
                 "room-count": 2,
@@ -1512,6 +1546,7 @@
         "room1": [
             {
                 "roomId": 20171,
+                "roomName": "트윈룸",
                 "price": 130000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -1529,6 +1564,7 @@
         "room2": [
             {
                 "roomId": 20172,
+                "roomName": "더블룸",
                 "price": 110000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -1599,6 +1635,7 @@
         "room1": [
             {
                 "roomId": 20181,
+                "roomName": "트윈룸",
                 "price": 98000,
                 "bed": 2,
                 "room-count": 2,
@@ -1616,6 +1653,7 @@
         "room2": [
             {
                 "roomId": 20182,
+                "roomName": "싱글룸",
                 "price": 115000,
                 "bed": 1,
                 "maxCapa": 4,
@@ -1685,6 +1723,7 @@
         "room1": [
             {
                 "roomId": 20191,
+                "roomName": "트윈룸",
                 "price": 105000,
                 "bed": 2,
                 "maxCapa": 2,
@@ -1702,6 +1741,7 @@
         "room2": [
             {
                 "roomId": 20192,
+                "roomName": "더블룸",
                 "price": 125000,
                 "bed": 1,
                 "room-count": 2,
@@ -1771,6 +1811,7 @@
         "room1": [
             {
                 "roomId": 20201,
+                "roomName": "트윈룸",
                 "price": 210000,
                 "bed": 2,
                 "room-count": 2,
@@ -1788,6 +1829,7 @@
         "room2": [
             {
                 "roomId": 20202,
+                "roomName": "싱글룸",
                 "price": 180000,
                 "room-count": 2,
                 "bed": 1,
@@ -1858,6 +1900,7 @@
         "room1": [
             {
                 "roomId": 20211,
+                "roomName": "트윈룸",
                 "price": 250000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -1875,6 +1918,7 @@
         "room2": [
             {
                 "roomId": 20212,
+                "roomName": "싱글룸",
                 "price": 200000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -1945,6 +1989,7 @@
         "room1": [
             {
                 "roomId": 20221,
+                "roomName": "트윈룸",
                 "price": 185000,
                 "room-count": 2,
                 "bed": 2,
@@ -1962,6 +2007,7 @@
         "room2": [
             {
                 "roomId": 20222,
+                "roomName": "싱글룸",
                 "price": 160000,
                 "room-count": 2,
                 "bed": 1,
@@ -2032,6 +2078,7 @@
         "room1": [
             {
                 "roomId": 20231,
+                "roomName": "트윈룸",
                 "price": 320000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -2048,6 +2095,7 @@
         "room2": [
             {
                 "roomId": 20232,
+                "roomName": "더블룸",
                 "price": 280000,
                 "bed": 1,
                 "room-count": 2,
@@ -2118,6 +2166,7 @@
         "room1": [
             {
                 "roomId": 20241,
+                "roomName": "트윈룸",
                 "price": 190000,
                 "bed": 2,
                 "room-count": 2,
@@ -2135,6 +2184,7 @@
         "room2": [
             {
                 "roomId": 20242,
+                "roomName": "싱글룸",
                 "price": 165000,
                 "room-count": 2,
                 "bed": 1,
@@ -2205,6 +2255,7 @@
         "room1": [
             {
                 "roomId": 20251,
+                "roomName": "트윈룸",
                 "price": 450000,
                 "room-count": 2,
                 "bed": 2,
@@ -2222,6 +2273,7 @@
         "room2": [
             {
                 "roomId": 20252,
+                "roomName": "더블룸",
                 "price": 400000,
                 "bed": 1,
                 "room-count": 2,
@@ -2292,6 +2344,7 @@
         "room1": [
             {
                 "roomId": 20261,
+                "roomName": "트윈룸",
                 "price": 550000,
                 "room-count": 2,
                 "bed": 2,
@@ -2309,6 +2362,7 @@
         "room2": [
             {
                 "roomId": 20262,
+                "roomName": "트윈룸",
                 "price": 500000,
                 "room-count": 2,
                 "bed": 1,
@@ -2379,6 +2433,7 @@
         "room1": [
             {
                 "roomId": 20271,
+                "roomName": "트윈룸",
                 "price": 350000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -2396,6 +2451,7 @@
         "room2": [
             {
                 "roomId": 20272,
+                "roomName": "싱글룸",
                 "price": 300000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -2466,6 +2522,7 @@
         "room1": [
             {
                 "roomId": 20281,
+                "roomName": "트윈룸",
                 "price": 145000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -2483,6 +2540,7 @@
         "room2": [
             {
                 "roomId": 20282,
+                "roomName": "싱글룸",
                 "price": 120000,
                 "bed": 1,
                 "room-count": 2,
@@ -2553,6 +2611,7 @@
         "room1": [
             {
                 "roomId": 20291,
+                "roomName": "트윈룸",
                 "price": 170000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -2570,6 +2629,7 @@
         "room2": [
             {
                 "roomId": 20292,
+                "roomName": "더블룸",
                 "price": 140000,
                 "bed": 1,
                 "room-count": 2,
@@ -2640,6 +2700,7 @@
         "room1": [
             {
                 "roomId": 20301,
+                "roomName": "트윈룸",
                 "price": 350000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -2657,6 +2718,7 @@
         "room2": [
             {
                 "roomId": 20302,
+                "roomName": "더블룸",
                 "price": 300000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -2727,6 +2789,7 @@
         "room1": [
             {
                 "roomId": 20311,
+                "roomName": "트윈룸",
                 "price": 95000,
                 "bed": 2,
                 "maxCapa": 2,
@@ -2744,6 +2807,7 @@
         "room2": [
             {
                 "roomId": 20312,
+                "roomName": "더블룸",
                 "price": 110000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -2814,6 +2878,7 @@
         "room1": [
             {
                 "roomId": 20321,
+                "roomName": "트윈룸",
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -2831,6 +2896,7 @@
         "room2": [
             {
                 "roomId": 20322,
+                "roomName": "싱글룸",
                 "price": 150000,
                 "bed": 1,
                 "room-count": 2,
@@ -2901,6 +2967,7 @@
         "room1": [
             {
                 "roomId": 20331,
+                "roomName": "트윈룸",
                 "price": 165000,
                 "room-count": 2,
                 "bed": 2,
@@ -2918,6 +2985,7 @@
         "room2": [
             {
                 "roomId": 20332,
+                "roomName": "싱글룸",
                 "price": 130000,
                 "bed": 1,
                 "room-count": 2,
@@ -2989,6 +3057,7 @@
         "room1": [
             {
                 "roomId": 20341,
+                "roomName": "트윈룸",
                 "price": 800000,
                 "bed": 2,
                 "room-count": 2,
@@ -3006,6 +3075,7 @@
         "room2": [
             {
                 "roomId": 20342,
+                "roomName": "싱글룸",
                 "price": 750000,
                 "bed": 1,
                 "room-count": 2,
@@ -3076,6 +3146,7 @@
         "room1": [
             {
                 "roomId": 20351,
+                "roomName": "트윈룸",
                 "price": 280000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -3093,6 +3164,7 @@
         "room2": [
             {
                 "roomId": 20352,
+                "roomName": "더블룸",
                 "price": 250000,
                 "bed": 1,
                 "room-count": 2,
@@ -3165,6 +3237,7 @@
             {
                 "roomId": 20361,
                 "price": 380000,
+                "roomName": "트윈룸",
                 "bed": 2,
                 "maxCapa": 4,
                 "room-count": 2,
@@ -3181,6 +3254,7 @@
         "room2": [
             {
                 "roomId": 20362,
+                "roomName": "트윈룸",
                 "price": 320000,
                 "room-count": 2,
                 "bed": 1,
@@ -3251,6 +3325,7 @@
         "room1": [
             {
                 "roomId": 20371,
+                "roomName": "트윈룸",
                 "price": 290000,
                 "bed": 2,
                 "room-count": 2,
@@ -3268,6 +3343,7 @@
         "room2": [
             {
                 "roomId": 20372,
+                "roomName": "싱글룸",
                 "price": 250000,
                 "room-count": 2,
                 "bed": 1,
@@ -3338,6 +3414,7 @@
         "room1": [
             {
                 "roomId": 20381,
+                "roomName": "스위트룸",
                 "price": 180000,
                 "room-count": 2,
                 "bed": 2,
@@ -3355,6 +3432,7 @@
         "room2": [
             {
                 "roomId": 20382,
+                "roomName": "스위트룸",
                 "room-count": 2,
                 "price": 150000,
                 "bed": 1,
@@ -3425,6 +3503,7 @@
         "room1": [
             {
                 "roomId": 20391,
+                "roomName": "스탠다드룸",
                 "price": 220000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -3442,6 +3521,7 @@
         "room2": [
             {
                 "roomId": 20392,
+                "roomName": "싱글룸",
                 "price": 190000,
                 "bed": 1,
                 "room-count": 2,
@@ -3512,6 +3592,7 @@
         "room1": [
             {
                 "roomId": 20401,
+                "roomName": "슈페리어룸",
                 "price": 250000,
                 "bed": 2,
                 "roomSize": "14㎡",
@@ -3529,6 +3610,7 @@
         "room2": [
             {
                 "roomId": 20402,
+                "roomName": "싱글룸",
                 "price": 220000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -3599,6 +3681,7 @@
         "room1": [
             {
                 "roomId": 20411,
+                "roomName": "스탠다드룸",
                 "price": 75000,
                 "bed": 1,
                 "room-count": 2,
@@ -3616,6 +3699,7 @@
         "room2": [
             {
                 "roomId": 20412,
+                "roomName": "싱글룸",
                 "price": 90000,
                 "room-count": 2,
                 "bed": 1,
@@ -3686,6 +3770,7 @@
         "room1": [
             {
                 "roomId": 20421,
+                "roomName": "트윈룸",
                 "price": 450000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -3703,6 +3788,7 @@
         "room2": [
             {
                 "roomId": 20422,
+                "roomName": "싱글룸",
                 "price": 400000,
                 "bed": 1,
                 "room-count": 2,
@@ -3773,6 +3859,7 @@
         "room1": [
             {
                 "roomId": 20431,
+                "roomName": "트윈룸",
                 "price": 160000,
                 "bed": 2,
                 "room-count": 2,
@@ -3790,6 +3877,7 @@
         "room2": [
             {
                 "roomId": 20432,
+                "roomName": "싱글룸",
                 "price": 130000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -3860,6 +3948,7 @@
         "room1": [
             {
                 "roomId": 20441,
+                "roomName": "트윈룸",
                 "price": 190000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -3877,6 +3966,7 @@
         "room2": [
             {
                 "roomId": 20442,
+                "roomName": "싱글룸",
                 "price": 165000,
                 "bed": 1,
                 "room-count": 2,
@@ -3947,6 +4037,7 @@
         "room1": [
             {
                 "roomId": 20451,
+                "roomName": "스탠다드룸",
                 "price": 180000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -3964,6 +4055,7 @@
         "room2": [
             {
                 "roomId": 20452,
+                "roomName": "싱글룸",
                 "price": 150000,
                 "bed": 1,
                 "room-count": 2,
@@ -4034,6 +4126,7 @@
         "room1": [
             {
                 "roomId": 20461,
+                "roomName": "트윈룸",
                 "price": 110000,
                 "bed": 2,
                 "room-count": 2,
@@ -4051,6 +4144,7 @@
         "room2": [
             {
                 "roomId": 20462,
+                "roomName": "싱글룸",
                 "price": 95000,
                 "bed": 1,
                 "room-count": 2,
@@ -4121,6 +4215,7 @@
         "room1": [
             {
                 "roomId": 20471,
+                "roomName": "슈페리어룸",
                 "price": 135000,
                 "bed": 2,
                 "room-count": 2,
@@ -4138,6 +4233,7 @@
         "room2": [
             {
                 "roomId": 20472,
+                "roomName": "싱글룸",
                 "price": 110000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -4208,6 +4304,7 @@
         "room1": [
             {
                 "roomId": 20481,
+                "roomName": "트윈룸",
                 "price": 280000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -4225,6 +4322,7 @@
         "room2": [
             {
                 "roomId": 20482,
+                "roomName": "싱글룸",
                 "price": 250000,
                 "bed": 1,
                 "maxCapa": 3,
@@ -4295,6 +4393,7 @@
         "room1": [
             {
                 "roomId": 20491,
+                "roomName": "더블룸",
                 "price": 160000,
                 "bed": 2,
                 "maxCapa": 3,
@@ -4312,6 +4411,7 @@
         "room2": [
             {
                 "roomId": 20492,
+                "roomName": "싱글룸",
                 "price": 140000,
                 "bed": 1,
                 "maxCapa": 2,
@@ -4382,6 +4482,7 @@
         "room1": [
             {
                 "roomId": 20501,
+                "roomName": "트윈룸",
                 "price": 200000,
                 "bed": 2,
                 "maxCapa": 4,
@@ -4399,6 +4500,7 @@
         "room2": [
             {
                 "roomId": 20502,
+                "roomName": "싱글룸",
                 "price": 280000,
                 "bed": 1,
                 "maxCapa": 6,
