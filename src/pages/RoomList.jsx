@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from "react";
 import { ListItem } from '../components';
 import { useSearchParams } from 'react-router-dom';
 import '../css/room_list.css';
@@ -162,7 +162,12 @@ export default function RoomList() {
     );
     setHotelData(filtered);
   };
-  
+   useEffect(() => {
+       window.scrollTo({
+           top: 0,
+           behavior: "smooth", // 부드러운 스크롤 효과를 원하면 'smooth'
+       });
+   }, []); 
 
   // 이게 없으니까 슬라이더 값 설정 후 필터 적용이 안 됨
   useEffect(() => {
