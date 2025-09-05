@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 import '../css/list_item.css'
 
 export default function ListItem({hotel}) {
+  const navigate = useNavigate();
 
   // 객실
   const room1 = hotel.room1
@@ -57,7 +58,7 @@ export default function ListItem({hotel}) {
                 )}
               </p>
               <p className='hotelName'>{hotel.hotelName}</p>
-              <div className='facilities'>
+              <div className='facilityList'>
                 {convenientFacilities[0].parking && (
                   <p className='facilCheck'>
                     <img src='/images/checkmark.png'/>
@@ -78,25 +79,41 @@ export default function ListItem({hotel}) {
                 )}
               </div>
               <p className='hotelCity'><span><img src='/images/ping.png' alt='ping'/></span>{hotel.city}</p>
-              {hotel.totalRoomNumber < 3 && hotel.totalRoomNumber >= 1 &&
-                <p className='leftRoom'>잔여 객실 단 {hotel.totalRoomNumber}개</p>
+              {(room1[0].roomCount + room2[0].roomCount >= 1) && (room1[0].roomCount + room2[0].roomCount < 5) &&
+                <p className='leftRoom'>잔여 객실 단 {room1[0].roomCount + room2[0].roomCount}개</p>
               }
             </div>
-            <div className='price'>
-              <p className='roomPrice'>
+            <div className='roomInfo'>
                 {room1[0].price <= room2[0].price ? 
-                room1[0].price.toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' }) : 
-                room2[0].price.toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })} ~
-              </p>
+                <div className='price'>
+                  {room1[0].discount ? 
+                    <div className='discountedPrice'>{((room1[0].price) * (1 - room1[0].discountPer)).toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })}</div> : ''
+                  }
+                  <div className='originP'>
+                    {room1[0].discount ? <div className='discountPer'>{room1[0].discountPer * 100}% 할인</div> : ''}
+                    <div className={room1[0].discount ? 'originPrice discount' : 'originPrice'}>{room1[0].price.toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })}</div>
+                  </div>
+                </div> 
+                :
+                <div className='price'>
+                  {room2[0].discount ? 
+                    <div className='discountedPrice'>{((room2[0].price) * (1 - room2[0].discountPer)).toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })}</div> : ''
+                  }
+                  <div className='originP'>
+                    {room2[0].discount ? <div className='discountPer'>{room2[0].discountPer * 100}% 할인</div> : ''}
+                    <div className={room2[0].discount ? 'originPrice discount' : 'originPrice'}>{room2[0].price.toLocaleString('ko-KR', { style: 'currency', currency: 'KRW' })}</div>
+                  </div>
+                </div>
+                }
               <p>객실당</p>
               <p>숙박 인원 {room1[0].price <= room2[0].price ? room1[0].maxCapa : room2[0].maxCapa }명 1박</p>
             </div>
           </div>
         </div>
         <div className='more'>
-          {hotel.totalRoomNumber == 0 ?
+          {room1[0].roomCount + room2[0].roomCount == 0 ?
             <button className='noRoom'>객실 판매 완료</button> : 
-            <button><Link to={`/room/detail/${hotel.hotelId}`}>자세히 보기</Link></button>
+            <button onClick={() => navigate(`/room/detail/${hotel.hotelId}`)}>자세히 보기</button>
           }
         </div>
       </Link>
