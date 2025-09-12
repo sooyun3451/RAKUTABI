@@ -41,8 +41,8 @@ export default function ListItem({hotel}) {
               <button onClick={handleClickHeart}>
                 <img 
                   src={liked ? 
-                  '/images/likebutton_liked.png' : 
-                  '/images/likebutton_unliked.png'} alt='좋아요'
+                  '/images/icon_favorite_checked_pink.png' : 
+                  '/images/icon_favorite_unchecked_white.png'} alt='좋아요'
                 >
                 </img>
               </button>

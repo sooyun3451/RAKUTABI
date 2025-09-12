@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "../css/restaurant_detail.css"
 import axios from 'axios';
 import Modal from 'react-modal';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 export default function RestaurantDetail() {
   const {id} = useParams();
@@ -107,6 +107,9 @@ export default function RestaurantDetail() {
           <p>{restaurant.date}</p>
         </div>
         <div className='content'>{restaurant.content}</div>
+        <div className='writeBtn'>
+          <button><Link to='/restaurant/write'>리뷰 작성</Link></button>
+        </div>
       </div>
     </div>
   )
