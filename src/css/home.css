@@ -19,6 +19,7 @@
 }
 
 .box {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,7 +86,7 @@
 }
 
 .check-in-out {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .search img {
@@ -99,8 +100,11 @@
   margin-right: 10px;
 }
 
-.check-in-out span{
+.check-in-out img {
   margin-right: 10px;
+}
+
+.check-in-out span{
   color: #888;
   font-size: 15px;
   white-space: nowrap;
@@ -120,6 +124,7 @@
 .search-button {
   flex-grow: 0;
   min-width: 180px;
+  height: 50px;
   background-color: #007bff;
   color: #fff;
   padding: 15px 20px;
@@ -315,7 +320,7 @@
 }
 
 .ad-title{
-  margin-top: 70px;
+  margin-top: 200px;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: bold;
@@ -410,7 +415,8 @@
 }
 
 .res-text{
-  font-size: 30px;
+  margin-left: 10px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -430,11 +436,6 @@
   list-style-type: none;
   transition: transform 0.2s, box-shadow 0.2s;
   border-radius: 15px;
-}
-
-.res-img li:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .res-img img{

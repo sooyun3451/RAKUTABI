@@ -1,5 +1,5 @@
-import Admin from './admin';
-import Home from './home';
+import Admin from './Admin';
+import Home from './Home';
 import RestaurantDetail from './RestaurantDetail';
 import RestaurantList from './RestaurantList';
 import RestaurantRegion from './RestaurantRegion';

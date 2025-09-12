@@ -26,41 +26,41 @@ export default function Footer() {
         <ul className="center-ul">
           <li>
             <div className="footer-title">도움말 문의</div>
-            <p>도움말 센터</p>
-            <p>자주 묻는 질문(FAQ)</p>
-            <p>개인정보 처리방침</p>
-            <p>쿠키 정책</p>
-            <p>이용 약관</p>
-            <p>쿠키 설정 관리</p>
-            <p>디지털 서비스법(EU)</p>
-            <p>콘텐츠 가이드라인 & 신고</p>
-            <p>현대판 노예 제도 반대 성명</p>
+            <a href='#'>도움말 센터</a>
+            <a href='#'>자주 묻는 질문(FAQ)</a>
+            <a href='#'>개인정보 처리방침</a>
+            <a href='#'>쿠키 정책</a>
+            <a href='#'>이용 약관</a>
+            <a href='#'>쿠키 설정 관리</a>
+            <a href='#'>디지털 서비스법(EU)</a>
+            <a href='#'>콘텐츠 가이드라인 & 신고</a>
+            <a href='#'>현대판 노예 제도 반대 성명</a>
           </li>
           <li>
             <div className="footer-title">회사명</div>
-            <p>회사 소개</p>
-            <p>채용 정보</p>
-            <p>프레스센터 / 보도자료</p>
-            <p>블로그</p>
-            <p>포인트맥스</p>
+            <a href='#'>회사 소개</a>
+            <a href='#'>채용 정보</a>
+            <a href='#'>프레스센터 / 보도자료</a>
+            <a href='#'>블로그</a>
+            <a href='#'>포인트맥스</a>
           </li>
           <li>
             <div className="footer-title">여행지</div>
-            <p>국가별</p>
-            <p>모든 항공편 노선</p>
+            <a href='#'>국가별</a>
+            <a href='#'>모든 항공편 노선</a>
           </li>
           <li>
             <div className="footer-title">파트너</div>
-            <p>YCS 파트너 포털</p>
-            <p>Partner Hub</p>
-            <p>라쿠타비 광고문의</p>
-            <p>제휴 파트너</p>
-            <p>라쿠타비 API 안내</p>
+            <a href='#'>YCS 파트너 포털</a>
+            <a href='#'>Partner Hub</a>
+            <a href='#'>라쿠타비 광고문의</a>
+            <a href='#'>제휴 파트너</a>
+            <a href='#'>라쿠타비 API 안내</a>
           </li>
           <li>
             <div className="footer-title">모바일 라쿠타비</div>
-            <p>IOS</p>
-            <p>Android</p>
+            <a href='#'>IOS</a>
+            <a href='#'>Android</a>
           </li>
         </ul>
       </div>

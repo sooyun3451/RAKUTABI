@@ -4,6 +4,7 @@ footer {
 }
 
 .top-footer {
+    box-sizing: border-box;
     text-align: center;
     background: #fff;
     padding: 40px 20px;
@@ -46,15 +47,9 @@ footer {
     color: #222;
 }
 
-.cernter-ul p {
-    font-size: 14px;
+.center-ul li a {
+    display: block;
     color: #555;
-    margin: 6px 0;
-    cursor: pointer;
-}
-
-.center-ul p:hover {
-    text-decoration: underline;
 }
 
 .last-footer {
