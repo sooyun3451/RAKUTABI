@@ -1,39 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-body{
-    font-family: "Pretendard Variable", Pretendard, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #121212;
-}
-ol, ul, li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-img, input, button{
-    vertical-align: top;
-}
-input, button, textarea{
-    font-family: "Pretendard Variable", Pretendard, sans-serif;
-}
-button{
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-}
-
 
 #RoomList{
-    padding: 12px 24px;
+    width: 100%;
 }
 #RoomList .top{
     position: relative;
     width: 1200px;
-    padding-top: 40px;
+    padding-top: 80px;
     margin: 0 auto;
     display: flex;
     gap: 20px;
