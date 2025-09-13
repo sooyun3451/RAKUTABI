@@ -6,9 +6,6 @@ export default function Header() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const menuRef = useRef();
-
   const [searchQuery, setSearchQuery] = useState('');
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
   const [capacity, setCapacity] = useState(1);
@@ -126,9 +123,6 @@ export default function Header() {
   // 외부 클릭 감지 로직 통합
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsMenuOpen(false);
-      }
       if (peopleRef.current && !peopleRef.current.contains(event.target)) {
         setIsCalendarOpen(false);
       }
@@ -194,18 +188,6 @@ export default function Header() {
           <div className='go-sign-up'>
             <Link to="/SignIn">로그인</Link>
             <Link to="/SignUp">회원가입</Link>
-          </div>
-
-          <div ref={menuRef} className="hamburger-menu">
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              <img src="/images/hamburger.logo.PNG" alt="menu" />
-            </button>
-            {isMenuOpen && (
-              <div className="toggle-box">
-                <Link to="/SignIn" onClick={() => setIsMenuOpen(false)}>로그인</Link>
-                <Link to="/SignUp" onClick={() => setIsMenuOpen(false)}>회원가입</Link>
-              </div>
-            )}
           </div>
         </div>
       </div>
