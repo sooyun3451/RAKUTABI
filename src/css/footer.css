@@ -47,9 +47,15 @@ footer {
     color: #222;
 }
 
-.center-ul li a {
-    display: block;
+.cernter-ul p {
+    font-size: 14px;
     color: #555;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.center-ul p:hover {
+    text-decoration: underline;
 }
 
 .last-footer {

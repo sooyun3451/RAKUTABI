@@ -5,6 +5,7 @@
 }
 
 .restaurant-title {
+  margin-left: 20px;
   font-size: 36px;
   margin-left: 20px;
   margin-bottom: 30px;
@@ -40,6 +41,10 @@
   padding: 12px;
   text-align: center;
   position: relative;
+}
+
+.restaurant-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .restaurant-card img {
