@@ -15,6 +15,12 @@
 ### 화면 예시
 
 ![홈 화면](./img/home_screen.png)
+![회원가입 화면](./img/sign_up.png)
+![로그인 화면](./img/sign_in.png)
+![숙소 목록 화면](./img/room_list.png)
+![숙소 상세 화면](./img/room_detail.png)
+![식당 리뷰 리스트 화면](./img/restaurant.png)
+![식당 리뷰 상세 화면](./img/restaurant_detail.png)
 
 ## ✨ 주요 기능
 
