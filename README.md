@@ -14,7 +14,7 @@
 
 ### 화면 예시
 
-![홈 화면](./git_images/home_screen.png)
+![홈 화면](./img/home_screen.png)
 
 ## ✨ 주요 기능
 
