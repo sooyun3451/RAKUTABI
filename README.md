@@ -45,8 +45,6 @@ npm run dev
 ```
 ## 👥 팀원 소개
 
-## 👥 팀원 소개
-
 | <img src="https://github.com/sooyun3451.png" width="100"/> | <img src="https://github.com/levihisoka.png" width="100"/> | <img src="https://github.com/jongw0o0.png" width="100"/> | <img src="https://github.com/kimguenwoo.png" width="100"/> | <img src="https://github.com/tttt0817.png" width="100"/> |
 |:---:|:---:|:---:|:---:|:---:|
 | **최소윤** | **정유진** | **이종우** | **김근우** | **강일용** |
