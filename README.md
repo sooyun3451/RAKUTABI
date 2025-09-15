@@ -14,7 +14,7 @@
 
 ### 화면 예시
 
-![홈 화면](../img/home_screen.png)
+![홈 화면](./img/home_screen.png)
 ![회원가입 화면](./img/sign_up.png)
 ![로그인 화면](./img/sign_in.png)
 ![숙소 목록 화면](./img/room_list.png)
