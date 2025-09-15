@@ -140,7 +140,10 @@ export default function Admin() {
         <div className='admin-right-section'>
           <div className='admin-right-side-top'>
             <div className='admin-right-top-tap' style={buttomStyle} onClick={handleToggleLeftTap}>
-              <img src='public\images\hamburger.logo.PNG' alt='메뉴 버튼' />
+              <img 
+                src={isLeftTapOpen ? 'public/images/hamberger_close_icon.png' : 'public/images/hamburger.logo.PNG'}
+                alt='메뉴 버튼' 
+              />
             </div>
             <div className='admin--top-txt'>관리자 메인</div>
           </div>

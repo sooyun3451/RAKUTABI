@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function AdminReview() {
-  const dummyReviews = [
+
+  const [dummyReviews, setDummyReviews] = useState([
     {
       id: 1,
       region: '도쿄',
@@ -50,14 +51,76 @@ export default function AdminReview() {
       reviewCount: 140,
       comment: '유자 츠케멘이 정말 특별한 맛이에요. 느끼하지 않고 상큼해서 끝까지 맛있게 먹을 수 있습니다.\n 고기도 두툼하고 너무 맛있어요!! 여성분들이 좋아할 맛!',
     },
-  ];
+  ]);
+
+  const [selectedReviewIds, setSelectedReviewIds] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [currentSearch, setCurrentSearch] = useState('');
+  const [isEditing, setIsEditing] = useState(false); // 수정 모드 상태 추가
+  
+    const handleSelectUser = (userId) => {
+      setSelectedUserIds((prevSelected) => {
+        if (prevSelected.includes(userId)) {
+          return prevSelected.filter((id) => id !== userId);
+        } else {
+          return [...prevSelected, userId];
+        }
+      });
+    };
+
+  const handleShowAllReviews = () => {
+    setSearchTerm('');
+    setCurrentSearch('');
+  };
+
+  const handleSearch = () => {
+    setCurrentSearch(searchTerm);
+  };
+
+  const filteredReviews = dummyReviews.filter((review) =>
+    Object.values(review).some(
+      (value) =>
+        typeof value === 'string' &&
+        value.toLowerCase().includes(currentSearch.toLowerCase())
+    )
+  );
+
+  const handleSelectReview = (reviewId) => {
+    setSelectedReviewIds((prevSelected) => {
+      if (prevSelected.includes(reviewId)) {
+        return prevSelected.filter((id) => id !== reviewId);
+      } else {
+        return [...prevSelected, reviewId];
+      }
+    });
+  };
+
+  const handleDeleteSelected = () => {
+    setDummyReviews((prevReivews) =>
+      prevReivews.filter((review) => !selectedReviewIds.includes(review.id))
+    );
+    setSelectedReviewIds([]);
+  };
 
   return (
     <div className='admin-member-list4'>
       <div className='admin-bed-txt'>식당 리뷰 목록</div>
+      <div className='admin-search-bar'>
+        <input 
+          type="text" 
+          placeholder='리뷰 검색...'  
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+        <button className='admin-search-button2' onClick={handleSearch}>
+          검색
+        </button>
+      </div>
+
       <table className='admin-bed-table2'>
         <thead>
           <tr>
+            <th scope='col'>선택</th>
             <th scope='col'>지역</th>
             <th scope='col'>식당이름</th>
             <th scope='col'>식당평점</th>
@@ -66,8 +129,15 @@ export default function AdminReview() {
           </tr>
         </thead>
         <tbody>
-          {dummyReviews.map((review) => (
+          {filteredReviews.map((review) => (
             <tr key={review.id}>
+              <td>
+                <input
+                  type='checkbox'
+                  checked={selectedReviewIds.includes(review.id)}
+                  onChange={() => handleSelectReview(review.id)}
+                />
+              </td>
               <td>{review.region}</td>
               <td>{review.restaurantName}</td>
               <td>{review.reviewScore}점</td>
@@ -84,7 +154,14 @@ export default function AdminReview() {
           ))}
         </tbody>
       </table>
-      <button className='admin-bed-all2'>리뷰 전체보기</button>
+         <div className='button-list'>
+      {selectedReviewIds.length > 0 && (
+        <button className='admin-bed-all2' onClick={handleDeleteSelected}>
+          선택한 리뷰 삭제
+        </button>
+      )}
+        <button className='admin-bed-all2' onClick={handleShowAllReviews}>리뷰 전체보기</button>
+      </div>
     </div>
   );
 }
