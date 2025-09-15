@@ -4,6 +4,7 @@ footer {
 }
 
 .top-footer {
+    box-sizing: border-box;
     text-align: center;
     background: #fff;
     padding: 40px 20px;

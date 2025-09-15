@@ -81,8 +81,8 @@ export default function ListItemRestaurant({restaurant}) {
                                     >
                                         <img 
                                             src={liked ?
-                                                '/images/icon_favorite_checked.png' :
-                                                '/images/icon_favorite_unchecked.png'} 
+                                                '/images/icon_favorite_checked_pink.png' :
+                                                '/images/icon_favorite_unchecked_white.png'} 
                                             alt='좋아요'
                                         />
                                     </button>

@@ -1,8 +1,11 @@
-/* =======================
-    공통
-======================= */
+*{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
 .room-detail {
-    max-width: 1200px;
+    max-width: 1860px;
     margin: 0 auto;
     padding: 20px;
     font-family: "Noto Sans KR", sans-serif;

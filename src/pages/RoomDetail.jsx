@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useRef } from "react";
 import { useParams } from "react-router-dom";
 import "../css/room_detail.css";
 
@@ -31,6 +31,12 @@ export default function RoomDetail() {
                 console.error("[RoomDetail] fetch error:", err);
             });
     }, [id]);
+     useEffect(() => {
+         window.scrollTo({
+             top: 0,
+             behavior: "smooth", // 부드러운 스크롤 효과를 원하면 'smooth'
+         });
+     }, []); 
 
     useEffect(() => {
         if (!hotels || hotels.length === 0) return;
@@ -192,7 +198,7 @@ export default function RoomDetail() {
                                         aria-hidden>
                                         <strong>{label.text}</strong>
                                         <div className="score-note">
-                                            y 평균 {avgScore.toFixed(1)}점
+                                            평균 {avgScore.toFixed(1)}점
                                         </div>
                                     </div>
                                 );
@@ -368,8 +374,7 @@ export default function RoomDetail() {
                                         className={`score-label ${label.cls}`}
                                         aria-hidden>
                                         <strong>{label.text}</strong>
-                                        <div className="score-note">
-                                            평균 {avgScore.toFixed(1)}점
+                                        <div className="score-note">평균 {avgScore.toFixed(1)}점
                                         </div>
                                     </div>
                                 );

@@ -5,7 +5,9 @@
 }
 
 .restaurant-title {
+  margin-left: 20px;
   font-size: 36px;
+  margin-left: 20px;
   margin-bottom: 30px;
 }
 
@@ -13,6 +15,14 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.area-div h2 {
+  margin-left: 20px;
+}
+
+.area-div button {
+  margin-right: 20px;
 }
 
 .restaurant-wrapper ul {
@@ -24,13 +34,17 @@
 }
 
 .restaurant-card {
-  border: 1px solid #a1a0a0;
+  border: 1px solid #d6d6d6;
   width: 230px;
   height: 360px;
   border-radius: 12px;
   padding: 12px;
   text-align: center;
   position: relative;
+}
+
+.restaurant-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .restaurant-card img {

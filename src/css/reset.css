@@ -10,7 +10,10 @@ body{
     font-size: 14px;
     line-height: 1.5;
     color: #121212;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
 ol, ul, li{
     list-style: none;
 }

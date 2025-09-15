@@ -9,25 +9,31 @@
         "img1": "/images/img/building/hotel2.jpg",
         "img2": "/images/img/lobby/lobby1.jpg",
         "img3": "/images/img/room/onebed/room1.jpg",
-      "convenientFacilities":[{
-        "parking":true,
-        "sauna":true,
-        "spa/hairdresser":true,
-        "pool":true,
-        "late-night-meal":true,
-        "banquet hall":true,
-        "open-air-bath":true
-      }],
-     "Facilities provision services":[{
-        "parcel service":true,
-        "moring-call":true,
-        "fax":true
-     }],
-    "a responsive language":[{
-     "english":true,
-     "japanese":true,
-     "korean":true
-    }],
+        "convenientFacilities": [
+            {
+                "parking": true,
+                "sauna": true,
+                "spa/hairdresser": true,
+                "pool": true,
+                "late-night-meal": true,
+                "banquet hall": true,
+                "open-air-bath": true
+            }
+        ],
+        "Facilities provision services": [
+            {
+                "parcel service": true,
+                "moring-call": true,
+                "fax": true
+            }
+        ],
+        "a responsive language": [
+            {
+                "english": true,
+                "japanese": true,
+                "korean": true
+            }
+        ],
 
         "totalRoomNumber": 1,
         "room1": [
@@ -53,8 +59,6 @@
                 "roomId": 20002,
                 "roomName": "더블룸",
                 "price": 250000,
-                "discount" : true,
-                "discountPer" : 0.1,
                 "bed": 1,
                 "roomCount": 2,
                 "maxCapa": 3,
@@ -126,9 +130,7 @@
                 "roomId": 20011,
                 "roomName": "싱글룸",
                 "price": 318805,
-                "discount" : true,
-                "discountPer" : 0.5,
-                "roomCount": 2,
+                "room-count": 2,
                 "bed": 2,
                 "maxCapa": 4,
                 "roomSize": "18㎡",
@@ -146,8 +148,6 @@
                 "roomId": 20012,
                 "roomName": "더블룸",
                 "price": 255000,
-                "discount" : true,
-                "discountPer" : 0.05,
                 "bed": 1,
                 "maxCapa": 3,
                 "roomCount": 1,
@@ -397,8 +397,6 @@
                 "roomId": 20041,
                 "roomName": "싱글룸",
                 "price": 56929,
-                "discount" : true,
-                "discountPer" : 0.2,
                 "bed": 2,
                 "maxCapa": 2,
                 "roomCount": 0,

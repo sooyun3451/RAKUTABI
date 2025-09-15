@@ -220,6 +220,7 @@ export default function Home() {
               onClick={() => setShowCalendar(!showCalendar)}
               ref={checkInOutRef}
             >
+              <div>
               <img
                 src="/images/check_in.png"
                 alt="체크인 아이콘"
@@ -227,6 +228,8 @@ export default function Home() {
                 height="19px"
               />
               <span>{formatCheckInDate}</span>
+              </div>
+              <div>
               <img
                 src="/images/check_out.png"
                 alt="체크아웃 아이콘"
@@ -234,6 +237,7 @@ export default function Home() {
                 height="18px"
               />
               <span>{formatCheckOutDate}</span>
+              </div>
             </div>
             <div className="people" ref={peopleRef} onClick={handlePeopleClick}>
               <img src="/images/group.png" alt="인원 아이콘" />

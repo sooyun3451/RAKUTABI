@@ -1,5 +1,5 @@
 #sign-up-wrapper {
-  margin: 200px auto;
+  margin: 70px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,7 @@
 
 #sign-up-wrapper input {
   display: block;
-  width: 80%;
+  width: 480px;
   padding: 12px;
   margin-bottom: 15px;
   border: 1px solid #aaa;
@@ -106,7 +106,7 @@
 #sign-up-wrapper .checkbox-wrapper input {
   width: 18px;
   height: 18px;
-  margin-left: 50px;
+  margin-left: 60px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -119,7 +119,7 @@
 }
 
 #sign-up-wrapper .privacy-box {
-  width: 80%;
+  width: 460px;
   min-height: 100px;
   overflow-y: auto;
   border: 1px solid #ccc;
@@ -136,7 +136,7 @@
 
 #sign-up-wrapper button {
   margin-top: 20px;
-  width: 100%;
+  width: 485px;
   padding: 14px;
   border: none;
   border-radius: 5px;
