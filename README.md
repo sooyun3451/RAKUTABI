@@ -18,7 +18,7 @@
 - 숙소 예약 및 예약 관리
 - 사용자 회원가입 / 로그인
 - 사용자 마이페이지
-- 반응형 UI 지원
+- 식당 리뷰 목록 조회 및 상세 보기
 
 ---
 
@@ -35,12 +35,9 @@
 # 저장소 클론
 git clone https://github.com/username/rakutabi.git
 
-# 디렉토리 이동
-cd rakutabi
-
 # 패키지 설치
 npm install
 
 # 개발 서버 실행
-npm start
+npm run dev
 
