@@ -41,8 +41,14 @@ npm install
 # 개발 서버 실행
 npm run dev
 
+---
+```
 ## 👥 팀원 소개
 
-| 이름     | 역할         | 깃허브                                |
-|----------|--------------|-----------------------------------------|
-| 최소윤   | 팀장, 프론트엔드 | [sooyun3451](https://github.com/sooyun3451) |
+| <img src="https://github.com/sooyun3451.png" width="100"/> | <img src="https://github.com/username2.png" width="100"/> |
+|:---:|:---:|
+| **최소윤** | **홍길동** |
+| 팀장, 프론트엔드 | 백엔드 |
+| [GitHub](https://github.com/sooyun3451) | [GitHub](https://github.com/username2) |
+
+
